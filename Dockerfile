@@ -3,8 +3,7 @@ FROM python:3.11-slim
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
-ENV CHROMEDRIVER_VERSION=114.0.5735.90
-ENV CHROME_VERSION=114.0.5735.90-1
+ENV CHROMEDRIVER_VERSION=136.0.7103.113
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -44,9 +43,10 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
     && rm -rf /var/lib/apt/lists/*
 
 # Install ChromeDriver directly (not using webdriver-manager)
-RUN wget -q https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip \
-    && unzip chromedriver_linux64.zip -d /usr/local/bin \
-    && rm chromedriver_linux64.zip \
+RUN wget -q https://storage.googleapis.com/chrome-for-testing-public/${CHROMEDRIVER_VERSION}/linux64/chromedriver-linux64.zip \
+    && unzip chromedriver-linux64.zip -d /tmp \
+    && mv /tmp/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver \
+    && rm -rf /tmp/chromedriver-linux64 chromedriver-linux64.zip \
     && chmod +x /usr/local/bin/chromedriver
 
 # Set working directory

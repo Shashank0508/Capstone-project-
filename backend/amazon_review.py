@@ -129,12 +129,20 @@ class AmazonReviewExtractor:
             except Exception as e:
                 self.logger.error(f"Error setting up ChromeDriver service: {str(e)}")
                 return False
-            self.driver = webdriver.Chrome(service=service, options=chrome_options)
-            self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-            self.driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": random.choice(self.user_agents)})
-            self.wait = WebDriverWait(self.driver, WAIT_TIMEOUT_SECONDS)
-            self.logger.info("WebDriver setup completed successfully")
-            return True
+            try:
+                self.driver = webdriver.Chrome(service=service, options=chrome_options)
+                self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+                self.driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": random.choice(self.user_agents)})
+                self.wait = WebDriverWait(self.driver, WAIT_TIMEOUT_SECONDS)
+                self.logger.info("WebDriver setup completed successfully")
+                return True
+            except Exception as e:
+                self.logger.error(f"Failed to start ChromeDriver: {str(e)}")
+                # Check if it's a version mismatch error
+                if "session not created" in str(e) and "This version of ChromeDriver only supports Chrome version" in str(e):
+                    self.logger.error("ChromeDriver version doesn't match Chrome browser version.")
+                    self.logger.error("Please update the CHROMEDRIVER_VERSION in the Dockerfile to match your Chrome version.")
+                return False
         except Exception as e:
             self.logger.error(f"Error setting up WebDriver: {str(e)}", exc_info=True)
             if "WinError 193" in str(e):

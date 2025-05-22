@@ -105,24 +105,19 @@ class AmazonReviewExtractor:
                 chrome_options.add_argument('--blink-settings=imagesEnabled=false')
                 chrome_options.add_argument('--disable-software-rasterizer')
 
-            # Verify Python and system architecture
-            import platform
-            python_arch = platform.architecture()[0]
-            system_arch = '64bit' if platform.machine().endswith('64') else '32bit'
-            self.logger.info(f"Python architecture: {python_arch}, System architecture: {system_arch}")
-
-            if system_arch == '64bit' and python_arch != '64bit':
-                self.logger.error(
-                    "Mismatch detected: 64-bit system but 32-bit Python. "
-                    "Please install 64-bit Python to resolve compatibility issues."
-                )
-                raise EnvironmentError("64-bit system requires 64-bit Python for ChromeDriver compatibility.")
-
-            if system_arch == '64bit':
-                self.logger.info("Ensuring 64-bit ChromeDriver for 64-bit system...")
-                os.environ['WDM_ARCH'] = '64'
-
-            service = Service(ChromeDriverManager().install())
+            # Use the pre-installed ChromeDriver in Docker container
+            try:
+                # Check if we're in the Docker container (pre-installed chromedriver)
+                if os.path.exists('/usr/local/bin/chromedriver'):
+                    self.logger.info("Using pre-installed ChromeDriver in Docker container")
+                    service = Service(executable_path='/usr/local/bin/chromedriver')
+                else:
+                    # Fallback to webdriver-manager for local development
+                    self.logger.info("Using webdriver-manager to download ChromeDriver")
+                    service = Service(ChromeDriverManager().install())
+            except Exception as e:
+                self.logger.error(f"Error setting up ChromeDriver service: {str(e)}")
+                return False
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
             self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             self.driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": random.choice(self.user_agents)})

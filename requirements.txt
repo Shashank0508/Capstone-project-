@@ -1,6 +1,7 @@
 flask==2.3.3
 selenium==4.15.2
-pandas==2.1.1
+numpy==1.24.3
+pandas==2.0.3
 webdriver-manager==4.0.1
 vaderSentiment==3.3.2
 python-dotenv==1.0.0

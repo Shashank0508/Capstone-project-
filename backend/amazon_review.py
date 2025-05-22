@@ -24,7 +24,6 @@ from selenium.common.exceptions import (
     ElementClickInterceptedException,
     StaleElementReferenceException
 )
-from webdriver_manager.chrome import ChromeDriverManager
 from typing import Optional, Dict, List
 from dotenv import load_dotenv
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
@@ -112,9 +111,21 @@ class AmazonReviewExtractor:
                     self.logger.info("Using pre-installed ChromeDriver in Docker container")
                     service = Service(executable_path='/usr/local/bin/chromedriver')
                 else:
-                    # Fallback to webdriver-manager for local development
-                    self.logger.info("Using webdriver-manager to download ChromeDriver")
-                    service = Service(ChromeDriverManager().install())
+                    # Fallback for local development
+                    self.logger.info("Using local ChromeDriver")
+                    # For Windows
+                    if os.name == 'nt':
+                        chrome_driver_path = os.path.join(os.getcwd(), 'chromedriver.exe')
+                    else:
+                        # For Linux/Mac
+                        chrome_driver_path = os.path.join(os.getcwd(), 'chromedriver')
+                    
+                    if not os.path.exists(chrome_driver_path):
+                        self.logger.warning(f"ChromeDriver not found at {chrome_driver_path}")
+                        self.logger.info("Please download ChromeDriver manually for local development")
+                        chrome_driver_path = 'chromedriver'  # Try using from PATH
+                    
+                    service = Service(executable_path=chrome_driver_path)
             except Exception as e:
                 self.logger.error(f"Error setting up ChromeDriver service: {str(e)}")
                 return False

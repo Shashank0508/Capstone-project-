@@ -63,8 +63,12 @@ This project is configured for deployment on Render. Follow these steps to deplo
    - Windows: `venv\Scripts\activate`
    - macOS/Linux: `source venv/bin/activate`
 4. Install dependencies: `pip install -r requirements.txt`
-5. Copy `.env.sample` to `.env` and fill in your credentials
-6. Run the application: `python app.py`
+5. Download ChromeDriver:
+   - Go to [ChromeDriver Downloads](https://chromedriver.chromium.org/downloads)
+   - Download the version that matches your Chrome browser version
+   - Extract the executable to the project root directory
+6. Copy `.env.sample` to `.env` and fill in your credentials
+7. Run the application: `python app.py`
 
 ### Docker
 

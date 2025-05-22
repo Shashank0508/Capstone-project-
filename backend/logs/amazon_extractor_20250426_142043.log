@@ -1,0 +1,67 @@
+2025-04-26 14:20:43,223 - INFO - Starting Amazon Review Extractor
+2025-04-26 14:20:43,223 - WARNING - Could not extract ASIN from product URL, using 'unknown_asin' as fallback
+2025-04-26 14:20:43,223 - INFO - Setting up WebDriver...
+2025-04-26 14:20:47,097 - INFO - WebDriver setup completed successfully
+2025-04-26 14:20:47,097 - ERROR - Could not extract ASIN from product URL: https://www.flipkart.com/bajaj-almond-drops-anti-hairfall-shampoo-oil-vitamin-e/p/itm6bbe2c2a63f8d?pid=SMPGR7YHAHBKYECC&lid=LSTSMPGR7YHAHBKYECCLEDECZ&marketplace=GROCERY&iid=en_jnv_bQwRZJWICnK8XC8MJ4kl-ZMua5zsgOn63p_lMOgHL-XaiBDYzHnBISsKudCWtsJML9uB3WpM_c457beQBU4IsYyWu-Pj9cxFjFAoaLk%3D
+2025-04-26 14:20:47,097 - ERROR - Failed to generate reviews URL
+2025-04-26 14:20:47,097 - INFO - Total reviews extracted: 0
+2025-04-26 14:20:47,097 - INFO - Sentiment analysis: {'positive': 0, 'negative': 0, 'neutral': 0}
+2025-04-26 14:20:47,106 - INFO - Reviews saved to: reviews\amazon_reviews_unknown_asin_20250426_142047.json with sentiment analysis: {'positive': 0, 'negative': 0, 'neutral': 0}
+2025-04-26 14:20:47,106 - INFO - Reviews saved to: reviews\amazon_reviews_unknown_asin_20250426_142047.json
+2025-04-26 14:20:49,272 - INFO - WebDriver closed successfully
+2025-04-26 14:21:55,324 - INFO - Starting Amazon Review Extractor
+2025-04-26 14:21:55,324 - INFO - Setting up WebDriver...
+2025-04-26 14:21:58,228 - INFO - WebDriver setup completed successfully
+2025-04-26 14:21:58,235 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B09BY17DLV
+2025-04-26 14:21:58,235 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B09BY17DLV
+2025-04-26 14:23:26,734 - WARNING - Attempt 1 failed to navigate to product reviews page URL: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+	GetHandleVerifier [0x0121D363+60275]
+	GetHandleVerifier [0x0121D3A4+60340]
+	(No symbol) [0x010506F3]
+	(No symbol) [0x0103FF20]
+	(No symbol) [0x0105DDA2]
+	(No symbol) [0x010C3D2F]
+	(No symbol) [0x010DDFE9]
+	(No symbol) [0x010BCE86]
+	(No symbol) [0x0108C623]
+	(No symbol) [0x0108D474]
+	GetHandleVerifier [0x01468FE3+2467827]
+	GetHandleVerifier [0x014645E6+2448886]
+	GetHandleVerifier [0x0147F80C+2560028]
+	GetHandleVerifier [0x01233DF5+153093]
+	GetHandleVerifier [0x0123A3BD+179149]
+	GetHandleVerifier [0x01224BB8+91080]
+	GetHandleVerifier [0x01224D60+91504]
+	GetHandleVerifier [0x0120FA10+4640]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+
+2025-04-26 14:23:34,646 - INFO - Attempt 2/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B09BY17DLV
+2025-04-26 14:23:34,646 - WARNING - Attempt 2 failed to navigate to product reviews page URL: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0121D363+60275]
+	GetHandleVerifier [0x0121D3A4+60340]
+	(No symbol) [0x0105056E]
+	(No symbol) [0x0108B8E8]
+	(No symbol) [0x010BCF46]
+	(No symbol) [0x010B8A18]
+	(No symbol) [0x010B7F96]
+	(No symbol) [0x010236E5]
+	(No symbol) [0x01023C3E]
+	(No symbol) [0x010240CD]
+	GetHandleVerifier [0x01468FE3+2467827]
+	GetHandleVerifier [0x014645E6+2448886]
+	GetHandleVerifier [0x0147F80C+2560028]
+	GetHandleVerifier [0x01233DF5+153093]
+	GetHandleVerifier [0x0123A3BD+179149]
+	(No symbol) [0x010233B0]
+	(No symbol) [0x01022BC3]
+	GetHandleVerifier [0x0158DFBC+3667916]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+

@@ -1,0 +1,48 @@
+2025-04-26 13:54:09,974 - INFO - Starting Amazon Review Extractor
+2025-04-26 13:54:09,980 - INFO - Setting up WebDriver...
+2025-04-26 13:54:12,535 - INFO - WebDriver setup completed successfully
+2025-04-26 13:54:12,536 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0B6FM55RX
+2025-04-26 13:54:12,537 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0B6FM55RX
+2025-04-26 13:55:02,183 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:55:02,183 - INFO - Extracting reviews from page 1
+2025-04-26 13:55:02,258 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:55:02,259 - INFO - Found 10 reviews on current page
+2025-04-26 13:55:02,499 - INFO - Extracted review: Must have product.
+2025-04-26 13:55:02,665 - INFO - Extracted review: Amazing quality
+2025-04-26 13:55:02,832 - INFO - Extracted review: Good
+2025-04-26 13:55:02,999 - INFO - Extracted review: Oops..
+2025-04-26 13:55:03,165 - INFO - Extracted review: Low quality
+2025-04-26 13:55:03,331 - INFO - Extracted review: Is it leakproof ?
+2025-04-26 13:55:03,499 - INFO - Extracted review: Bada and zyada is expensive
+2025-04-26 13:55:03,664 - INFO - Extracted review: Goog
+2025-04-26 13:55:03,814 - INFO - Extracted review: good
+2025-04-26 13:55:03,999 - INFO - Extracted review: Whater Botal Mast hai quality bhi accha hai
+2025-04-26 13:55:03,999 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 13:55:04,148 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_135503.png
+2025-04-26 13:55:04,200 - INFO - Found next button using selector: li.a-last a
+2025-04-26 13:55:05,230 - INFO - Navigating to next page URL: https://www.amazon.in/Better-Home-Pack-Eco-Friendly-Lightweight/product-reviews/B0B6FM55RX/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 13:55:05,230 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Better-Home-Pack-Eco-Friendly-Lightweight/product-reviews/B0B6FM55RX/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 13:55:51,486 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:55:53,605 - INFO - Extracting reviews from page 2
+2025-04-26 13:55:53,654 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:55:53,654 - INFO - Found 10 reviews on current page
+2025-04-26 13:55:53,854 - INFO - Extracted review: Hygienic
+2025-04-26 13:55:54,074 - INFO - Extracted review: Stylish looking bottles.
+2025-04-26 13:55:54,284 - INFO - Extracted review: So strog
+2025-04-26 13:55:54,504 - INFO - Extracted review: Smells bad
+2025-04-26 13:55:54,710 - INFO - Extracted review: Crack item deleverd
+2025-04-26 13:55:54,913 - INFO - Extracted review: Metal taste!
+2025-04-26 13:55:55,116 - INFO - Extracted review: Good quality bottles
+2025-04-26 13:55:55,326 - INFO - Extracted review: Return order
+2025-04-26 13:55:55,549 - INFO - Extracted review: Great product!!
+2025-04-26 13:55:55,763 - INFO - Extracted review: Great Quality
+2025-04-26 13:55:55,763 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-04-26 13:55:55,909 - INFO - Saved screenshot to reviews/reviews_page_2_20250426_135555.png
+2025-04-26 13:55:55,910 - INFO - Reached maximum page limit (2)
+2025-04-26 13:55:55,912 - INFO - Total reviews extracted: 20
+2025-04-26 13:55:58,188 - INFO - Sentiment analysis: {'positive': 14, 'negative': 5, 'neutral': 1}
+2025-04-26 13:55:58,189 - INFO - Sentiment analysis: {'positive': 14, 'negative': 5, 'neutral': 1}
+2025-04-26 13:55:58,193 - INFO - Reviews saved to: reviews\amazon_reviews_B0B6FM55RX_20250426_135558.json with sentiment analysis: {'positive': 14, 'negative': 5, 'neutral': 1}
+2025-04-26 13:55:58,208 - INFO - Updated reviews\amazon_reviews_B0B6FM55RX_20250426_135558.json with summary
+2025-04-26 13:55:58,210 - INFO - Reviews saved to: reviews\amazon_reviews_B0B6FM55RX_20250426_135558.json
+2025-04-26 13:56:00,385 - INFO - WebDriver closed successfully

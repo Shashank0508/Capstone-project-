@@ -1,0 +1,48 @@
+2025-05-17 12:35:19,519 - INFO - Starting Amazon Review Extractor
+2025-05-17 12:35:19,524 - INFO - Setting up WebDriver...
+2025-05-17 12:35:23,060 - INFO - WebDriver setup completed successfully
+2025-05-17 12:35:23,060 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:35:23,060 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:36:09,210 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-17 12:36:09,210 - INFO - Extracting reviews from page 1
+2025-05-17 12:36:09,276 - INFO - Found 10 reviews using selector: .review
+2025-05-17 12:36:09,276 - INFO - Found 10 reviews on current page
+2025-05-17 12:36:09,636 - INFO - Extracted review: Excellent
+2025-05-17 12:36:09,932 - INFO - Extracted review: Good product
+2025-05-17 12:36:10,291 - INFO - Extracted review: Everything
+2025-05-17 12:36:10,662 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-17 12:36:11,018 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-17 12:36:11,343 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-17 12:36:11,790 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-17 12:36:12,141 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-17 12:36:12,440 - INFO - Extracted review: Amazing
+2025-05-17 12:36:12,740 - INFO - Extracted review: Ncy
+2025-05-17 12:36:12,740 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-05-17 12:36:13,060 - INFO - Saved screenshot to reviews/reviews_page_1_20250517_123612.png
+2025-05-17 12:36:13,109 - INFO - Found next button using selector: li.a-last a
+2025-05-17 12:36:14,178 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-17 12:36:14,178 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-17 12:36:58,770 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-17 12:37:02,577 - INFO - Extracting reviews from page 2
+2025-05-17 12:37:02,644 - INFO - Found 10 reviews using selector: .review
+2025-05-17 12:37:02,648 - INFO - Found 10 reviews on current page
+2025-05-17 12:37:02,947 - INFO - Extracted review: Excellent
+2025-05-17 12:37:03,249 - INFO - Extracted review: Good product
+2025-05-17 12:37:03,586 - INFO - Extracted review: Everything
+2025-05-17 12:37:03,900 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-17 12:37:04,198 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-17 12:37:04,482 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-17 12:37:04,832 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-17 12:37:05,151 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-17 12:37:05,432 - INFO - Extracted review: Amazing
+2025-05-17 12:37:05,730 - INFO - Extracted review: Ncy
+2025-05-17 12:37:05,730 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-05-17 12:37:05,948 - INFO - Saved screenshot to reviews/reviews_page_2_20250517_123705.png
+2025-05-17 12:37:05,948 - INFO - Reached maximum page limit (2)
+2025-05-17 12:37:05,948 - INFO - Total reviews extracted: 20
+2025-05-17 12:37:10,011 - INFO - Sentiment analysis: {'positive': 18, 'negative': 2, 'neutral': 0}
+2025-05-17 12:37:10,011 - INFO - Sentiment analysis: {'positive': 18, 'negative': 2, 'neutral': 0}
+2025-05-17 12:37:10,025 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250517_123710.json with sentiment analysis: {'positive': 18, 'negative': 2, 'neutral': 0}
+2025-05-17 12:37:10,050 - INFO - Updated reviews\amazon_reviews_B0DGJH94KM_20250517_123710.json with summary
+2025-05-17 12:37:10,050 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250517_123710.json
+2025-05-17 12:37:12,306 - INFO - WebDriver closed successfully

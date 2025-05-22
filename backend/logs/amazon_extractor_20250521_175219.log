@@ -1,0 +1,61 @@
+2025-05-21 17:52:19,715 - INFO - Setting up WebDriver...
+2025-05-21 17:52:19,720 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 17:52:19,720 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 17:52:22,221 - INFO - WebDriver setup completed successfully
+2025-05-21 17:52:22,221 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 17:52:22,221 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 17:52:27,547 - INFO - Navigated to URL: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3a%2f%2fwww.amazon.in%2fproduct-reviews%2fb0dgjh94km&openid.identity=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&language=en_in&openid.claimed_id=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.ns=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0, Page title: 
+2025-05-21 17:53:28,047 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 17:53:28,064 - INFO - Extracting reviews from page 1 (URL: https://www.amazon.in/product-reviews/B0DGJH94KM?)
+2025-05-21 17:53:28,116 - INFO - Waiting for reviews to load...
+2025-05-21 17:53:28,131 - INFO - Scrolling page to trigger dynamic content loading...
+2025-05-21 17:55:03,668 - INFO - Found 10 reviews using selector: .review
+2025-05-21 17:55:03,668 - INFO - Found 10 reviews on current page
+2025-05-21 17:55:04,065 - INFO - Extracted review: Excellent
+2025-05-21 17:55:04,351 - INFO - Extracted review: Good product
+2025-05-21 17:55:04,606 - INFO - Extracted review: Everything
+2025-05-21 17:55:04,901 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 17:55:05,167 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 17:55:05,448 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 17:55:05,766 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 17:55:06,066 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 17:55:06,316 - INFO - Extracted review: Amazing
+2025-05-21 17:55:06,566 - INFO - Extracted review: Ncy
+2025-05-21 17:55:06,566 - INFO - Page 1: 10 new reviews, 0 duplicates. Total: 10
+2025-05-21 17:55:06,765 - INFO - Saved screenshot to reviews\reviews_page_1_20250521_175506.png
+2025-05-21 17:55:06,843 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:55:06,949 - INFO - Attempting to navigate to next page: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:55:11,752 - INFO - Successfully navigated to next page: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:55:11,761 - INFO - Reviews container loaded on new page
+2025-05-21 17:55:11,779 - INFO - Extracting reviews from page 2 (URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2)
+2025-05-21 17:55:11,811 - INFO - Waiting for reviews to load...
+2025-05-21 17:55:11,828 - INFO - Scrolling page to trigger dynamic content loading...
+2025-05-21 17:56:45,617 - INFO - Found 10 reviews using selector: .review
+2025-05-21 17:56:45,617 - INFO - Found 10 reviews on current page
+2025-05-21 17:56:45,889 - INFO - Extracted review: Excellent
+2025-05-21 17:56:46,160 - INFO - Extracted review: Good product
+2025-05-21 17:56:46,450 - INFO - Extracted review: Everything
+2025-05-21 17:56:46,783 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 17:56:47,049 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 17:56:47,350 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 17:56:47,667 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 17:56:47,960 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 17:56:48,201 - INFO - Extracted review: Amazing
+2025-05-21 17:56:48,449 - INFO - Extracted review: Ncy
+2025-05-21 17:56:48,449 - INFO - Page 2: 0 new reviews, 10 duplicates. Total: 10
+2025-05-21 17:56:48,613 - INFO - Saved screenshot to reviews\reviews_page_2_20250521_175648.png
+2025-05-21 17:56:48,882 - INFO - Found next page link using selector 'div[role="navigation"] a:last-child': https://www.amazon.in/ref=nav_logo
+2025-05-21 17:56:48,965 - INFO - Attempting to navigate to next page: https://www.amazon.in/ref=nav_logo
+2025-05-21 17:56:55,726 - INFO - Successfully navigated to next page: https://www.amazon.in/ref=nav_logo
+2025-05-21 17:57:25,779 - WARNING - Reviews container not found on new page
+2025-05-21 17:57:25,797 - INFO - Extracting reviews from page 3 (URL: https://www.amazon.in/ref=nav_logo)
+2025-05-21 17:57:25,821 - INFO - Waiting for reviews to load...
+2025-05-21 17:57:55,933 - WARNING - Timeout waiting for reviews container on current page
+2025-05-21 17:57:55,933 - WARNING - No reviews extracted from page 3
+2025-05-21 17:57:55,933 - INFO - Page 3: 0 new reviews, 0 duplicates. Total: 10
+2025-05-21 17:57:56,646 - INFO - Saved screenshot to reviews\reviews_page_3_20250521_175755.png
+2025-05-21 17:57:57,078 - WARNING - Could not find next page button with any selectors.
+2025-05-21 17:57:57,208 - INFO - Saved page source to next_page_missing_20250521_175757.html for debugging.
+2025-05-21 17:57:57,208 - INFO - No more pages available
+2025-05-21 17:57:57,208 - INFO - Finished extraction. Total unique reviews: 10
+2025-05-21 17:57:57,224 - INFO - Sentiment analysis: {'positive': 9, 'negative': 1, 'neutral': 0}

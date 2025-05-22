@@ -1,0 +1,6 @@
+2025-05-13 21:50:55,564 - INFO - Starting Review Extractor
+2025-05-13 21:50:55,564 - INFO - Detected Flipkart URL
+2025-05-13 21:50:55,571 - INFO - Setting up WebDriver...
+2025-05-13 21:50:58,695 - INFO - WebDriver setup completed successfully
+2025-05-13 21:50:58,695 - INFO - Generated reviews URL: https://www.flipkart.com/product-reviews/MOBH4DQFG8NKFRDY
+2025-05-13 21:50:58,695 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.flipkart.com/product-reviews/MOBH4DQFG8NKFRDY

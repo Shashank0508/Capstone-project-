@@ -1,0 +1,47 @@
+2025-04-25 17:24:48,957 - INFO - Starting Amazon Review Extractor
+2025-04-25 17:24:48,957 - INFO - Setting up WebDriver...
+2025-04-25 17:24:52,852 - INFO - WebDriver setup completed successfully
+2025-04-25 17:24:52,852 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0B4RX7ZXK
+2025-04-25 17:24:52,852 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0B4RX7ZXK
+2025-04-25 17:25:40,220 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 17:25:40,220 - INFO - Extracting reviews from page 1
+2025-04-25 17:25:40,296 - INFO - Found 10 reviews using selector: .review
+2025-04-25 17:25:40,296 - INFO - Found 10 reviews on current page
+2025-04-25 17:25:40,687 - INFO - Extracted review: Milton Aura 1000 Thermosteel Bottle Review: The Ultimate Insulated Bottle for Everyday Use
+2025-04-25 17:25:40,914 - INFO - Extracted review: Vale for money. Colour is also premium
+2025-04-25 17:25:41,204 - INFO - Extracted review: Honest review
+2025-04-25 17:25:41,512 - INFO - Extracted review: Perfect for use
+2025-04-25 17:25:41,895 - INFO - Extracted review: Nice product
+2025-04-25 17:25:42,511 - INFO - Extracted review: You Should purchase this...
+2025-04-25 17:25:42,761 - INFO - Extracted review: Good
+2025-04-25 17:25:43,063 - INFO - Extracted review: Overall a good product
+2025-04-25 17:25:43,362 - INFO - Extracted review: Good
+2025-04-25 17:25:43,362 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-25 17:25:43,712 - INFO - Saved screenshot to reviews/reviews_page_1_20250425_172543.png
+2025-04-25 17:25:43,762 - INFO - Found next button using selector: li.a-last a
+2025-04-25 17:25:44,826 - INFO - Navigating to next page URL: https://www.amazon.in/Milton-Thermosteel-Bottle-Kitchen-Trekking/product-reviews/B0B4RX7ZXK/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-25 17:25:44,826 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Milton-Thermosteel-Bottle-Kitchen-Trekking/product-reviews/B0B4RX7ZXK/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-25 17:26:29,656 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 17:26:32,528 - INFO - Extracting reviews from page 2
+2025-04-25 17:26:32,592 - INFO - Found 10 reviews using selector: .review
+2025-04-25 17:26:32,592 - INFO - Found 10 reviews on current page
+2025-04-25 17:26:32,953 - INFO - Extracted review: You can buy it
+2025-04-25 17:26:33,244 - INFO - Extracted review: Quality
+2025-04-25 17:26:33,560 - INFO - Extracted review: Milton
+2025-04-25 17:26:33,853 - INFO - Extracted review: Best Buy
+2025-04-25 17:26:34,186 - INFO - Extracted review: Good product
+2025-04-25 17:26:34,468 - INFO - Extracted review: Damaged
+2025-04-25 17:26:34,768 - INFO - Extracted review: I want cleansing brush for this flask ...Can I find on Amazon online shopping
+2025-04-25 17:26:35,051 - INFO - Extracted review: Nice bottle
+2025-04-25 17:26:35,336 - INFO - Extracted review: Best bottle out there
+2025-04-25 17:26:35,651 - INFO - Extracted review: It is worth every single penny.
+2025-04-25 17:26:35,651 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-04-25 17:26:35,817 - INFO - Saved screenshot to reviews/reviews_page_2_20250425_172635.png
+2025-04-25 17:26:35,817 - INFO - Reached maximum page limit (2)
+2025-04-25 17:26:35,817 - INFO - Total reviews extracted: 20
+2025-04-25 17:26:41,129 - INFO - Sentiment analysis: {'positive': 20, 'negative': 0, 'neutral': 0}
+2025-04-25 17:26:41,129 - INFO - Sentiment analysis: {'positive': 20, 'negative': 0, 'neutral': 0}
+2025-04-25 17:26:41,139 - INFO - Reviews saved to: reviews\amazon_reviews_B0B4RX7ZXK_20250425_172641.json with sentiment analysis: {'positive': 20, 'negative': 0, 'neutral': 0}
+2025-04-25 17:26:41,176 - INFO - Updated reviews\amazon_reviews_B0B4RX7ZXK_20250425_172641.json with summary
+2025-04-25 17:26:41,176 - INFO - Reviews saved to: reviews\amazon_reviews_B0B4RX7ZXK_20250425_172641.json
+2025-04-25 17:26:43,491 - INFO - WebDriver closed successfully

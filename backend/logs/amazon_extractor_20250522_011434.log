@@ -1,0 +1,47 @@
+2025-05-22 01:14:34,640 - INFO - Starting Amazon Review Extractor
+2025-05-22 01:14:34,644 - INFO - Setting up WebDriver...
+2025-05-22 01:14:34,644 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-22 01:14:34,644 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-22 01:14:37,163 - INFO - WebDriver setup completed successfully
+2025-05-22 01:14:37,163 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0C4Q5HNMH
+2025-05-22 01:14:37,163 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0C4Q5HNMH
+2025-05-22 01:15:24,311 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-22 01:15:24,312 - INFO - Extracting reviews from page 1
+2025-05-22 01:15:24,367 - INFO - Found 10 reviews using selector: .review
+2025-05-22 01:15:24,368 - INFO - Found 10 reviews on current page
+2025-05-22 01:15:24,580 - INFO - Extracted review: Stylish and Feature-Packed Smartwatch
+2025-05-22 01:15:24,814 - INFO - Extracted review: This watch is amazing
+2025-05-22 01:15:25,008 - INFO - Extracted review: Product Review: NoiseFit Halo 2 Smartwatch – 5 Stars!
+2025-05-22 01:15:25,144 - INFO - Extracted review: Perfect watch
+2025-05-22 01:15:25,345 - INFO - Extracted review: Best at the price range
+2025-05-22 01:15:25,558 - INFO - Extracted review: A look
+2025-05-22 01:15:25,780 - INFO - Extracted review: Excellent watch
+2025-05-22 01:15:26,034 - INFO - Extracted review: Look premium But no functionality
+2025-05-22 01:15:26,236 - INFO - Extracted review: Working is Out standing , just do little focus on shining on metele
+2025-05-22 01:15:26,392 - INFO - Extracted review: Super 👍
+2025-05-22 01:15:26,393 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-22 01:15:26,620 - INFO - Saved screenshot to reviews/reviews_page_1_20250522_011526.png
+2025-05-22 01:16:12,209 - INFO - Successfully navigated to next page
+2025-05-22 01:16:15,008 - INFO - Extracting reviews from page 2
+2025-05-22 01:16:15,046 - INFO - Found 10 reviews using selector: .review
+2025-05-22 01:16:15,046 - INFO - Found 10 reviews on current page
+2025-05-22 01:16:15,225 - INFO - Extracted review: Awesome
+2025-05-22 01:16:15,395 - INFO - Extracted review: Charge
+2025-05-22 01:16:15,545 - INFO - Extracted review: Over-all superb
+2025-05-22 01:16:15,713 - INFO - Extracted review: Gud degion...
+2025-05-22 01:16:15,850 - INFO - Extracted review: Value for money
+2025-05-22 01:16:16,016 - INFO - Extracted review: LESS WATCH FACES
+2025-05-22 01:16:16,194 - INFO - Extracted review: Nice
+2025-05-22 01:16:16,346 - INFO - Extracted review: Good go for Begineer
+2025-05-22 01:16:16,496 - INFO - Extracted review: Excellent watch (or Smartwatch)
+2025-05-22 01:16:16,664 - INFO - Extracted review: Very nice happy with this
+2025-05-22 01:16:16,665 - INFO - Extracted 10 reviews from page 2, 0 duplicates removed. Total unique reviews: 20
+2025-05-22 01:16:16,776 - INFO - Saved screenshot to reviews/reviews_page_2_20250522_011616.png
+2025-05-22 01:16:16,776 - INFO - Reached maximum page limit (2)
+2025-05-22 01:16:16,776 - INFO - Total unique reviews extracted: 20
+2025-05-22 01:16:19,943 - INFO - Sentiment analysis: {'positive': 17, 'negative': 0, 'neutral': 1}
+2025-05-22 01:16:19,953 - INFO - Sentiment analysis: {'positive': 17, 'negative': 0, 'neutral': 1}
+2025-05-22 01:16:19,959 - INFO - Reviews saved to: reviews\amazon_reviews_B0C4Q5HNMH_20250522_011619.json with sentiment analysis: {'positive': 17, 'negative': 0, 'neutral': 1}
+2025-05-22 01:16:19,971 - INFO - Updated reviews\amazon_reviews_B0C4Q5HNMH_20250522_011619.json with summary
+2025-05-22 01:16:19,971 - INFO - Reviews saved to: reviews\amazon_reviews_B0C4Q5HNMH_20250522_011619.json
+2025-05-22 01:16:22,151 - INFO - WebDriver closed successfully

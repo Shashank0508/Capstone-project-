@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h4 class="mb-0">Extracting Reviews...</h4>
+            </div>
+            <div class="card-body text-center">
+                <div class="spinner-border text-primary mb-3" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <h5 id="progress-message">Starting extraction...</h5>
+                
+                <div class="progress mt-3 mb-3">
+                    <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" 
+                         role="progressbar" style="width: 0%"></div>
+                </div>
+                
+                <p class="text-muted" id="status-message">This may take several minutes depending on the number of reviews.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+<script>
+    // Check status every 2 seconds
+    const checkStatus = setInterval(() => {
+        fetch("{{ url_for('status') }}")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('progress-bar').style.width = data.progress + '%';
+                document.getElementById('progress-message').textContent = data.message;
+                
+                if (!data.running) {
+                    clearInterval(checkStatus);
+                    if (data.error) {
+                        window.location.href = "{{ url_for('index') }}?error=" + encodeURIComponent(data.error);
+                    } else {
+                        window.location.href = "{{ url_for('results') }}";
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Error checking status:', error);
+            });
+    }, 2000);
+</script>
+{% endblock %}

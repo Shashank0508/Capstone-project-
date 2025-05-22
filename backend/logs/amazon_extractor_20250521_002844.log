@@ -1,0 +1,31 @@
+2025-05-21 00:28:44,803 - INFO - Starting Amazon Review Extractor
+2025-05-21 00:28:44,812 - INFO - Setting up WebDriver...
+2025-05-21 00:28:44,812 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 00:28:44,812 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 00:28:47,787 - INFO - WebDriver setup completed successfully
+2025-05-21 00:28:47,788 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJ8JQZD
+2025-05-21 00:28:47,790 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJ8JQZD
+2025-05-21 00:29:33,060 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 00:29:33,060 - INFO - Extracting reviews from page 1
+2025-05-21 00:29:33,123 - INFO - Found 10 reviews using selector: .review
+2025-05-21 00:29:33,123 - INFO - Found 10 reviews on current page
+2025-05-21 00:29:33,448 - INFO - Extracted review: iPhone 16 Plus: A User's Perspective After 90days
+2025-05-21 00:29:33,610 - INFO - Extracted review: Value for Money
+2025-05-21 00:29:33,777 - INFO - Extracted review: Pricey but worth it
+2025-05-21 00:29:33,940 - INFO - Extracted review: The iPhone16 plus is a Game Changer
+2025-05-21 00:29:34,081 - INFO - Extracted review: Best Phone for 82k
+2025-05-21 00:29:34,272 - INFO - Extracted review: Amazing performance 🤩🤩
+2025-05-21 00:29:34,426 - INFO - Extracted review: Good one
+2025-05-21 00:29:34,604 - INFO - Extracted review: Horrible experience with persistent charging issue
+2025-05-21 00:29:34,782 - INFO - Extracted review: No v
+2025-05-21 00:29:34,925 - INFO - Extracted review: Good one
+2025-05-21 00:29:34,925 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-05-21 00:29:35,082 - INFO - Saved screenshot to reviews/reviews_page_1_20250521_002934.png
+2025-05-21 00:29:35,082 - INFO - Reached maximum page limit (1)
+2025-05-21 00:29:35,082 - INFO - Total reviews extracted: 10
+2025-05-21 00:29:41,770 - INFO - Sentiment analysis: {'positive': 9, 'negative': 1, 'neutral': 0}
+2025-05-21 00:29:41,770 - INFO - Sentiment analysis: {'positive': 9, 'negative': 1, 'neutral': 0}
+2025-05-21 00:29:41,785 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJ8JQZD_20250521_002941.json with sentiment analysis: {'positive': 9, 'negative': 1, 'neutral': 0}
+2025-05-21 00:29:41,803 - INFO - Updated reviews\amazon_reviews_B0DGJ8JQZD_20250521_002941.json with summary
+2025-05-21 00:29:41,803 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJ8JQZD_20250521_002941.json
+2025-05-21 00:29:43,971 - INFO - WebDriver closed successfully

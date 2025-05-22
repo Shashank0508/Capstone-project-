@@ -1,0 +1,5 @@
+2025-04-26 11:46:11,639 - INFO - Starting Amazon Review Extractor
+2025-04-26 11:46:11,641 - INFO - Setting up WebDriver...
+2025-04-26 11:46:15,234 - INFO - WebDriver setup completed successfully
+2025-04-26 11:46:15,234 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJC8DG8
+2025-04-26 11:46:15,234 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJC8DG8

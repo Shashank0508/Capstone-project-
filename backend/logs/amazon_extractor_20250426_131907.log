@@ -1,0 +1,34 @@
+2025-04-26 13:19:07,358 - INFO - Starting Amazon Review Extractor
+2025-04-26 13:19:07,358 - INFO - Setting up WebDriver...
+2025-04-26 13:19:10,020 - INFO - WebDriver setup completed successfully
+2025-04-26 13:19:10,021 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJC8DG8
+2025-04-26 13:19:10,022 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJC8DG8
+2025-04-26 13:19:55,852 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:19:55,852 - INFO - Extracting reviews from page 1
+2025-04-26 13:19:55,891 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:19:55,891 - INFO - Found 10 reviews on current page
+2025-04-26 13:19:56,102 - INFO - Extracted review: 5.0 out of 5 stars Excellent
+2025-04-26 13:19:56,240 - INFO - Extracted review: 5.0 out of 5 stars Smooth purchase, minor hiccups with the trade in.
+2025-04-26 13:19:56,381 - INFO - Extracted review: 4.0 out of 5 stars Buy Only if Coming from iPhone 13 or earlier
+2025-04-26 13:19:56,492 - INFO - Extracted review: 5.0 out of 5 stars Good quality and original product
+2025-04-26 13:19:56,615 - INFO - Extracted review: 5.0 out of 5 stars Best iPhone with pro camera button
+2025-04-26 13:19:56,724 - INFO - Extracted review: 1.0 out of 5 stars Extremely Disappointed – No Return Policy Mentioned Clearly
+2025-04-26 13:19:56,853 - INFO - Extracted review: 5.0 out of 5 stars Best phone
+2025-04-26 13:19:56,975 - INFO - Extracted review: 5.0 out of 5 stars Best till now
+2025-04-26 13:19:57,129 - INFO - Extracted review: 4.0 out of 5 stars Not so impressive as 1st an iPhone.
+2025-04-26 13:19:57,242 - INFO - Extracted review: 5.0 out of 5 stars Delivery bad
+2025-04-26 13:19:57,242 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 13:19:57,360 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_131957.png
+2025-04-26 13:19:57,392 - INFO - Found next button using selector: li.a-last a
+2025-04-26 13:19:58,435 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 13:19:58,436 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 13:20:43,589 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:20:46,695 - INFO - Extracting reviews from page 2
+2025-04-26 13:20:46,749 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:20:46,749 - INFO - Found 10 reviews on current page
+2025-04-26 13:20:47,025 - INFO - Extracted review: 4.0 out of 5 stars Great phone
+2025-04-26 13:20:47,268 - INFO - Extracted review: 5.0 out of 5 stars Good
+2025-04-26 13:20:47,498 - INFO - Extracted review: 5.0 out of 5 stars Overall Good product
+2025-04-26 13:20:47,733 - INFO - Extracted review: 5.0 out of 5 stars Good phone.
+2025-04-26 13:20:47,983 - INFO - Extracted review: 5.0 out of 5 stars Happy to use it
+2025-04-26 13:20:48,420 - INFO - Extracted review: 5.0 out of 5 stars Awesome phone with sturdy packaging

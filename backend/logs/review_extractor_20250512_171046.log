@@ -1,0 +1,44 @@
+2025-05-12 17:10:47,706 - INFO - Starting Review Extractor
+2025-05-12 17:10:47,706 - INFO - Detected Flipkart URL
+2025-05-12 17:10:47,709 - INFO - Setting up WebDriver...
+2025-05-12 17:10:55,888 - INFO - WebDriver setup completed successfully
+2025-05-12 17:10:55,888 - INFO - Generated reviews URL: https://www.flipkart.com/apple-iphone-16-black-128-gb/p/itmb07d67f995271?pid=MOBH4DQFG8NKFRDY&lid=LSTMOBH4DQFG8NKFRDYNBDOZI&marketplace=FLIPKART&q=i+phone+16&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&fm=search-autosuggest&iid=e4b239ca-ade8-4912-b7ff-aab9b4b6abb6.MOBH4DQFG8NKFRDY.SEARCH&ppt=sp&ppn=sp&ssid=6npwkc0fps0000001747050027827&qH=c53b3310cf34d225&sortOrder=MOST_HELPFUL
+2025-05-12 17:10:55,888 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.flipkart.com/apple-iphone-16-black-128-gb/p/itmb07d67f995271?pid=MOBH4DQFG8NKFRDY&lid=LSTMOBH4DQFG8NKFRDYNBDOZI&marketplace=FLIPKART&q=i+phone+16&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&fm=search-autosuggest&iid=e4b239ca-ade8-4912-b7ff-aab9b4b6abb6.MOBH4DQFG8NKFRDY.SEARCH&ppt=sp&ppn=sp&ssid=6npwkc0fps0000001747050027827&qH=c53b3310cf34d225&sortOrder=MOST_HELPFUL
+2025-05-12 17:11:02,896 - INFO - Successfully verified reviews page using selector: div.XQDdHH
+2025-05-12 17:11:02,896 - INFO - Starting extraction with max_pages set to: 2
+2025-05-12 17:11:02,906 - INFO - Extracting reviews from page 1
+2025-05-12 17:11:02,922 - INFO - Found 21 reviews using selector: div.cPHDOP.col-12-12
+2025-05-12 17:11:02,927 - INFO - Found 21 reviews on current page
+2025-05-12 17:11:03,078 - INFO - Extracted review: No Title
+2025-05-12 17:11:03,196 - INFO - Extracted review: No Title
+2025-05-12 17:11:03,329 - INFO - Extracted review: No Title
+2025-05-12 17:11:03,452 - INFO - Extracted review: No Title
+2025-05-12 17:11:03,583 - INFO - Extracted review: No Title
+2025-05-12 17:11:03,682 - INFO - Extracted review: No Title
+2025-05-12 17:11:03,780 - INFO - Extracted review: No Title
+2025-05-12 17:11:03,894 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,001 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,160 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,276 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,382 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,476 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,577 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,680 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,776 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,861 - INFO - Extracted review: No Title
+2025-05-12 17:11:04,957 - INFO - Extracted review: No Title
+2025-05-12 17:11:05,074 - INFO - Extracted review: No Title
+2025-05-12 17:11:05,183 - INFO - Extracted review: No Title
+2025-05-12 17:11:05,285 - INFO - Extracted review: No Title
+2025-05-12 17:11:05,285 - INFO - Extracted 21 reviews from page 1. Total reviews: 21
+2025-05-12 17:11:05,571 - INFO - Saved screenshot to reviews/reviews_page_1_20250512_171105.png
+2025-05-12 17:11:05,638 - INFO - No next page button found and no indication of more pages
+2025-05-12 17:11:05,638 - INFO - No more review pages available
+2025-05-12 17:11:05,638 - INFO - Completed extraction. Total pages processed: 1
+2025-05-12 17:11:05,638 - INFO - Total reviews extracted: 21
+2025-05-12 17:11:05,643 - WARNING - No review text available for summary generation
+2025-05-12 17:11:05,644 - INFO - Sentiment analysis: {'positive': 6, 'negative': 15, 'neutral': 0}
+2025-05-12 17:11:05,653 - INFO - Reviews saved to: reviews\flipkart_reviews_MOBH4DQFG8NKFRDY_20250512_171105.json with sentiment analysis: {'positive': 6, 'negative': 15, 'neutral': 0}
+2025-05-12 17:11:05,675 - INFO - Updated reviews\flipkart_reviews_MOBH4DQFG8NKFRDY_20250512_171105.json with summary
+2025-05-12 17:11:05,675 - INFO - Reviews saved to: reviews\flipkart_reviews_MOBH4DQFG8NKFRDY_20250512_171105.json
+2025-05-12 17:11:07,924 - INFO - WebDriver closed successfully

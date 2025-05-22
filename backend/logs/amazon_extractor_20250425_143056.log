@@ -1,0 +1,14 @@
+2025-04-25 14:30:56,301 - INFO - Setting up WebDriver...
+2025-04-25 14:30:59,075 - INFO - WebDriver setup completed successfully
+2025-04-25 14:30:59,076 - INFO - Starting Amazon Review Extractor
+2025-04-25 14:30:59,077 - INFO - Setting up WebDriver...
+2025-04-25 14:31:01,902 - INFO - WebDriver setup completed successfully
+2025-04-25 14:31:01,903 - INFO - Attempting to log in to Amazon...
+2025-04-25 14:31:01,904 - INFO - Attempt 1/5: Navigating to Amazon sign-in page URL: https://www.amazon.in/ap/signin
+2025-04-25 14:31:06,481 - INFO - Attempt 2/5: Navigating to Amazon sign-in page URL: https://www.amazon.in/ap/signin
+2025-04-25 14:31:10,494 - INFO - Attempt 3/5: Navigating to Amazon sign-in page URL: https://www.amazon.in/ap/signin
+2025-04-25 14:31:14,607 - INFO - Attempt 4/5: Navigating to Amazon sign-in page URL: https://www.amazon.in/ap/signin
+2025-04-25 14:31:20,020 - INFO - Attempt 5/5: Navigating to Amazon sign-in page URL: https://www.amazon.in/ap/signin
+2025-04-25 14:31:24,982 - ERROR - Failed to navigate to Amazon sign-in page
+2025-04-25 14:31:24,982 - ERROR - Failed to log in to Amazon, cannot proceed with review extraction
+2025-04-25 14:31:27,112 - INFO - WebDriver closed successfully

@@ -1,0 +1,23 @@
+2025-05-20 23:59:14,199 - INFO - Starting Amazon Review Extractor
+2025-05-20 23:59:14,199 - INFO - Setting up WebDriver...
+2025-05-20 23:59:16,281 - ERROR - Error setting up WebDriver: [WinError 193] %1 is not a valid Win32 application
+Traceback (most recent call last):
+  File "C:\Users\Shashank\Desktop\complete capstone\backend\amazon_review.py", line 98, in setup_driver
+    self.driver = webdriver.Chrome(service=service, options=chrome_options)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 56, in __init__
+    self.service.start()
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\common\service.py", line 109, in start
+    self._start_process(self._path)
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\common\service.py", line 220, in _start_process
+    self.process = subprocess.Popen(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Shashank\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-05-20 23:59:16,290 - ERROR - Failed to set up WebDriver

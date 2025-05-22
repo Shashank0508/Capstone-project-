@@ -1,0 +1,50 @@
+2025-04-25 19:57:49,699 - INFO - Starting Amazon Review Extractor
+2025-04-25 19:57:49,710 - INFO - Setting up WebDriver...
+2025-04-25 19:57:53,354 - INFO - WebDriver setup completed successfully
+2025-04-25 19:57:53,354 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DDTV7RKJ
+2025-04-25 19:57:53,354 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DDTV7RKJ
+2025-04-25 19:58:40,154 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 19:58:40,154 - INFO - Extracting reviews from page 1
+2025-04-25 19:58:40,253 - INFO - Found 6 reviews using selector: .review
+2025-04-25 19:58:40,253 - INFO - Found 6 reviews on current page
+2025-04-25 19:58:40,670 - INFO - Extracted review: Good
+2025-04-25 19:58:40,986 - INFO - Extracted review: Good Product
+2025-04-25 19:58:41,299 - INFO - Extracted review: Don't suggest
+2025-04-25 19:58:41,592 - INFO - Extracted review: Good product
+2025-04-25 19:58:41,863 - INFO - Extracted review: Must buy great offer
+2025-04-25 19:58:42,103 - INFO - Extracted review: Amazon does not worry about customer support
+2025-04-25 19:58:42,103 - INFO - Extracted 6 reviews from page 1. Total reviews: 6
+2025-04-25 19:58:42,289 - INFO - Saved screenshot to reviews/reviews_page_1_20250425_195842.png
+2025-04-25 19:58:42,404 - INFO - No more review pages available
+2025-04-25 19:58:42,404 - INFO - Total reviews extracted: 6
+2025-04-25 19:58:46,497 - INFO - Sentiment analysis: {'positive': 5, 'negative': 1, 'neutral': 0}
+2025-04-25 19:58:46,497 - INFO - Sentiment analysis: {'positive': 5, 'negative': 1, 'neutral': 0}
+2025-04-25 19:58:46,497 - INFO - Reviews saved to: reviews\amazon_reviews_B0DDTV7RKJ_20250425_195846.json with sentiment analysis: {'positive': 5, 'negative': 1, 'neutral': 0}
+2025-04-25 19:58:46,530 - INFO - Updated reviews\amazon_reviews_B0DDTV7RKJ_20250425_195846.json with summary
+2025-04-25 19:58:46,531 - INFO - Reviews saved to: reviews\amazon_reviews_B0DDTV7RKJ_20250425_195846.json
+2025-04-25 19:58:48,656 - INFO - WebDriver closed successfully
+2025-04-25 20:00:17,056 - INFO - Starting Amazon Review Extractor
+2025-04-25 20:00:17,056 - INFO - Setting up WebDriver...
+2025-04-25 20:00:19,937 - INFO - WebDriver setup completed successfully
+2025-04-25 20:00:19,937 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DDTV7RKJ
+2025-04-25 20:00:19,937 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DDTV7RKJ
+2025-04-25 20:01:11,002 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 20:01:11,002 - INFO - Extracting reviews from page 1
+2025-04-25 20:01:11,093 - INFO - Found 6 reviews using selector: .review
+2025-04-25 20:01:11,093 - INFO - Found 6 reviews on current page
+2025-04-25 20:01:11,407 - INFO - Extracted review: Good
+2025-04-25 20:01:11,643 - INFO - Extracted review: Good Product
+2025-04-25 20:01:11,929 - INFO - Extracted review: Don't suggest
+2025-04-25 20:01:12,179 - INFO - Extracted review: Good product
+2025-04-25 20:01:12,394 - INFO - Extracted review: Must buy great offer
+2025-04-25 20:01:12,633 - INFO - Extracted review: Amazon does not worry about customer support
+2025-04-25 20:01:12,633 - INFO - Extracted 6 reviews from page 1. Total reviews: 6
+2025-04-25 20:01:12,992 - INFO - Saved screenshot to reviews/reviews_page_1_20250425_200112.png
+2025-04-25 20:01:13,095 - INFO - No more review pages available
+2025-04-25 20:01:13,095 - INFO - Total reviews extracted: 6
+2025-04-25 20:01:16,508 - INFO - Sentiment analysis: {'positive': 5, 'negative': 1, 'neutral': 0}
+2025-04-25 20:01:16,508 - INFO - Sentiment analysis: {'positive': 5, 'negative': 1, 'neutral': 0}
+2025-04-25 20:01:16,515 - INFO - Reviews saved to: reviews\amazon_reviews_B0DDTV7RKJ_20250425_200116.json with sentiment analysis: {'positive': 5, 'negative': 1, 'neutral': 0}
+2025-04-25 20:01:16,524 - INFO - Updated reviews\amazon_reviews_B0DDTV7RKJ_20250425_200116.json with summary
+2025-04-25 20:01:16,524 - INFO - Reviews saved to: reviews\amazon_reviews_B0DDTV7RKJ_20250425_200116.json
+2025-04-25 20:01:18,721 - INFO - WebDriver closed successfully

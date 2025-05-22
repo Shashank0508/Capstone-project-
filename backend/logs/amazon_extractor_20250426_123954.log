@@ -1,0 +1,34 @@
+2025-04-26 12:39:54,772 - INFO - Starting Amazon Review Extractor
+2025-04-26 12:39:54,773 - INFO - Setting up WebDriver...
+2025-04-26 12:39:58,560 - INFO - WebDriver setup completed successfully
+2025-04-26 12:39:58,560 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DMVHWBLN
+2025-04-26 12:39:58,560 - INFO - Attempt 1/5: Navigating to reviews URL validation URL: https://www.amazon.in/product-reviews/B0DMVHWBLN
+2025-04-26 12:40:47,838 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 12:40:47,840 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DMVHWBLN
+2025-04-26 12:41:34,023 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 12:41:34,023 - INFO - Starting extraction with max_pages set to: 3
+2025-04-26 12:41:34,024 - INFO - Extracting reviews from page 1
+2025-04-26 12:41:34,081 - INFO - Found 10 reviews using selector: .review
+2025-04-26 12:41:34,303 - INFO - Extracted review: LG 32GS75Q UltraGear Gaming Monitor
+2025-04-26 12:41:34,480 - INFO - Extracted review: LG UltraGear 32GS75Q-B – A Smooth and Sharp Gaming Monitor with Some Misses!
+2025-04-26 12:41:34,624 - INFO - Extracted review: Best Monitor
+2025-04-26 12:41:34,766 - INFO - Extracted review: Poor quality
+2025-04-26 12:41:34,979 - INFO - Extracted review: Great purchase
+2025-04-26 12:41:35,150 - INFO - Extracted review: LG 32" Ultragear
+2025-04-26 12:41:35,286 - INFO - Extracted review: IPS display
+2025-04-26 12:41:35,432 - INFO - Extracted review: Delivered with dead pixels
+2025-04-26 12:41:35,596 - INFO - Extracted review: LG much better than any other
+2025-04-26 12:41:35,724 - INFO - Extracted review: Nice display
+2025-04-26 12:41:35,724 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 12:41:35,927 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_124135.png
+2025-04-26 12:41:35,976 - WARNING - Next button found with selector 'li.a-last a' but no valid pageNumber in href: https://www.amazon.in/LG-2560x1440-DisplayHDR-Compatible-DisplayPort/product-reviews/B0DMVHWBLN/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 12:41:36,054 - WARNING - Next button found with selector 'div[data-hook="pagination-bar"] a:last-child' but no valid pageNumber in href: https://www.amazon.in/LG-2560x1440-DisplayHDR-Compatible-DisplayPort/product-reviews/B0DMVHWBLN/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 12:41:36,098 - INFO - No next page button found and no indication of more pages
+2025-04-26 12:41:36,099 - INFO - No more review pages available (based on pagination detection)
+2025-04-26 12:41:36,100 - INFO - Completed extraction. Total pages processed: 1, max_pages limit: 3
+2025-04-26 12:41:36,101 - INFO - Total reviews extracted: 10
+2025-04-26 12:41:38,939 - INFO - Sentiment analysis: {'positive': 8, 'negative': 1, 'neutral': 1}
+2025-04-26 12:41:38,981 - INFO - Saved 10 reviews to CSV: reviews\amazon_reviews_B0DMVHWBLN_20250426_124138.csv
+2025-04-26 12:41:38,985 - INFO - Saved summary to reviews\summary_B0DMVHWBLN_20250426_124138.json
+2025-04-26 12:41:38,986 - INFO - Reviews saved to: reviews\amazon_reviews_B0DMVHWBLN_20250426_124138.csv
+2025-04-26 12:41:41,182 - INFO - WebDriver closed successfully

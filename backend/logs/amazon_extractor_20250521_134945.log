@@ -1,0 +1,31 @@
+2025-05-21 13:49:45,241 - INFO - Starting Amazon Review Extractor
+2025-05-21 13:49:45,241 - INFO - Setting up WebDriver...
+2025-05-21 13:49:45,241 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 13:49:45,241 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 13:49:48,236 - INFO - WebDriver setup completed successfully
+2025-05-21 13:49:48,236 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 13:49:48,237 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 13:50:38,345 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 13:50:38,345 - INFO - Extracting reviews from page 1
+2025-05-21 13:50:38,410 - INFO - Found 10 reviews using selector: .review
+2025-05-21 13:50:38,411 - INFO - Found 10 reviews on current page
+2025-05-21 13:50:38,627 - INFO - Extracted review: Excellent
+2025-05-21 13:50:38,794 - INFO - Extracted review: Good product
+2025-05-21 13:50:38,961 - INFO - Extracted review: Everything
+2025-05-21 13:50:39,177 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 13:50:39,343 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 13:50:39,476 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 13:50:39,660 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 13:50:39,809 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 13:50:39,943 - INFO - Extracted review: Amazing
+2025-05-21 13:50:40,093 - INFO - Extracted review: Ncy
+2025-05-21 13:50:40,093 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-21 13:50:40,275 - INFO - Saved screenshot to reviews/reviews_page_1_20250521_135040.png
+2025-05-21 13:50:40,276 - INFO - Reached maximum page limit (1)
+2025-05-21 13:50:40,276 - INFO - Total unique reviews extracted: 10
+2025-05-21 13:50:41,592 - WARNING - Not enough sentiment results returned, defaulting to neutral.
+2025-05-21 13:50:41,608 - INFO - Sentiment analysis: {'positive': 6, 'negative': 2, 'neutral': 2}
+2025-05-21 13:50:44,657 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250521_135044.json with sentiment analysis: {'positive': 6, 'negative': 2, 'neutral': 2}
+2025-05-21 13:50:44,673 - INFO - Updated reviews\amazon_reviews_B0DGJH94KM_20250521_135044.json with summary
+2025-05-21 13:50:44,673 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250521_135044.json
+2025-05-21 13:50:46,838 - INFO - WebDriver closed successfully

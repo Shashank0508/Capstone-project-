@@ -1,0 +1,130 @@
+2025-04-26 13:45:32,201 - INFO - Starting Amazon Review Extractor
+2025-04-26 13:45:32,201 - INFO - Setting up WebDriver...
+2025-04-26 13:45:35,072 - INFO - WebDriver setup completed successfully
+2025-04-26 13:45:35,073 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B01KNMEVDG
+2025-04-26 13:45:35,074 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B01KNMEVDG
+2025-04-26 13:46:21,126 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:46:21,127 - INFO - Extracting reviews from page 1
+2025-04-26 13:46:21,193 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:46:21,193 - INFO - Found 10 reviews on current page
+2025-04-26 13:46:21,510 - INFO - Extracted review: Excellent looks and quality
+2025-04-26 13:46:21,692 - INFO - Extracted review: Nice watch at this price range. Go for it
+2025-04-26 13:46:21,892 - INFO - Extracted review: Amazing product
+2025-04-26 13:46:22,292 - INFO - Extracted review: Excellent
+2025-04-26 13:46:22,558 - INFO - Extracted review: Perfect watch
+2025-04-26 13:46:22,775 - INFO - Extracted review: Used watch, do not purchase ever!
+2025-04-26 13:46:22,975 - INFO - Extracted review: Good product
+2025-04-26 13:46:23,175 - INFO - Extracted review: Packaging was very poor
+2025-04-26 13:46:23,374 - INFO - Extracted review: The best-looking watch to have from the makers of Fossil
+2025-04-26 13:46:23,374 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 13:46:23,526 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_134623.png
+2025-04-26 13:46:23,575 - INFO - Found next button using selector: li.a-last a
+2025-04-26 13:46:24,657 - INFO - Navigating to next page URL: https://www.amazon.in/Fossil-Analog-Blue-Dial-Watch-FS5237/product-reviews/B01KNMEVDG/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 13:46:24,657 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Fossil-Analog-Blue-Dial-Watch-FS5237/product-reviews/B01KNMEVDG/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 13:47:12,967 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:47:15,160 - INFO - Extracting reviews from page 2
+2025-04-26 13:47:15,206 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:47:15,214 - INFO - Found 10 reviews on current page
+2025-04-26 13:47:15,407 - INFO - Extracted review: Looks
+2025-04-26 13:47:15,565 - INFO - Extracted review: Very Good
+2025-04-26 13:47:15,748 - INFO - Extracted review: Great design
+2025-04-26 13:47:16,114 - INFO - Extracted review: Not worth for Money ..
+2025-04-26 13:47:16,298 - INFO - Extracted review: Good
+2025-04-26 13:47:16,481 - INFO - Extracted review: Good
+2025-04-26 13:47:16,647 - INFO - Extracted review: Quality of watch is awesome.
+2025-04-26 13:47:16,780 - INFO - Extracted review: RICH LOOK
+2025-04-26 13:47:16,980 - INFO - Extracted review: Worth the money spent.
+2025-04-26 13:47:16,980 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-04-26 13:47:17,213 - INFO - Saved screenshot to reviews/reviews_page_2_20250426_134716.png
+2025-04-26 13:47:17,213 - INFO - Reached maximum page limit (2)
+2025-04-26 13:47:17,215 - INFO - Total reviews extracted: 20
+2025-04-26 13:47:19,680 - INFO - Sentiment analysis: {'positive': 18, 'negative': 1, 'neutral': 1}
+2025-04-26 13:47:19,680 - INFO - Sentiment analysis: {'positive': 18, 'negative': 1, 'neutral': 1}
+2025-04-26 13:47:19,680 - INFO - Reviews saved to: reviews\amazon_reviews_B01KNMEVDG_20250426_134719.json with sentiment analysis: {'positive': 18, 'negative': 1, 'neutral': 1}
+2025-04-26 13:47:19,715 - INFO - Updated reviews\amazon_reviews_B01KNMEVDG_20250426_134719.json with summary
+2025-04-26 13:47:19,715 - INFO - Reviews saved to: reviews\amazon_reviews_B01KNMEVDG_20250426_134719.json
+2025-04-26 13:47:21,910 - INFO - WebDriver closed successfully
+2025-04-26 13:48:43,603 - INFO - Starting Amazon Review Extractor
+2025-04-26 13:48:43,603 - INFO - Setting up WebDriver...
+2025-04-26 13:48:46,265 - INFO - WebDriver setup completed successfully
+2025-04-26 13:48:46,266 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B01KNMEVDG
+2025-04-26 13:48:46,269 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B01KNMEVDG
+2025-04-26 13:49:31,629 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:49:31,629 - INFO - Extracting reviews from page 1
+2025-04-26 13:49:31,677 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:49:31,677 - INFO - Found 10 reviews on current page
+2025-04-26 13:49:31,874 - INFO - Extracted review: 5.0 out of 5 stars Excellent looks and quality
+2025-04-26 13:49:32,000 - INFO - Extracted review: 5.0 out of 5 stars Nice watch at this price range. Go for it
+2025-04-26 13:49:32,116 - INFO - Extracted review: 4.0 out of 5 stars Amazing product
+2025-04-26 13:49:32,368 - INFO - Extracted review: 5.0 out of 5 stars Excellent
+2025-04-26 13:49:32,519 - INFO - Extracted review: 5.0 out of 5 stars Perfect watch
+2025-04-26 13:49:32,669 - INFO - Extracted review: 1.0 out of 5 stars Used watch, do not purchase ever!
+2025-04-26 13:49:32,786 - INFO - Extracted review: 5.0 out of 5 stars Good product
+2025-04-26 13:49:32,919 - INFO - Extracted review: 4.0 out of 5 stars Packaging was very poor
+2025-04-26 13:49:33,036 - INFO - Extracted review: 4.0 out of 5 stars The best-looking watch to have from the makers of Fossil
+2025-04-26 13:49:33,052 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 13:49:33,136 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_134933.png
+2025-04-26 13:49:33,169 - INFO - Found next button using selector: li.a-last a
+2025-04-26 13:49:34,214 - INFO - Navigating to next page URL: https://www.amazon.in/Fossil-Analog-Blue-Dial-Watch-FS5237/product-reviews/B01KNMEVDG/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 13:49:34,214 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Fossil-Analog-Blue-Dial-Watch-FS5237/product-reviews/B01KNMEVDG/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 13:50:18,665 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:50:23,274 - INFO - Extracting reviews from page 2
+2025-04-26 13:50:23,311 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:50:23,311 - INFO - Found 10 reviews on current page
+2025-04-26 13:50:23,529 - INFO - Extracted review: 5.0 out of 5 stars Looks
+2025-04-26 13:50:23,711 - INFO - Extracted review: 5.0 out of 5 stars Very Good
+2025-04-26 13:50:23,923 - INFO - Extracted review: 4.0 out of 5 stars Great design
+2025-04-26 13:50:24,377 - INFO - Extracted review: 3.0 out of 5 stars Not worth for Money ..
+2025-04-26 13:50:24,577 - INFO - Extracted review: 5.0 out of 5 stars Good
+2025-04-26 13:50:24,776 - INFO - Extracted review: 4.0 out of 5 stars Good
+2025-04-26 13:50:25,010 - INFO - Extracted review: 4.0 out of 5 stars Quality of watch is awesome.
+2025-04-26 13:50:25,209 - INFO - Extracted review: 5.0 out of 5 stars RICH LOOK
+2025-04-26 13:50:25,431 - INFO - Extracted review: 5.0 out of 5 stars Worth the money spent.
+2025-04-26 13:50:25,431 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-04-26 13:50:25,564 - INFO - Saved screenshot to reviews/reviews_page_2_20250426_135025.png
+2025-04-26 13:50:25,593 - INFO - Found next button using selector: li.a-last a
+2025-04-26 13:50:26,625 - INFO - Navigating to next page URL: https://www.amazon.in/Fossil-Analog-Blue-Dial-Watch-FS5237/product-reviews/B01KNMEVDG/ref=cm_cr_arp_d_paging_btm_3?ie=UTF8&pageNumber=3
+2025-04-26 13:50:26,625 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Fossil-Analog-Blue-Dial-Watch-FS5237/product-reviews/B01KNMEVDG/ref=cm_cr_arp_d_paging_btm_3?ie=UTF8&pageNumber=3
+2025-04-26 13:51:10,822 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:51:13,144 - INFO - Extracting reviews from page 3
+2025-04-26 13:51:13,186 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:51:13,186 - INFO - Found 10 reviews on current page
+2025-04-26 13:51:13,336 - INFO - Extracted review: 5.0 out of 5 stars Majestic
+2025-04-26 13:51:13,486 - INFO - Extracted review: 5.0 out of 5 stars Genuine product
+2025-04-26 13:51:13,641 - INFO - Extracted review: 4.0 out of 5 stars Good
+2025-04-26 13:51:13,786 - INFO - Extracted review: 4.0 out of 5 stars Good ( but side rotation mechanism colour pealed off)
+2025-04-26 13:51:13,936 - INFO - Extracted review: 5.0 out of 5 stars Worth it
+2025-04-26 13:51:14,102 - INFO - Extracted review: 4.0 out of 5 stars Looks very good
+2025-04-26 13:51:14,258 - INFO - Extracted review: 4.0 out of 5 stars Amazing looking watch
+2025-04-26 13:51:14,419 - INFO - Extracted review: 5.0 out of 5 stars Fossil
+2025-04-26 13:51:14,585 - INFO - Extracted review: 4.0 out of 5 stars Decent watch by Fossil
+2025-04-26 13:51:14,735 - INFO - Extracted review: 5.0 out of 5 stars Good product
+2025-04-26 13:51:14,735 - INFO - Extracted 10 reviews from page 3. Total reviews: 30
+2025-04-26 13:51:14,873 - INFO - Saved screenshot to reviews/reviews_page_3_20250426_135114.png
+2025-04-26 13:51:14,900 - INFO - Found next button using selector: li.a-last a
+2025-04-26 13:51:15,935 - INFO - Navigating to next page URL: https://www.amazon.in/Fossil-Analog-Blue-Dial-Watch-FS5237/product-reviews/B01KNMEVDG/ref=cm_cr_arp_d_paging_btm_4?ie=UTF8&pageNumber=4
+2025-04-26 13:51:15,935 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Fossil-Analog-Blue-Dial-Watch-FS5237/product-reviews/B01KNMEVDG/ref=cm_cr_arp_d_paging_btm_4?ie=UTF8&pageNumber=4
+2025-04-26 13:52:00,048 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 13:52:02,055 - INFO - Extracting reviews from page 4
+2025-04-26 13:52:02,097 - INFO - Found 10 reviews using selector: .review
+2025-04-26 13:52:02,097 - INFO - Found 10 reviews on current page
+2025-04-26 13:52:02,246 - INFO - Extracted review: 5.0 out of 5 stars Watch
+2025-04-26 13:52:02,396 - INFO - Extracted review: 5.0 out of 5 stars Fossil
+2025-04-26 13:52:02,571 - INFO - Extracted review: 3.0 out of 5 stars Good
+2025-04-26 13:52:02,712 - INFO - Extracted review: 5.0 out of 5 stars As stylish and elegant as it can be
+2025-04-26 13:52:02,846 - INFO - Extracted review: 4.0 out of 5 stars Stylish and Fits Nice!
+2025-04-26 13:52:02,962 - INFO - Extracted review: 3.0 out of 5 stars Good Looking Watch but Quality not upto mark.
+2025-04-26 13:52:03,112 - INFO - Extracted review: 3.0 out of 5 stars It's just beautiful.. nothing else
+2025-04-26 13:52:03,229 - INFO - Extracted review: 4.0 out of 5 stars Worth Buying in this price range.
+2025-04-26 13:52:03,378 - INFO - Extracted review: 5.0 out of 5 stars Good Watch at affordable price
+2025-04-26 13:52:03,512 - INFO - Extracted review: 4.0 out of 5 stars A good one
+2025-04-26 13:52:03,512 - INFO - Extracted 10 reviews from page 4. Total reviews: 40
+2025-04-26 13:52:03,622 - INFO - Saved screenshot to reviews/reviews_page_4_20250426_135203.png
+2025-04-26 13:52:03,622 - INFO - Reached maximum page limit (4)
+2025-04-26 13:52:03,622 - INFO - Total reviews extracted: 40
+2025-04-26 13:52:06,617 - INFO - Sentiment analysis: {'positive': 35, 'negative': 1, 'neutral': 4}
+2025-04-26 13:52:06,619 - INFO - Sentiment analysis: {'positive': 35, 'negative': 1, 'neutral': 4}
+2025-04-26 13:52:06,627 - INFO - Reviews saved to: reviews\amazon_reviews_B01KNMEVDG_20250426_135206.json with sentiment analysis: {'positive': 35, 'negative': 1, 'neutral': 4}
+2025-04-26 13:52:06,645 - INFO - Updated reviews\amazon_reviews_B01KNMEVDG_20250426_135206.json with summary
+2025-04-26 13:52:06,648 - INFO - Reviews saved to: reviews\amazon_reviews_B01KNMEVDG_20250426_135206.json
+2025-04-26 13:52:08,792 - INFO - WebDriver closed successfully

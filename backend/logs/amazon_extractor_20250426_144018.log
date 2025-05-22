@@ -1,0 +1,114 @@
+2025-04-26 14:40:18,577 - INFO - Starting Amazon Review Extractor
+2025-04-26 14:40:18,580 - INFO - Setting up WebDriver...
+2025-04-26 14:40:27,957 - INFO - WebDriver setup completed successfully
+2025-04-26 14:40:27,957 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0CYVF47FQ
+2025-04-26 14:40:27,957 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0CYVF47FQ
+2025-04-26 14:41:49,513 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 14:41:49,521 - INFO - Extracting reviews from page 1
+2025-04-26 14:41:49,612 - INFO - Found 10 reviews using selector: .review
+2025-04-26 14:41:49,612 - INFO - Found 10 reviews on current page
+2025-04-26 14:41:50,770 - INFO - Extracted review: Not so good, overpriced.
+2025-04-26 14:41:51,122 - INFO - Extracted review: This is my nephew's new best friend
+2025-04-26 14:41:51,522 - INFO - Extracted review: Love the product! Bought it for my grandchild
+2025-04-26 14:41:51,839 - INFO - Extracted review: Miko is very good
+2025-04-26 14:41:52,116 - INFO - Extracted review: Useless
+2025-04-26 14:41:52,458 - INFO - Extracted review: Useless
+2025-04-26 14:41:52,770 - INFO - Extracted review: Good Miko
+2025-04-26 14:41:53,091 - INFO - Extracted review: Miko mini
+2025-04-26 14:41:53,093 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 14:41:53,248 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_144153.png
+2025-04-26 14:41:53,298 - INFO - Found next button using selector: li.a-last a
+2025-04-26 14:41:54,356 - INFO - Navigating to next page URL: https://www.amazon.in/Miko-My-Companion-Mini-Days/product-reviews/B0CYVF47FQ/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 14:41:54,362 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Miko-My-Companion-Mini-Days/product-reviews/B0CYVF47FQ/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 14:42:49,943 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 14:42:54,779 - INFO - Extracting reviews from page 2
+2025-04-26 14:42:54,839 - INFO - Found 10 reviews using selector: .review
+2025-04-26 14:42:54,839 - INFO - Found 10 reviews on current page
+2025-04-26 14:42:55,156 - INFO - Extracted review: Nice product
+2025-04-26 14:42:55,455 - INFO - Extracted review: Bought this for my nephew happy with the purchase
+2025-04-26 14:42:55,763 - INFO - Extracted review: Awesome Product
+2025-04-26 14:42:56,083 - INFO - Extracted review: Very good product
+2025-04-26 14:42:56,406 - INFO - Extracted review: A perfect companion
+2025-04-26 14:42:56,715 - INFO - Extracted review: Best robo
+2025-04-26 14:42:57,026 - INFO - Extracted review: Not working properly
+2025-04-26 14:42:57,321 - INFO - Extracted review: Best gift
+2025-04-26 14:42:57,654 - INFO - Extracted review: Pretty & very much avoidable
+2025-04-26 14:42:58,015 - INFO - Extracted review: Over all Miko is good
+2025-04-26 14:42:58,015 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-04-26 14:42:58,220 - INFO - Saved screenshot to reviews/reviews_page_2_20250426_144258.png
+2025-04-26 14:42:58,253 - INFO - Found next button using selector: li.a-last a
+2025-04-26 14:42:59,310 - INFO - Navigating to next page URL: https://www.amazon.in/Miko-My-Companion-Mini-Days/product-reviews/B0CYVF47FQ/ref=cm_cr_arp_d_paging_btm_3?ie=UTF8&pageNumber=3
+2025-04-26 14:42:59,318 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Miko-My-Companion-Mini-Days/product-reviews/B0CYVF47FQ/ref=cm_cr_arp_d_paging_btm_3?ie=UTF8&pageNumber=3
+2025-04-26 14:43:49,820 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 14:43:54,700 - INFO - Extracting reviews from page 3
+2025-04-26 14:43:54,763 - INFO - Found 10 reviews using selector: .review
+2025-04-26 14:43:54,763 - INFO - Found 10 reviews on current page
+2025-04-26 14:43:55,080 - INFO - Extracted review: It's a great product for kids
+2025-04-26 14:43:55,381 - INFO - Extracted review: Miko - my child best friend...
+2025-04-26 14:43:55,739 - INFO - Extracted review: Bought this Miko for my son
+2025-04-26 14:43:56,103 - INFO - Extracted review: Engaging and educational
+2025-04-26 14:43:56,462 - INFO - Extracted review: Worth every penny
+2025-04-26 14:43:56,773 - INFO - Extracted review: An Awesum Safe Companion for Child!
+2025-04-26 14:43:57,107 - INFO - Extracted review: Best gadget to reduce screen time and personal AI agent for your kid.
+2025-04-26 14:43:57,402 - INFO - Extracted review: Best AI Robot I have Ever Seen
+2025-04-26 14:43:57,708 - INFO - Extracted review: Waste of money
+2025-04-26 14:43:58,028 - INFO - Extracted review: For kids
+2025-04-26 14:43:58,028 - INFO - Extracted 10 reviews from page 3. Total reviews: 30
+2025-04-26 14:43:58,422 - INFO - Saved screenshot to reviews/reviews_page_3_20250426_144358.png
+2025-04-26 14:43:58,471 - INFO - Found next button using selector: li.a-last a
+2025-04-26 14:43:59,527 - INFO - Navigating to next page URL: https://www.amazon.in/Miko-My-Companion-Mini-Days/product-reviews/B0CYVF47FQ/ref=cm_cr_arp_d_paging_btm_4?ie=UTF8&pageNumber=4
+2025-04-26 14:43:59,531 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Miko-My-Companion-Mini-Days/product-reviews/B0CYVF47FQ/ref=cm_cr_arp_d_paging_btm_4?ie=UTF8&pageNumber=4
+2025-04-26 14:44:55,469 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 14:44:58,508 - INFO - Extracting reviews from page 4
+2025-04-26 14:44:58,559 - INFO - Found 10 reviews using selector: .review
+2025-04-26 14:44:58,559 - INFO - Found 10 reviews on current page
+2025-04-26 14:44:58,870 - INFO - Extracted review: Overall good product for kids
+2025-04-26 14:44:59,183 - INFO - Extracted review: Great Product
+2025-04-26 14:44:59,461 - INFO - Extracted review: Loveable product
+2025-04-26 14:44:59,784 - INFO - Extracted review: Miko is the best
+2025-04-26 14:45:00,076 - INFO - Extracted review: My son got a Friend
+2025-04-26 14:45:00,362 - INFO - Extracted review: Very good product for your child
+2025-04-26 14:45:00,685 - INFO - Extracted review: Great gifting option for kids
+2025-04-26 14:45:00,993 - INFO - Extracted review: Saw this in Hamely's
+2025-04-26 14:45:01,365 - INFO - Extracted review: Miko 2
+2025-04-26 14:45:01,667 - INFO - Extracted review: Good product for toddlers
+2025-04-26 14:45:01,667 - INFO - Extracted 10 reviews from page 4. Total reviews: 40
+2025-04-26 14:45:01,868 - INFO - Saved screenshot to reviews/reviews_page_4_20250426_144501.png
+2025-04-26 14:45:01,901 - INFO - Found next button using selector: li.a-last a
+2025-04-26 14:45:02,958 - INFO - Navigating to next page URL: https://www.amazon.in/Miko-My-Companion-Mini-Days/product-reviews/B0CYVF47FQ/ref=cm_cr_arp_d_paging_btm_5?ie=UTF8&pageNumber=5
+2025-04-26 14:45:02,958 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Miko-My-Companion-Mini-Days/product-reviews/B0CYVF47FQ/ref=cm_cr_arp_d_paging_btm_5?ie=UTF8&pageNumber=5
+2025-04-26 14:45:56,655 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 14:45:59,403 - INFO - Extracting reviews from page 5
+2025-04-26 14:45:59,454 - INFO - Found 3 reviews using selector: .review
+2025-04-26 14:45:59,454 - INFO - Found 3 reviews on current page
+2025-04-26 14:45:59,770 - INFO - Extracted review: Thank you
+2025-04-26 14:46:00,066 - INFO - Extracted review: Review miko mini
+2025-04-26 14:46:00,382 - INFO - Extracted review: Miko mini
+2025-04-26 14:46:00,382 - INFO - Extracted 3 reviews from page 5. Total reviews: 43
+2025-04-26 14:46:00,537 - INFO - Saved screenshot to reviews/reviews_page_5_20250426_144600.png
+2025-04-26 14:46:00,620 - INFO - Found disabled next button - we're on the last page
+2025-04-26 14:46:00,631 - INFO - No more review pages available
+2025-04-26 14:46:00,631 - INFO - Total reviews extracted: 43
+2025-04-26 14:46:20,803 - INFO - Sentiment analysis: {'positive': 37, 'negative': 6, 'neutral': 0}
+2025-04-26 14:46:20,803 - INFO - Sentiment analysis: {'positive': 37, 'negative': 6, 'neutral': 0}
+2025-04-26 14:46:20,803 - INFO - Reviews saved to: reviews\amazon_reviews_B0CYVF47FQ_20250426_144620.json with sentiment analysis: {'positive': 37, 'negative': 6, 'neutral': 0}
+2025-04-26 14:46:20,854 - INFO - Updated reviews\amazon_reviews_B0CYVF47FQ_20250426_144620.json with summary
+2025-04-26 14:46:20,854 - INFO - Reviews saved to: reviews\amazon_reviews_B0CYVF47FQ_20250426_144620.json
+2025-04-26 14:46:23,166 - INFO - WebDriver closed successfully
+2025-04-26 14:47:00,732 - INFO - Starting Amazon Review Extractor
+2025-04-26 14:47:00,733 - INFO - Setting up WebDriver...
+2025-04-26 14:47:11,514 - INFO - WebDriver setup completed successfully
+2025-04-26 14:47:11,515 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0CYVF47FQ
+2025-04-26 14:47:11,516 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0CYVF47FQ
+2025-04-26 14:48:42,730 - INFO - On reviews page based on URL, though review elements not found. URL: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fproduct-reviews%2FB0CYVF47FQ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+2025-04-26 14:48:42,922 - INFO - Saved screenshot to reviews/reviews_page_20250426_144842.png
+2025-04-26 14:48:42,923 - INFO - Extracting reviews from page 1
+2025-04-26 14:48:43,126 - WARNING - No reviews found on current page. Saved screenshot to no_reviews_found_20250426_144842.png
+2025-04-26 14:48:43,173 - INFO - Saved page source to review_page_source_20250426_144842.html
+2025-04-26 14:48:43,173 - INFO - Extracted 0 reviews from page 1. Total reviews: 0
+2025-04-26 14:48:43,287 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_144843.png
+2025-04-26 14:48:43,287 - INFO - Reached maximum page limit (1)
+2025-04-26 14:48:43,295 - INFO - Total reviews extracted: 0
+2025-04-26 14:48:43,304 - INFO - Saved 0 reviews to CSV: reviews\amazon_reviews_B0CYVF47FQ_20250426_144843.csv
+2025-04-26 14:48:43,304 - INFO - Reviews saved to: reviews\amazon_reviews_B0CYVF47FQ_20250426_144843.csv
+2025-04-26 14:48:45,560 - INFO - WebDriver closed successfully

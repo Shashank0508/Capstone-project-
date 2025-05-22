@@ -1,0 +1,31 @@
+2025-05-22 19:19:13,090 - INFO - Starting Amazon Review Extractor
+2025-05-22 19:19:13,091 - INFO - Setting up WebDriver...
+2025-05-22 19:19:13,091 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-22 19:19:13,091 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-22 19:19:18,601 - INFO - WebDriver setup completed successfully
+2025-05-22 19:19:18,602 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0CY5HVDS2
+2025-05-22 19:19:18,603 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0CY5HVDS2
+2025-05-22 19:20:17,366 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-22 19:20:17,367 - INFO - Extracting reviews from page 1
+2025-05-22 19:20:17,416 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:20:17,416 - INFO - Found 10 reviews on current page
+2025-05-22 19:20:17,662 - INFO - Extracted review: Great product
+2025-05-22 19:20:17,792 - INFO - Extracted review: Good product
+2025-05-22 19:20:17,968 - INFO - Extracted review: Impressive Upgrade to the Gaming Experience 😍😍😍😍
+2025-05-22 19:20:18,152 - INFO - Extracted review: Excellent PS5 Purchase Experience on Amazon"
+2025-05-22 19:20:18,314 - INFO - Extracted review: bad experience
+2025-05-22 19:20:18,468 - INFO - Extracted review: Worth Every Penny!
+2025-05-22 19:20:18,633 - INFO - Extracted review: Build
+2025-05-22 19:20:18,817 - INFO - Extracted review: Beast
+2025-05-22 19:20:19,006 - INFO - Extracted review: Worth the money
+2025-05-22 19:20:19,200 - INFO - Extracted review: Nothing
+2025-05-22 19:20:19,200 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-22 19:20:19,335 - INFO - Saved screenshot to reviews/reviews_page_1_20250522_192019.png
+2025-05-22 19:20:19,336 - INFO - Reached maximum page limit (1)
+2025-05-22 19:20:19,338 - INFO - Total unique reviews extracted: 10
+2025-05-22 19:20:23,946 - INFO - Sentiment analysis: {'positive': 10, 'negative': 0, 'neutral': 0}
+2025-05-22 19:20:23,996 - INFO - Sentiment analysis: {'positive': 10, 'negative': 0, 'neutral': 0}
+2025-05-22 19:20:23,996 - INFO - Reviews saved to: reviews\amazon_reviews_B0CY5HVDS2_20250522_192023.json with sentiment analysis: {'positive': 10, 'negative': 0, 'neutral': 0}
+2025-05-22 19:20:24,013 - INFO - Updated reviews\amazon_reviews_B0CY5HVDS2_20250522_192023.json with summary
+2025-05-22 19:20:24,013 - INFO - Reviews saved to: reviews\amazon_reviews_B0CY5HVDS2_20250522_192023.json
+2025-05-22 19:20:26,195 - INFO - WebDriver closed successfully

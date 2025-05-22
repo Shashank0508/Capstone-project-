@@ -1,0 +1,9 @@
+2025-04-25 15:02:37,843 - INFO - Starting Amazon Review Extractor
+2025-04-25 15:02:37,850 - INFO - Setting up WebDriver...
+2025-04-25 15:02:48,530 - INFO - WebDriver setup completed successfully
+2025-04-25 15:02:48,531 - INFO - Please manually log in to Amazon in the opened browser.
+2025-04-25 15:02:57,603 - ERROR - Unhandled exception in run method: 
+Traceback (most recent call last):
+  File "C:\Users\Shashank\Desktop\capstone project\amazon_review_frontend\backend\amazon_review.py", line 687, in run
+    input("Press Enter after you have logged in manually...")
+EOFError

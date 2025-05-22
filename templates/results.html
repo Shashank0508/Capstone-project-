@@ -1,0 +1,434 @@
+<!-- Updated HTML template for reviews -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Extraction Results</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 30px;
+            background: linear-gradient(135deg, #e6f0fa 0%, #d1e3f6 100%);
+            color: #1a202c;
+            line-height: 1.6;
+        }
+        h2, h3 {
+            color: #2d3748;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        h2 {
+            font-size: 1.75rem;
+            letter-spacing: -0.02em;
+        }
+        h3 {
+            font-size: 1.25rem;
+            color: #4a5568;
+        }
+        .section {
+            background: #ffffff;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+        }
+        .metadata {
+            background: #f0f9ff;
+        }
+        .sentiment {
+            background: #fff7ed;
+        }
+        .summary {
+            background: #f0fff4;
+        }
+        .reviews {
+            background: #f9f7ff;
+        }
+        .metadata p, .sentiment p {
+            margin: 8px 0;
+            font-size: 1rem;
+            color: #4a5568;
+        }
+        .metadata p strong, .sentiment p strong {
+            color: #2d3748;
+            font-weight: 500;
+        }
+        .sentiment p.positive {
+            color: #2f855a;
+            background: #c6f6d5;
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        .sentiment p.neutral {
+            color: #975a16;
+            background: #fefcbf;
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        .sentiment p.negative {
+            color: #c53030;
+            background: #fed7d7;
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        .summary ul {
+            list-style-type: disc;
+            margin-left: 25px;
+            color: #4a5568;
+            font-size: 0.95rem;
+        }
+        .summary ul li {
+            margin-bottom: 8px;
+            transition: color 0.2s ease;
+        }
+        .summary ul li:hover {
+            color: #2b6cb0;
+        }
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 20px;
+            background: #f7fafc;
+            border-radius: 8px 8px 0 0;
+            padding: 5px;
+        }
+        .tab {
+            padding: 12px 24px;
+            cursor: pointer;
+            background: #e2e8f0;
+            margin: 0 4px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #4a5568;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+        }
+        .tab:hover {
+            background: #cbd5e0;
+            color: #2d3748;
+            transform: translateY(-1px);
+        }
+        .tab.active {
+            background: linear-gradient(90deg, #3182ce 0%, #2b6cb0 100%);
+            color: #ffffff;
+            box-shadow: 0 2px 10px rgba(49, 130, 206, 0.2);
+        }
+        /* New Review Card Style */
+        .review-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .review-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            margin-bottom: 15px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: none;
+        }
+        .review-card.visible {
+            display: block;
+        }
+        .review-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+        }
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+        .reviewer-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .reviewer-name {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: #2d3748;
+        }
+        .review-date {
+            color: #718096;
+            font-size: 0.9rem;
+        }
+        .rating {
+            color: #f6ad55;
+            font-size: 1.25rem;
+        }
+        .review-title {
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            color: #1a202c;
+        }
+        .review-body {
+            color: #4a5568;
+            max-height: 100px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            position: relative;
+        }
+        .review-body.expanded {
+            max-height: none;
+        }
+        .read-more-btn {
+            background: linear-gradient(90deg, #3182ce 0%, #2b6cb0 100%);
+            color: #ffffff;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 12px;
+            display: inline-block;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .read-more-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(49, 130, 206, 0.3);
+        }
+        .download-links a {
+            display: inline-block;
+            margin-right: 12px;
+            padding: 10px 20px;
+            background: linear-gradient(90deg, #ed8936 0%, #dd6b20 100%);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .download-links a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(237, 137, 54, 0.3);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 25px;
+            color: #2b6cb0;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+        .back-link:hover {
+            color: #1a4971;
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #718096;
+            font-size: 0.9rem;
+            font-weight: 400;
+            opacity: 0.8;
+        }
+        .stars {
+            color: #f6ad55;
+            letter-spacing: 3px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            .section {
+                padding: 20px;
+            }
+            .review-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .rating {
+                margin-top: 10px;
+            }
+            .tabs {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            .tab {
+                padding: 10px 16px;
+                font-size: 0.9rem;
+            }
+            .download-links a {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section metadata">
+        <h2>Metadata</h2>
+        <p><strong>Product URL:</strong> <a href="{{ product_url }}" target="_blank">{{ product_url }}</a></p>
+        <p><strong>Total Reviews Extracted:</strong> {{ total_reviews }}</p>
+        <p><strong>Extraction Date:</strong> {{ extraction_date }}</p>
+    </div>
+
+    <div class="section sentiment">
+        <h2>Sentiment Analysis</h2>
+        <p class="positive"><strong>Positive:</strong> {{ sentiment.positive }}</p>
+        <p class="neutral"><strong>Neutral:</strong> {{ sentiment.neutral }}</p>
+        <p class="negative"><strong>Negative:</strong> {{ sentiment.negative }}</p>
+    </div>
+
+    <div class="section summary">
+        <h2>Summary Analysis</h2>
+        <h3>Pros</h3>
+        <ul>
+            {% for pro in summary.pros %}
+                <li>{{ pro }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Cons</h3>
+        <ul>
+            {% for con in summary.cons %}
+                <li>{{ con }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Summary</h3>
+        <ul>
+            {% for line in summary.summary %}
+                <li>{{ line }}</li>
+            {% endfor %}
+        </ul>
+        <p><strong>Total Score:</strong> {{ summary.total_score }} / 100</p>
+        <p><strong>Review Counts:</strong></p>
+        <ul>
+            <li>Positive: {{ summary.review_counts.positive }}</li>
+            <li>Negative: {{ summary.review_counts.negative }}</li>
+            <li>Neutral: {{ summary.review_counts.neutral }}</li>
+            <li>Total: {{ summary.review_counts.total }}</li>
+        </ul>
+    </div>
+
+    <div class="section reviews">
+        <h2>Individual Reviews</h2>
+        <div class="download-links">
+            <a href="{{ url_for('download_file', file_type='results') }}">Download Results File</a>
+            {% if summary_file %}
+                <a href="{{ url_for('download_file', file_type='summary') }}">Download Summary File</a>
+            {% endif %}
+        </div>
+
+        {% if reviews %}
+            <div class="tabs">
+                <div class="tab" data-sentiment="positive">Positive Reviews</div>
+                <div class="tab" data-sentiment="negative">Negative Reviews</div>
+                <div class="tab" data-sentiment="neutral">Neutral Reviews</div>
+                <div class="tab" data-sentiment="all">Show All Reviews</div>
+            </div>
+
+            <div class="review-container">
+                {% for review in reviews %}
+                    <div class="review-card" data-sentiment="{{ review.sentiment }}">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">{{ review.reviewer_name }}</span>
+                                <span class="review-date">{{ review.date }}</span>
+                            </div>
+                            <div class="rating">
+                                <div class="stars">
+                                    {% for i in range(5) %}
+                                        {% if i < review.rating|int %}★{% else %}☆{% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-title">{{ review.title }}</div>
+                        <div class="review-body" data-full-text="{{ review.body | escape }}">
+                            {{ review.body | escape }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No reviews available to display.</p>
+        {% endif %}
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Handle tab functionality
+            const tabs = document.querySelectorAll('.tab');
+            const reviewCards = document.querySelectorAll('.review-card');
+
+            function showReviews(sentiment) {
+                reviewCards.forEach(card => {
+                    const cardSentiment = card.getAttribute('data-sentiment') || 'neutral';
+                    if (sentiment === 'all' || cardSentiment === sentiment) {
+                        card.classList.add('visible');
+                    } else {
+                        card.classList.remove('visible');
+                    }
+                });
+            }
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    const sentiment = this.getAttribute('data-sentiment');
+                    showReviews(sentiment);
+                });
+            });
+
+            // Show all reviews by default, if the tab exists
+            const defaultTab = document.querySelector('.tab[data-sentiment="all"]');
+            if (defaultTab) {
+                defaultTab.classList.add('active');
+                showReviews('all');
+            }
+
+            // Handle "Read More" functionality
+            const reviewBodies = document.querySelectorAll('.review-body');
+            reviewBodies.forEach(body => {
+                const text = body.getAttribute('data-full-text');
+                // Check if the content overflows (height > max-height) or is long (> 200 characters)
+                const isOverflowing = body.scrollHeight > body.clientHeight || text.length > 200;
+                if (isOverflowing) {
+                    // Create "Read More" button
+                    const readMoreBtn = document.createElement('button');
+                    readMoreBtn.className = 'read-more-btn';
+                    readMoreBtn.textContent = 'Read More';
+                    body.parentElement.appendChild(readMoreBtn);
+
+                    // Add click event to toggle
+                    readMoreBtn.addEventListener('click', () => {
+                        if (body.classList.contains('expanded')) {
+                            body.classList.remove('expanded');
+                            readMoreBtn.textContent = 'Read More';
+                        } else {
+                            body.classList.add('expanded');
+                            readMoreBtn.textContent = 'Read Less';
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+    <a href="{{ url_for('index') }}" class="back-link">Back to Home</a>
+
+    <footer>
+        Amazon Review Extractor © 2025
+    </footer>
+</body>
+</html>

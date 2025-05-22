@@ -1,0 +1,86 @@
+2025-05-21 13:02:55,203 - INFO - Starting Amazon Review Extractor
+2025-05-21 13:02:55,203 - INFO - Setting up WebDriver...
+2025-05-21 13:02:55,203 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 13:02:55,211 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 13:02:58,616 - INFO - WebDriver setup completed successfully
+2025-05-21 13:02:58,616 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 13:02:58,616 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 13:03:46,602 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 13:03:46,603 - INFO - Extracting reviews from page 1
+2025-05-21 13:03:46,706 - INFO - Found 10 reviews using selector: .review
+2025-05-21 13:03:46,706 - INFO - Found 10 reviews on current page
+2025-05-21 13:03:47,168 - INFO - Extracted review: Excellent
+2025-05-21 13:03:47,473 - INFO - Extracted review: Good product
+2025-05-21 13:03:47,796 - INFO - Extracted review: Everything
+2025-05-21 13:03:48,197 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 13:03:48,535 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 13:03:48,865 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 13:03:49,270 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 13:03:49,597 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 13:03:49,934 - INFO - Extracted review: Amazing
+2025-05-21 13:03:50,279 - INFO - Extracted review: Ncy
+2025-05-21 13:03:50,279 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-21 13:03:50,540 - INFO - Saved screenshot to reviews/reviews_page_1_20250521_130350.png
+2025-05-21 13:04:36,616 - INFO - Successfully navigated to next page
+2025-05-21 13:04:41,311 - INFO - Extracting reviews from page 2
+2025-05-21 13:04:41,374 - INFO - Found 10 reviews using selector: .review
+2025-05-21 13:04:41,374 - INFO - Found 10 reviews on current page
+2025-05-21 13:04:41,642 - INFO - Extracted review: Not so impressive as 1st an iPhone.
+2025-05-21 13:04:41,998 - INFO - Extracted review: Loved it
+2025-05-21 13:04:42,328 - INFO - Extracted review: Awesome
+2025-05-21 13:04:42,632 - INFO - Extracted review: Photo quality of camera is not good
+2025-05-21 13:04:42,970 - INFO - Extracted review: JUST GO FOR IT!
+2025-05-21 13:04:43,232 - INFO - Extracted review: Value for money with Genuine product
+2025-05-21 13:04:43,472 - INFO - Extracted review: Best till now
+2025-05-21 13:04:43,722 - INFO - Extracted review: Best phone
+2025-05-21 13:04:43,940 - INFO - Extracted review: Delivery bad
+2025-05-21 13:04:44,148 - INFO - Extracted review: Great phone
+2025-05-21 13:04:44,155 - INFO - Extracted 10 reviews from page 2, 0 duplicates removed. Total unique reviews: 20
+2025-05-21 13:04:44,352 - INFO - Saved screenshot to reviews/reviews_page_2_20250521_130444.png
+2025-05-21 13:05:30,702 - INFO - Successfully navigated to next page
+2025-05-21 13:05:33,018 - INFO - Extracting reviews from page 3
+2025-05-21 13:05:33,087 - INFO - Found 10 reviews using selector: .review
+2025-05-21 13:05:33,087 - INFO - Found 10 reviews on current page
+2025-05-21 13:05:33,407 - INFO - Extracted review: Good quality and original product
+2025-05-21 13:05:33,699 - INFO - Extracted review: Good
+2025-05-21 13:05:34,066 - INFO - Extracted review: camera quality is superb 👌
+2025-05-21 13:05:34,404 - INFO - Extracted review: Overall Good product
+2025-05-21 13:05:34,730 - INFO - Extracted review: Good phone.
+2025-05-21 13:05:35,080 - INFO - Extracted review: Happy to use it
+2025-05-21 13:05:35,400 - INFO - Extracted review: Awesome phone with sturdy packaging
+2025-05-21 13:05:35,746 - INFO - Extracted review: Worth try
+2025-05-21 13:05:36,091 - INFO - Extracted review: Good
+2025-05-21 13:05:36,513 - INFO - Extracted review: Amazing
+2025-05-21 13:05:36,513 - INFO - Extracted 10 reviews from page 3, 0 duplicates removed. Total unique reviews: 30
+2025-05-21 13:05:36,727 - INFO - Saved screenshot to reviews/reviews_page_3_20250521_130536.png
+2025-05-21 13:06:21,724 - INFO - Successfully navigated to next page
+2025-05-21 13:06:26,662 - INFO - Extracting reviews from page 4
+2025-05-21 13:06:26,735 - INFO - Found 10 reviews using selector: .review
+2025-05-21 13:06:26,735 - INFO - Found 10 reviews on current page
+2025-05-21 13:06:27,056 - INFO - Extracted review: Great
+2025-05-21 13:06:27,375 - INFO - Extracted review: Honest Review
+2025-05-21 13:06:27,715 - INFO - Extracted review: Badhiya
+2025-05-21 13:06:28,076 - INFO - Extracted review: Overall good but battery is not that great
+2025-05-21 13:06:28,397 - INFO - Extracted review: Apple legacy
+2025-05-21 13:06:28,774 - INFO - Extracted review: Apple never disappoints
+2025-05-21 13:06:29,057 - INFO - Extracted review: Good
+2025-05-21 13:06:29,369 - INFO - Extracted review: great phone
+2025-05-21 13:06:29,788 - INFO - Extracted review: Perfect
+2025-05-21 13:06:30,197 - INFO - Extracted review: Awesome🤩🤩🤩
+2025-05-21 13:06:30,197 - INFO - Extracted 10 reviews from page 4, 0 duplicates removed. Total unique reviews: 40
+2025-05-21 13:06:30,421 - INFO - Saved screenshot to reviews/reviews_page_4_20250521_130630.png
+2025-05-21 13:06:30,421 - INFO - Reached maximum page limit (4)
+2025-05-21 13:06:30,427 - INFO - Total unique reviews extracted: 40
+2025-05-21 13:06:35,516 - ERROR - Error analyzing sentiment for batch: Expecting value: line 1 column 1 (char 0)
+2025-05-21 13:06:36,471 - ERROR - Error analyzing sentiment for batch: Expecting value: line 1 column 1 (char 0)
+2025-05-21 13:06:39,231 - ERROR - Error analyzing sentiment for batch: Expecting value: line 1 column 1 (char 0)
+2025-05-21 13:06:39,231 - INFO - Sentiment analysis: {'positive': 6, 'negative': 1, 'neutral': 33}
+2025-05-21 13:06:40,826 - ERROR - Error analyzing sentiment for batch: Expecting value: line 1 column 1 (char 0)
+2025-05-21 13:06:41,725 - ERROR - Error analyzing sentiment for batch: Expecting value: line 1 column 1 (char 0)
+2025-05-21 13:06:42,741 - ERROR - Error analyzing sentiment for batch: Expecting value: line 1 column 1 (char 0)
+2025-05-21 13:06:43,843 - ERROR - Error analyzing sentiment for batch: Expecting value: line 1 column 1 (char 0)
+2025-05-21 13:06:43,843 - INFO - Sentiment analysis: {'positive': 0, 'negative': 0, 'neutral': 40}
+2025-05-21 13:06:43,854 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250521_130643.json with sentiment analysis: {'positive': 0, 'negative': 0, 'neutral': 40}
+2025-05-21 13:06:43,894 - INFO - Updated reviews\amazon_reviews_B0DGJH94KM_20250521_130643.json with summary
+2025-05-21 13:06:43,894 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250521_130643.json
+2025-05-21 13:06:46,066 - INFO - WebDriver closed successfully

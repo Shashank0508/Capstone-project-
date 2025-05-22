@@ -1,0 +1,138 @@
+2025-05-17 12:23:26,961 - INFO - Starting Amazon Review Extractor
+2025-05-17 12:23:26,961 - INFO - Setting up WebDriver...
+2025-05-17 12:23:30,115 - INFO - WebDriver setup completed successfully
+2025-05-17 12:23:30,115 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:23:30,115 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:23:34,201 - WARNING - Attempt 1 failed to navigate to product reviews page URL: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x0052FC83+61635]
+	GetHandleVerifier [0x0052FCC4+61700]
+	(No symbol) [0x003505D3]
+	(No symbol) [0x0033FE20]
+	(No symbol) [0x0035DD1F]
+	(No symbol) [0x003C3E8C]
+	(No symbol) [0x003DDF19]
+	(No symbol) [0x003BD096]
+	(No symbol) [0x0038C840]
+	(No symbol) [0x0038D6A4]
+	GetHandleVerifier [0x007B45A3+2701795]
+	GetHandleVerifier [0x007AFD26+2683238]
+	GetHandleVerifier [0x007CAA6E+2793134]
+	GetHandleVerifier [0x00546945+155013]
+	GetHandleVerifier [0x0054D02D+181357]
+	GetHandleVerifier [0x005374D8+92440]
+	GetHandleVerifier [0x00537680+92864]
+	GetHandleVerifier [0x00522070+5296]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+
+2025-05-17 12:23:39,236 - INFO - Attempt 2/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:23:39,236 - WARNING - Attempt 2 failed to navigate to product reviews page URL: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0052FC83+61635]
+	GetHandleVerifier [0x0052FCC4+61700]
+	(No symbol) [0x0035044E]
+	(No symbol) [0x0038BB08]
+	(No symbol) [0x003BD156]
+	(No symbol) [0x003B8C22]
+	(No symbol) [0x003B81B6]
+	(No symbol) [0x003236C5]
+	(No symbol) [0x00323C1E]
+	(No symbol) [0x003240AD]
+	GetHandleVerifier [0x007B45A3+2701795]
+	GetHandleVerifier [0x007AFD26+2683238]
+	GetHandleVerifier [0x007CAA6E+2793134]
+	GetHandleVerifier [0x00546945+155013]
+	GetHandleVerifier [0x0054D02D+181357]
+	(No symbol) [0x00323390]
+	(No symbol) [0x00322B9D]
+	GetHandleVerifier [0x008A87FC+3701820]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+
+2025-05-17 12:23:43,896 - INFO - Attempt 3/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:23:43,896 - WARNING - Attempt 3 failed to navigate to product reviews page URL: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0052FC83+61635]
+	GetHandleVerifier [0x0052FCC4+61700]
+	(No symbol) [0x0035044E]
+	(No symbol) [0x0038BB08]
+	(No symbol) [0x003BD156]
+	(No symbol) [0x003B8C22]
+	(No symbol) [0x003B81B6]
+	(No symbol) [0x003236C5]
+	(No symbol) [0x00323C1E]
+	(No symbol) [0x003240AD]
+	GetHandleVerifier [0x007B45A3+2701795]
+	GetHandleVerifier [0x007AFD26+2683238]
+	GetHandleVerifier [0x007CAA6E+2793134]
+	GetHandleVerifier [0x00546945+155013]
+	GetHandleVerifier [0x0054D02D+181357]
+	(No symbol) [0x00323390]
+	(No symbol) [0x00322B9D]
+	GetHandleVerifier [0x008A87FC+3701820]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+
+2025-05-17 12:23:49,903 - INFO - Attempt 4/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:23:49,904 - WARNING - Attempt 4 failed to navigate to product reviews page URL: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0052FC83+61635]
+	GetHandleVerifier [0x0052FCC4+61700]
+	(No symbol) [0x0035044E]
+	(No symbol) [0x0038BB08]
+	(No symbol) [0x003BD156]
+	(No symbol) [0x003B8C22]
+	(No symbol) [0x003B81B6]
+	(No symbol) [0x003236C5]
+	(No symbol) [0x00323C1E]
+	(No symbol) [0x003240AD]
+	GetHandleVerifier [0x007B45A3+2701795]
+	GetHandleVerifier [0x007AFD26+2683238]
+	GetHandleVerifier [0x007CAA6E+2793134]
+	GetHandleVerifier [0x00546945+155013]
+	GetHandleVerifier [0x0054D02D+181357]
+	(No symbol) [0x00323390]
+	(No symbol) [0x00322B9D]
+	GetHandleVerifier [0x008A87FC+3701820]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+
+2025-05-17 12:23:57,615 - INFO - Attempt 5/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:23:57,620 - WARNING - Attempt 5 failed to navigate to product reviews page URL: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0052FC83+61635]
+	GetHandleVerifier [0x0052FCC4+61700]
+	(No symbol) [0x0035044E]
+	(No symbol) [0x0038BB08]
+	(No symbol) [0x003BD156]
+	(No symbol) [0x003B8C22]
+	(No symbol) [0x003B81B6]
+	(No symbol) [0x003236C5]
+	(No symbol) [0x00323C1E]
+	(No symbol) [0x003240AD]
+	GetHandleVerifier [0x007B45A3+2701795]
+	GetHandleVerifier [0x007AFD26+2683238]
+	GetHandleVerifier [0x007CAA6E+2793134]
+	GetHandleVerifier [0x00546945+155013]
+	GetHandleVerifier [0x0054D02D+181357]
+	(No symbol) [0x00323390]
+	(No symbol) [0x00322B9D]
+	GetHandleVerifier [0x008A87FC+3701820]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+
+2025-05-17 12:23:57,620 - ERROR - Failed to navigate to product reviews page URL after 5 attempts.
+2025-05-17 12:23:57,620 - ERROR - Failed to navigate to reviews page
+2025-05-17 12:23:57,628 - INFO - Total reviews extracted: 0
+2025-05-17 12:23:57,640 - INFO - Sentiment analysis: {'positive': 0, 'negative': 0, 'neutral': 0}
+2025-05-17 12:23:57,646 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250517_122357.json with sentiment analysis: {'positive': 0, 'negative': 0, 'neutral': 0}
+2025-05-17 12:23:57,647 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250517_122357.json
+2025-05-17 12:23:59,732 - INFO - WebDriver closed successfully

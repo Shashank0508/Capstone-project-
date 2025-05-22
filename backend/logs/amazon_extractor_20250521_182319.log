@@ -1,0 +1,47 @@
+2025-05-21 18:23:19,507 - INFO - Setting up WebDriver...
+2025-05-21 18:23:19,515 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 18:23:19,517 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 18:23:22,658 - INFO - WebDriver setup completed successfully
+2025-05-21 18:23:22,664 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 18:23:22,666 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 18:24:08,229 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 18:24:08,229 - INFO - Extracting reviews from page 1
+2025-05-21 18:24:08,343 - INFO - Found 10 reviews using selector: .review
+2025-05-21 18:24:08,343 - INFO - Found 10 reviews on current page
+2025-05-21 18:24:08,767 - INFO - Extracted review: Excellent
+2025-05-21 18:24:09,091 - INFO - Extracted review: Good product
+2025-05-21 18:24:09,381 - INFO - Extracted review: Everything
+2025-05-21 18:24:09,759 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 18:24:10,085 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 18:24:10,421 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 18:24:10,812 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 18:24:11,144 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 18:24:11,458 - INFO - Extracted review: Amazing
+2025-05-21 18:24:11,761 - INFO - Extracted review: Ncy
+2025-05-21 18:24:11,761 - INFO - Found 10 reviews on current page
+2025-05-21 18:24:11,761 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-21 18:24:12,174 - INFO - Saved screenshot to reviews\reviews_page_1_20250521_182411.png
+2025-05-21 18:24:12,245 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 18:24:12,245 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 18:24:58,530 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 18:24:58,530 - INFO - Extracting reviews from page 2
+2025-05-21 18:24:58,601 - INFO - Found 10 reviews using selector: .review
+2025-05-21 18:24:58,601 - INFO - Found 10 reviews on current page
+2025-05-21 18:24:58,951 - INFO - Extracted review: Excellent
+2025-05-21 18:24:59,297 - INFO - Extracted review: Good product
+2025-05-21 18:24:59,606 - INFO - Extracted review: Everything
+2025-05-21 18:24:59,983 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 18:25:00,315 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 18:25:00,633 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 18:25:01,029 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 18:25:01,365 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 18:25:01,672 - INFO - Extracted review: Amazing
+2025-05-21 18:25:01,982 - INFO - Extracted review: Ncy
+2025-05-21 18:25:01,982 - INFO - Found 10 reviews on current page
+2025-05-21 18:25:01,994 - INFO - Extracted 10 reviews from page 2, 0 duplicates removed. Total unique reviews: 20
+2025-05-21 18:25:02,381 - INFO - Saved screenshot to reviews\reviews_page_2_20250521_182501.png
+2025-05-21 18:25:02,381 - INFO - Reached requested number of reviews (15)
+2025-05-21 18:25:02,381 - INFO - Total unique reviews extracted: 15
+2025-05-21 18:25:02,434 - INFO - Sentiment analysis: {'positive': 14, 'negative': 1, 'neutral': 0}
+2025-05-21 18:25:06,328 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250521_182506.json with sentiment analysis: {'positive': 14, 'negative': 1, 'neutral': 0}
+2025-05-21 18:25:08,594 - INFO - WebDriver closed successfully

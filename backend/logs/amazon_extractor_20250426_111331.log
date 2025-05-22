@@ -1,0 +1,79 @@
+2025-04-26 11:13:31,132 - INFO - Starting Amazon Review Extractor
+2025-04-26 11:13:31,132 - INFO - Setting up WebDriver...
+2025-04-26 11:13:37,356 - INFO - WebDriver setup completed successfully
+2025-04-26 11:13:37,356 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJC8DG8
+2025-04-26 11:13:37,356 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJC8DG8
+2025-04-26 11:16:26,472 - ERROR - An unexpected error occurred during navigation to product reviews page URL: HTTPConnectionPool(host='localhost', port=55613): Read timed out. (read timeout=120)
+Traceback (most recent call last):
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Users\Shashank\anaconda3\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\socket.py", line 708, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shashank\Desktop\capstone project\amazon_review_frontend\backend\amazon_review.py", line 192, in _safe_get
+    self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=55613): Read timed out. (read timeout=120)
+2025-04-26 11:16:26,555 - ERROR - Failed to navigate to reviews page
+2025-04-26 11:16:26,570 - INFO - Total reviews extracted: 0
+2025-04-26 11:16:26,572 - INFO - Sentiment analysis: {'positive': 0, 'negative': 0, 'neutral': 0}
+2025-04-26 11:16:26,572 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJC8DG8_20250426_111626.json with sentiment analysis: {'positive': 0, 'negative': 0, 'neutral': 0}
+2025-04-26 11:16:26,582 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJC8DG8_20250426_111626.json

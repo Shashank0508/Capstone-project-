@@ -1,0 +1,139 @@
+2025-05-21 16:36:15,599 - INFO - Setting up WebDriver...
+2025-05-21 16:36:15,600 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 16:36:15,600 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 16:36:18,537 - INFO - WebDriver setup completed successfully
+2025-05-21 16:36:18,537 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGHZWBYB
+2025-05-21 16:36:18,537 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGHZWBYB
+2025-05-21 16:37:04,268 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 16:37:04,284 - INFO - Extracting reviews from page 1
+2025-05-21 16:37:04,382 - INFO - Found 10 reviews using selector: .review
+2025-05-21 16:37:04,382 - INFO - Found 10 reviews on current page
+2025-05-21 16:37:04,812 - INFO - Extracted review: Lightweight and high quality
+2025-05-21 16:37:05,124 - INFO - Extracted review: Recent iPhone 16 review...!! Good buy
+2025-05-21 16:37:05,475 - INFO - Extracted review: Good Phone
+2025-05-21 16:37:05,794 - INFO - Extracted review: Best iPhone so far.
+2025-05-21 16:37:06,112 - INFO - Extracted review: Good
+2025-05-21 16:37:06,432 - INFO - Extracted review: Poor Seller Experience
+2025-05-21 16:37:06,732 - INFO - Extracted review: Best one
+2025-05-21 16:37:07,037 - INFO - Extracted review: Extraordinary
+2025-05-21 16:37:07,329 - INFO - Extracted review: Worst packaging
+2025-05-21 16:37:07,686 - INFO - Extracted review: Guaranty paper???
+2025-05-21 16:37:07,686 - INFO - Found 10 reviews on current page
+2025-05-21 16:37:07,686 - INFO - Extracted 10 new unique reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-21 16:37:08,071 - INFO - Saved screenshot to reviews\reviews_page_1_20250521_163707.png
+2025-05-21 16:37:08,138 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:37:08,138 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:37:54,102 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 16:37:54,102 - INFO - Extracting reviews from page 2
+2025-05-21 16:37:54,154 - INFO - Found 10 reviews using selector: .review
+2025-05-21 16:37:54,154 - INFO - Found 10 reviews on current page
+2025-05-21 16:37:54,523 - INFO - Extracted review: Lightweight and high quality
+2025-05-21 16:37:54,841 - INFO - Extracted review: Recent iPhone 16 review...!! Good buy
+2025-05-21 16:37:55,153 - INFO - Extracted review: Good Phone
+2025-05-21 16:37:55,472 - INFO - Extracted review: Best iPhone so far.
+2025-05-21 16:37:55,783 - INFO - Extracted review: Good
+2025-05-21 16:37:56,100 - INFO - Extracted review: Poor Seller Experience
+2025-05-21 16:37:56,420 - INFO - Extracted review: Best one
+2025-05-21 16:37:56,716 - INFO - Extracted review: Extraordinary
+2025-05-21 16:37:57,031 - INFO - Extracted review: Worst packaging
+2025-05-21 16:37:57,383 - INFO - Extracted review: Guaranty paper???
+2025-05-21 16:37:57,383 - INFO - Found 10 reviews on current page
+2025-05-21 16:37:57,383 - INFO - Extracted 0 new unique reviews from page 2, 10 duplicates removed. Total unique reviews: 10
+2025-05-21 16:37:57,730 - INFO - Saved screenshot to reviews\reviews_page_2_20250521_163757.png
+2025-05-21 16:37:57,782 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:37:57,782 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:38:42,441 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 16:38:42,441 - INFO - Extracting reviews from page 3
+2025-05-21 16:38:42,510 - INFO - Found 10 reviews using selector: .review
+2025-05-21 16:38:42,510 - INFO - Found 10 reviews on current page
+2025-05-21 16:38:42,862 - INFO - Extracted review: Lightweight and high quality
+2025-05-21 16:38:43,193 - INFO - Extracted review: Recent iPhone 16 review...!! Good buy
+2025-05-21 16:38:43,519 - INFO - Extracted review: Good Phone
+2025-05-21 16:38:43,860 - INFO - Extracted review: Best iPhone so far.
+2025-05-21 16:38:44,209 - INFO - Extracted review: Good
+2025-05-21 16:38:44,526 - INFO - Extracted review: Poor Seller Experience
+2025-05-21 16:38:44,843 - INFO - Extracted review: Best one
+2025-05-21 16:38:45,160 - INFO - Extracted review: Extraordinary
+2025-05-21 16:38:45,458 - INFO - Extracted review: Worst packaging
+2025-05-21 16:38:45,808 - INFO - Extracted review: Guaranty paper???
+2025-05-21 16:38:45,808 - INFO - Found 10 reviews on current page
+2025-05-21 16:38:45,808 - INFO - Extracted 0 new unique reviews from page 3, 10 duplicates removed. Total unique reviews: 10
+2025-05-21 16:38:45,993 - INFO - Saved screenshot to reviews\reviews_page_3_20250521_163845.png
+2025-05-21 16:38:46,041 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:38:46,041 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:39:32,122 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 16:39:32,122 - INFO - Extracting reviews from page 4
+2025-05-21 16:39:32,163 - INFO - Found 10 reviews using selector: .review
+2025-05-21 16:39:32,163 - INFO - Found 10 reviews on current page
+2025-05-21 16:39:32,388 - INFO - Extracted review: Lightweight and high quality
+2025-05-21 16:39:32,595 - INFO - Extracted review: Recent iPhone 16 review...!! Good buy
+2025-05-21 16:39:32,796 - INFO - Extracted review: Good Phone
+2025-05-21 16:39:33,002 - INFO - Extracted review: Best iPhone so far.
+2025-05-21 16:39:33,252 - INFO - Extracted review: Good
+2025-05-21 16:39:33,486 - INFO - Extracted review: Poor Seller Experience
+2025-05-21 16:39:33,686 - INFO - Extracted review: Best one
+2025-05-21 16:39:33,910 - INFO - Extracted review: Extraordinary
+2025-05-21 16:39:34,107 - INFO - Extracted review: Worst packaging
+2025-05-21 16:39:34,341 - INFO - Extracted review: Guaranty paper???
+2025-05-21 16:39:34,341 - INFO - Found 10 reviews on current page
+2025-05-21 16:39:34,341 - INFO - Extracted 0 new unique reviews from page 4, 10 duplicates removed. Total unique reviews: 10
+2025-05-21 16:39:34,532 - INFO - Saved screenshot to reviews\reviews_page_4_20250521_163934.png
+2025-05-21 16:39:34,552 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:39:34,552 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:40:20,575 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 16:40:20,575 - INFO - Extracting reviews from page 5
+2025-05-21 16:40:20,597 - INFO - Found 10 reviews using selector: .review
+2025-05-21 16:40:20,597 - INFO - Found 10 reviews on current page
+2025-05-21 16:40:20,815 - INFO - Extracted review: Lightweight and high quality
+2025-05-21 16:40:21,018 - INFO - Extracted review: Recent iPhone 16 review...!! Good buy
+2025-05-21 16:40:21,172 - INFO - Extracted review: Good Phone
+2025-05-21 16:40:21,351 - INFO - Extracted review: Best iPhone so far.
+2025-05-21 16:40:21,460 - INFO - Extracted review: Good
+2025-05-21 16:40:21,635 - INFO - Extracted review: Poor Seller Experience
+2025-05-21 16:40:21,849 - INFO - Extracted review: Best one
+2025-05-21 16:40:22,006 - INFO - Extracted review: Extraordinary
+2025-05-21 16:40:22,101 - INFO - Extracted review: Worst packaging
+2025-05-21 16:40:22,236 - INFO - Extracted review: Guaranty paper???
+2025-05-21 16:40:22,236 - INFO - Found 10 reviews on current page
+2025-05-21 16:40:22,236 - INFO - Extracted 0 new unique reviews from page 5, 10 duplicates removed. Total unique reviews: 10
+2025-05-21 16:40:22,535 - INFO - Saved screenshot to reviews\reviews_page_5_20250521_164022.png
+2025-05-21 16:40:22,565 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:40:22,565 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:41:07,962 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 16:41:07,962 - INFO - Extracting reviews from page 6
+2025-05-21 16:41:07,994 - INFO - Found 10 reviews using selector: .review
+2025-05-21 16:41:07,994 - INFO - Found 10 reviews on current page
+2025-05-21 16:41:08,207 - INFO - Extracted review: Lightweight and high quality
+2025-05-21 16:41:08,338 - INFO - Extracted review: Recent iPhone 16 review...!! Good buy
+2025-05-21 16:41:08,448 - INFO - Extracted review: Good Phone
+2025-05-21 16:41:08,560 - INFO - Extracted review: Best iPhone so far.
+2025-05-21 16:41:08,728 - INFO - Extracted review: Good
+2025-05-21 16:41:08,912 - INFO - Extracted review: Poor Seller Experience
+2025-05-21 16:41:09,059 - INFO - Extracted review: Best one
+2025-05-21 16:41:09,248 - INFO - Extracted review: Extraordinary
+2025-05-21 16:41:09,346 - INFO - Extracted review: Worst packaging
+2025-05-21 16:41:09,469 - INFO - Extracted review: Guaranty paper???
+2025-05-21 16:41:09,469 - INFO - Found 10 reviews on current page
+2025-05-21 16:41:09,469 - INFO - Extracted 0 new unique reviews from page 6, 10 duplicates removed. Total unique reviews: 10
+2025-05-21 16:41:09,736 - INFO - Saved screenshot to reviews\reviews_page_6_20250521_164109.png
+2025-05-21 16:41:09,760 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:41:09,773 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:41:55,818 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 16:41:55,818 - INFO - Extracting reviews from page 7
+2025-05-21 16:41:55,865 - INFO - Found 10 reviews using selector: .review
+2025-05-21 16:41:55,865 - INFO - Found 10 reviews on current page
+2025-05-21 16:41:56,087 - INFO - Extracted review: Lightweight and high quality
+2025-05-21 16:41:56,309 - INFO - Extracted review: Recent iPhone 16 review...!! Good buy
+2025-05-21 16:41:56,487 - INFO - Extracted review: Good Phone
+2025-05-21 16:41:56,713 - INFO - Extracted review: Best iPhone so far.
+2025-05-21 16:41:56,973 - INFO - Extracted review: Good
+2025-05-21 16:41:57,131 - INFO - Extracted review: Poor Seller Experience
+2025-05-21 16:41:57,272 - INFO - Extracted review: Best one
+2025-05-21 16:41:57,467 - INFO - Extracted review: Extraordinary
+2025-05-21 16:41:57,656 - INFO - Extracted review: Worst packaging
+2025-05-21 16:41:57,902 - INFO - Extracted review: Guaranty paper???
+2025-05-21 16:41:57,902 - INFO - Found 10 reviews on current page
+2025-05-21 16:41:57,902 - INFO - Extracted 0 new unique reviews from page 7, 10 duplicates removed. Total unique reviews: 10
+2025-05-21 16:41:58,325 - INFO - Saved screenshot to reviews\reviews_page_7_20250521_164157.png
+2025-05-21 16:41:58,356 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 16:41:58,356 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-128-GB-Control/product-reviews/B0DGHZWBYB/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2

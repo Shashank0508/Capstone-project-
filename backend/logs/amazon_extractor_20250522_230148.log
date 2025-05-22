@@ -1,0 +1,331 @@
+2025-05-22 23:01:48,562 - INFO - Starting Amazon Review Extractor
+2025-05-22 23:01:48,562 - INFO - Setting up WebDriver...
+2025-05-22 23:01:48,572 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-22 23:01:48,574 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-22 23:01:52,850 - INFO - WebDriver setup completed successfully
+2025-05-22 23:01:52,850 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0CY5HVDS2
+2025-05-22 23:01:52,850 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0CY5HVDS2
+2025-05-22 23:02:38,717 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-22 23:02:38,717 - INFO - Extracting reviews from page 1
+2025-05-22 23:02:38,828 - INFO - Found 10 reviews using selector: .review
+2025-05-22 23:02:38,828 - INFO - Found 10 reviews on current page
+2025-05-22 23:02:39,253 - INFO - Extracted review: Great product
+2025-05-22 23:02:39,558 - INFO - Extracted review: Good product
+2025-05-22 23:02:40,016 - INFO - Extracted review: Impressive Upgrade to the Gaming Experience 😍😍😍😍
+2025-05-22 23:02:40,366 - INFO - Extracted review: Excellent PS5 Purchase Experience on Amazon"
+2025-05-22 23:02:40,682 - INFO - Extracted review: bad experience
+2025-05-22 23:02:41,010 - INFO - Extracted review: Worth Every Penny!
+2025-05-22 23:02:41,302 - INFO - Extracted review: Build
+2025-05-22 23:02:41,614 - INFO - Extracted review: Beast
+2025-05-22 23:02:41,931 - INFO - Extracted review: Worth the money
+2025-05-22 23:02:42,272 - INFO - Extracted review: Nothing
+2025-05-22 23:02:42,272 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-22 23:02:42,636 - INFO - Saved screenshot to reviews/reviews_page_1_20250522_230242.png
+2025-05-22 23:03:30,240 - INFO - Successfully navigated to next page
+2025-05-22 23:03:32,973 - INFO - Extracting reviews from page 2
+2025-05-22 23:03:33,027 - INFO - Found 10 reviews using selector: .review
+2025-05-22 23:03:33,027 - INFO - Found 10 reviews on current page
+2025-05-22 23:03:33,432 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F90CA]
+	(No symbol) [0x004F9147]
+	(No symbol) [0x00538234]
+	(No symbol) [0x00538D3B]
+	(No symbol) [0x0052E111]
+	(No symbol) [0x0055D2E4]
+	(No symbol) [0x0052E034]
+	(No symbol) [0x0055D514]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,442 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,471 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,482 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,507 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,514 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,531 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,539 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,557 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,571 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,588 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,588 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,608 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,608 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,623 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,623 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,635 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,635 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,655 - ERROR - Error extracting review data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x006CFC03+61635]
+	GetHandleVerifier [0x006CFC44+61700]
+	(No symbol) [0x004F05D3]
+	(No symbol) [0x004F6DD0]
+	(No symbol) [0x004F9335]
+	(No symbol) [0x0057F531]
+	(No symbol) [0x0055D29C]
+	(No symbol) [0x0057E61B]
+	(No symbol) [0x0055D096]
+	(No symbol) [0x0052C840]
+	(No symbol) [0x0052D6A4]
+	GetHandleVerifier [0x00954523+2701795]
+	GetHandleVerifier [0x0094FCA6+2683238]
+	GetHandleVerifier [0x0096A9EE+2793134]
+	GetHandleVerifier [0x006E68C5+155013]
+	GetHandleVerifier [0x006ECFAD+181357]
+	GetHandleVerifier [0x006D7458+92440]
+	GetHandleVerifier [0x006D7600+92864]
+	GetHandleVerifier [0x006C1FF0+5296]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x7723C36B+107]
+	RtlClearBits [0x7723C2EF+191]
+
+2025-05-22 23:03:33,655 - ERROR - Error processing review: 'title'
+2025-05-22 23:03:33,655 - INFO - Extracted 10 reviews from page 2, 0 duplicates removed. Total unique reviews: 20
+2025-05-22 23:03:33,853 - INFO - Saved screenshot to reviews/reviews_page_2_20250522_230333.png
+2025-05-22 23:03:33,853 - INFO - Reached maximum page limit (2)
+2025-05-22 23:03:33,853 - INFO - Total unique reviews extracted: 20
+2025-05-22 23:03:37,865 - ERROR - Unhandled exception in run method: RetryError[<Future at 0x167bb19ff80 state=finished raised KeyError>]
+Traceback (most recent call last):
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\Desktop\complete capstone\backend\amazon_review.py", line 605, in generate_summary
+    review_text = "\n".join([f"Rating: {r['rating']}, Review: {r['body']}" for r in reviews if r['body']])
+                                                                                               ~^^^^^^^^
+KeyError: 'body'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shashank\Desktop\complete capstone\backend\amazon_review.py", line 687, in run
+    summary = self.generate_summary(reviews) if reviews else {
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\tenacity\__init__.py", line 326, in iter
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x167bb19ff80 state=finished raised KeyError>]

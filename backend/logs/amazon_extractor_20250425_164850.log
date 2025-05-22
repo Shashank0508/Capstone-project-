@@ -1,0 +1,33 @@
+2025-04-25 16:48:50,492 - INFO - Starting Amazon Review Extractor
+2025-04-25 16:48:50,496 - INFO - Setting up WebDriver...
+2025-04-25 16:48:54,787 - INFO - WebDriver setup completed successfully
+2025-04-25 16:48:54,787 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-04-25 16:48:54,787 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-04-25 16:49:41,253 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 16:49:41,254 - INFO - Extracting reviews from page 1
+2025-04-25 16:49:41,335 - INFO - Found 10 reviews using selector: .review
+2025-04-25 16:49:41,335 - INFO - Found 10 reviews on current page
+2025-04-25 16:49:41,737 - INFO - Extracted review: Excellent
+2025-04-25 16:49:42,001 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-04-25 16:49:42,318 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-04-25 16:49:42,608 - INFO - Extracted review: Good quality and original product
+2025-04-25 16:49:42,864 - INFO - Extracted review: Extremely Disappointed – No Return Policy Mentioned Clearly
+2025-04-25 16:49:43,167 - INFO - Extracted review: Best iPhone with pro camera button
+2025-04-25 16:49:43,500 - INFO - Extracted review: Best phone
+2025-04-25 16:49:43,756 - INFO - Extracted review: Best till now
+2025-04-25 16:49:44,063 - INFO - Extracted review: Not so impressive as 1st an iPhone.
+2025-04-25 16:49:44,316 - INFO - Extracted review: Delivery bad
+2025-04-25 16:49:44,316 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-25 16:49:44,474 - INFO - Saved screenshot to reviews/reviews_page_1_20250425_164944.png
+2025-04-25 16:49:44,521 - INFO - Found next button using selector: li.a-last a
+2025-04-25 16:49:45,579 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-25 16:49:45,579 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-25 16:50:31,852 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 16:50:35,705 - INFO - Extracting reviews from page 2
+2025-04-25 16:50:35,757 - INFO - Found 10 reviews using selector: .review
+2025-04-25 16:50:35,757 - INFO - Found 10 reviews on current page
+2025-04-25 16:50:36,058 - INFO - Extracted review: Great phone
+2025-04-25 16:50:36,332 - INFO - Extracted review: Good
+2025-04-25 16:50:36,590 - INFO - Extracted review: Overall Good product
+2025-04-25 16:50:36,827 - INFO - Extracted review: Good phone.
+2025-04-25 16:50:37,089 - INFO - Extracted review: Happy to use it

@@ -1,0 +1,37 @@
+2025-04-26 11:08:13,945 - INFO - Starting Amazon Review Extractor
+2025-04-26 11:08:13,957 - INFO - Setting up WebDriver...
+2025-04-26 11:08:43,515 - INFO - WebDriver setup completed successfully
+2025-04-26 11:08:43,515 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B07962S4F6
+2025-04-26 11:08:43,517 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B07962S4F6
+2025-04-26 11:09:32,301 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 11:09:32,301 - INFO - Starting extraction with max_pages set to: 2
+2025-04-26 11:09:32,309 - INFO - Extracting reviews from page 1
+2025-04-26 11:09:32,374 - INFO - Found 10 reviews using selector: .review
+2025-04-26 11:09:32,374 - INFO - Found 10 reviews on current page
+2025-04-26 11:09:32,689 - INFO - Extracted review: good product
+2025-04-26 11:09:32,939 - INFO - Extracted review: Very good product
+2025-04-26 11:09:33,211 - INFO - Extracted review: Good for practice
+2025-04-26 11:09:33,428 - INFO - Extracted review: Great for gym workout
+2025-04-26 11:09:33,722 - INFO - Extracted review: Terrible Quality
+2025-04-26 11:09:34,018 - INFO - Extracted review: Great overall product
+2025-04-26 11:09:34,269 - INFO - Extracted review: A very good product
+2025-04-26 11:09:34,532 - INFO - Extracted review: Country of origin
+2025-04-26 11:09:34,780 - INFO - Extracted review: Nice product.
+2025-04-26 11:09:35,073 - INFO - Extracted review: Bad product
+2025-04-26 11:09:35,073 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 11:09:35,249 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_110935.png
+2025-04-26 11:09:35,310 - INFO - Next page button found with selector 'li.a-last a' and href: https://www.amazon.in/Everlast-Elite-Style-Training-Gloves/product-reviews/B07962S4F6/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 11:09:35,352 - INFO - Found next button using selector: li.a-last a
+2025-04-26 11:09:35,378 - INFO - Current page number: 1
+2025-04-26 11:09:35,393 - INFO - Navigating to next page URL: https://www.amazon.in/Everlast-Elite-Style-Training-Gloves/product-reviews/B07962S4F6/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 11:09:35,393 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/Everlast-Elite-Style-Training-Gloves/product-reviews/B07962S4F6/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 11:10:24,772 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 11:10:27,413 - INFO - Extracting reviews from page 2
+2025-04-26 11:10:27,455 - INFO - Found 10 reviews using selector: .review
+2025-04-26 11:10:27,455 - INFO - Found 10 reviews on current page
+2025-04-26 11:10:27,653 - INFO - Extracted review: Don't fall for reviews, this glove is not for heavy bag
+2025-04-26 11:10:27,932 - INFO - Extracted review: Not for Heavy bag workouts
+2025-04-26 11:10:28,422 - INFO - Extracted review: Product is Good but size is not as mentioned or inaccurate description on product
+2025-04-26 11:10:28,669 - INFO - Extracted review: Great product
+2025-04-26 11:10:28,890 - INFO - Extracted review: Worst quality for the price
+2025-04-26 11:10:29,122 - INFO - Extracted review: Best for training

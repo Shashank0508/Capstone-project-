@@ -1,0 +1,63 @@
+2025-05-21 12:03:18,013 - INFO - Starting Amazon Review Extractor
+2025-05-21 12:03:18,013 - INFO - Setting up WebDriver...
+2025-05-21 12:03:18,015 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 12:03:18,016 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 12:03:21,731 - INFO - WebDriver setup completed successfully
+2025-05-21 12:03:21,731 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 12:03:21,731 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 12:04:08,222 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 12:04:08,224 - INFO - Extracting reviews from page 1
+2025-05-21 12:04:08,310 - INFO - Found 10 reviews using selector: .review
+2025-05-21 12:04:08,317 - INFO - Found 10 reviews on current page
+2025-05-21 12:04:08,725 - INFO - Extracted review: Excellent
+2025-05-21 12:04:09,069 - INFO - Extracted review: Good product
+2025-05-21 12:04:09,390 - INFO - Extracted review: Everything
+2025-05-21 12:04:09,774 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 12:04:10,090 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 12:04:10,422 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 12:04:10,781 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 12:04:11,116 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 12:04:11,434 - INFO - Extracted review: Amazing
+2025-05-21 12:04:11,751 - INFO - Extracted review: Ncy
+2025-05-21 12:04:11,751 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-21 12:04:11,941 - INFO - Saved screenshot to reviews/reviews_page_1_20250521_120411.png
+2025-05-21 12:04:58,353 - INFO - Successfully navigated to next page
+2025-05-21 12:05:00,728 - INFO - Extracting reviews from page 2
+2025-05-21 12:05:00,798 - INFO - Found 10 reviews using selector: .review
+2025-05-21 12:05:00,798 - INFO - Found 10 reviews on current page
+2025-05-21 12:05:01,124 - INFO - Extracted review: Not so impressive as 1st an iPhone.
+2025-05-21 12:05:01,417 - INFO - Extracted review: Loved it
+2025-05-21 12:05:01,728 - INFO - Extracted review: Awesome
+2025-05-21 12:05:02,031 - INFO - Extracted review: Photo quality of camera is not good
+2025-05-21 12:05:02,347 - INFO - Extracted review: JUST GO FOR IT!
+2025-05-21 12:05:02,680 - INFO - Extracted review: Value for money with Genuine product
+2025-05-21 12:05:03,013 - INFO - Extracted review: Best till now
+2025-05-21 12:05:03,313 - INFO - Extracted review: Best phone
+2025-05-21 12:05:03,623 - INFO - Extracted review: Delivery bad
+2025-05-21 12:05:03,930 - INFO - Extracted review: Great phone
+2025-05-21 12:05:03,930 - INFO - Extracted 10 reviews from page 2, 0 duplicates removed. Total unique reviews: 20
+2025-05-21 12:05:04,120 - INFO - Saved screenshot to reviews/reviews_page_2_20250521_120503.png
+2025-05-21 12:05:49,615 - INFO - Successfully navigated to next page
+2025-05-21 12:05:52,347 - INFO - Extracting reviews from page 3
+2025-05-21 12:05:52,412 - INFO - Found 10 reviews using selector: .review
+2025-05-21 12:05:52,412 - INFO - Found 10 reviews on current page
+2025-05-21 12:05:52,756 - INFO - Extracted review: Good quality and original product
+2025-05-21 12:05:53,073 - INFO - Extracted review: Good
+2025-05-21 12:05:53,438 - INFO - Extracted review: camera quality is superb 👌
+2025-05-21 12:05:53,782 - INFO - Extracted review: Overall Good product
+2025-05-21 12:05:54,104 - INFO - Extracted review: Good phone.
+2025-05-21 12:05:54,429 - INFO - Extracted review: Happy to use it
+2025-05-21 12:05:54,772 - INFO - Extracted review: Awesome phone with sturdy packaging
+2025-05-21 12:05:55,105 - INFO - Extracted review: Worth try
+2025-05-21 12:05:55,450 - INFO - Extracted review: Good
+2025-05-21 12:05:55,869 - INFO - Extracted review: Amazing
+2025-05-21 12:05:55,869 - INFO - Extracted 10 reviews from page 3, 0 duplicates removed. Total unique reviews: 30
+2025-05-21 12:05:56,053 - INFO - Saved screenshot to reviews/reviews_page_3_20250521_120555.png
+2025-05-21 12:05:56,053 - INFO - Reached maximum page limit (3)
+2025-05-21 12:05:56,053 - INFO - Total unique reviews extracted: 30
+2025-05-21 12:05:59,797 - INFO - Sentiment analysis: {'positive': 28, 'negative': 1, 'neutral': 1}
+2025-05-21 12:05:59,798 - INFO - Sentiment analysis: {'positive': 28, 'negative': 1, 'neutral': 1}
+2025-05-21 12:05:59,798 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250521_120559.json with sentiment analysis: {'positive': 28, 'negative': 1, 'neutral': 1}
+2025-05-21 12:05:59,822 - INFO - Updated reviews\amazon_reviews_B0DGJH94KM_20250521_120559.json with summary
+2025-05-21 12:05:59,823 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250521_120559.json
+2025-05-21 12:06:02,029 - INFO - WebDriver closed successfully

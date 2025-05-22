@@ -1,0 +1,70 @@
+2025-05-13 21:52:56,081 - INFO - Starting Review Extractor
+2025-05-13 21:52:56,091 - INFO - Detected Flipkart URL
+2025-05-13 21:52:56,091 - INFO - Setting up WebDriver...
+2025-05-13 21:52:58,467 - INFO - WebDriver setup completed successfully
+2025-05-13 21:52:58,467 - INFO - Generated reviews URL: https://www.flipkart.com/product-reviews/SMWGMH4JA69PG4TF
+2025-05-13 21:52:58,470 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.flipkart.com/product-reviews/SMWGMH4JA69PG4TF
+2025-05-13 21:53:25,538 - WARNING - Attempt 1 failed to navigate to product reviews page URL: Message: tab crashed
+  (Session info: chrome=136.0.7103.93)
+Stacktrace:
+	GetHandleVerifier [0x00C7FC53+61635]
+	GetHandleVerifier [0x00C7FC94+61700]
+	(No symbol) [0x00AA044E]
+	(No symbol) [0x00A9217A]
+	(No symbol) [0x00A915F8]
+	(No symbol) [0x00A91193]
+	(No symbol) [0x00A90EA1]
+	(No symbol) [0x00A8EE80]
+	(No symbol) [0x00A8F93D]
+	(No symbol) [0x00A9C049]
+	(No symbol) [0x00AAD6C5]
+	(No symbol) [0x00AB30E6]
+	(No symbol) [0x00A8FF4D]
+	(No symbol) [0x00AACF44]
+	(No symbol) [0x00B2E52A]
+	(No symbol) [0x00B0D096]
+	(No symbol) [0x00ADC840]
+	(No symbol) [0x00ADD6A4]
+	GetHandleVerifier [0x00F04573+2701795]
+	GetHandleVerifier [0x00EFFCF6+2683238]
+	GetHandleVerifier [0x00F1AA3E+2793134]
+	GetHandleVerifier [0x00C96915+155013]
+	GetHandleVerifier [0x00C9CFFD+181357]
+	GetHandleVerifier [0x00C874A8+92440]
+	GetHandleVerifier [0x00C87650+92864]
+	GetHandleVerifier [0x00C72040+5296]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+
+2025-05-13 21:53:32,031 - INFO - Attempt 2/5: Navigating to product reviews page URL: https://www.flipkart.com/product-reviews/SMWGMH4JA69PG4TF
+2025-05-13 21:53:32,035 - WARNING - Attempt 2 failed to navigate to product reviews page URL: Message: tab crashed
+  (Session info: chrome=136.0.7103.93)
+Stacktrace:
+	GetHandleVerifier [0x00C7FC53+61635]
+	GetHandleVerifier [0x00C7FC94+61700]
+	(No symbol) [0x00AA044E]
+	(No symbol) [0x00A90E60]
+	(No symbol) [0x00A8EE80]
+	(No symbol) [0x00A8F93D]
+	(No symbol) [0x00A9C049]
+	(No symbol) [0x00AAD6C5]
+	(No symbol) [0x00AB30E6]
+	(No symbol) [0x00A8FF4D]
+	(No symbol) [0x00AACF44]
+	(No symbol) [0x00B2E52A]
+	(No symbol) [0x00B0D096]
+	(No symbol) [0x00ADC840]
+	(No symbol) [0x00ADD6A4]
+	GetHandleVerifier [0x00F04573+2701795]
+	GetHandleVerifier [0x00EFFCF6+2683238]
+	GetHandleVerifier [0x00F1AA3E+2793134]
+	GetHandleVerifier [0x00C96915+155013]
+	GetHandleVerifier [0x00C9CFFD+181357]
+	GetHandleVerifier [0x00C874A8+92440]
+	GetHandleVerifier [0x00C87650+92864]
+	GetHandleVerifier [0x00C72040+5296]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+

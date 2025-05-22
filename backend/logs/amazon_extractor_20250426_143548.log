@@ -1,0 +1,28 @@
+2025-04-26 14:35:48,756 - INFO - Starting Amazon Review Extractor
+2025-04-26 14:35:48,768 - INFO - Setting up WebDriver...
+2025-04-26 14:35:52,617 - INFO - WebDriver setup completed successfully
+2025-04-26 14:35:52,617 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B06Y18MPK7
+2025-04-26 14:35:52,617 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B06Y18MPK7
+2025-04-26 14:36:42,235 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 14:36:42,235 - INFO - Extracting reviews from page 1
+2025-04-26 14:36:42,329 - INFO - Found 10 reviews using selector: .review
+2025-04-26 14:36:42,329 - INFO - Found 10 reviews on current page
+2025-04-26 14:36:42,769 - INFO - Extracted review: Very Good product
+2025-04-26 14:36:43,099 - INFO - Extracted review: Nice app
+2025-04-26 14:36:43,436 - INFO - Extracted review: Chana ashan aur picture v best quality Excellent hai
+2025-04-26 14:36:43,777 - INFO - Extracted review: Very good variety. App interface could be better.
+2025-04-26 14:36:44,092 - INFO - Extracted review: Hot star on fire tv stick
+2025-04-26 14:36:44,403 - INFO - Extracted review: NEEDS improvement in the content section.
+2025-04-26 14:36:44,752 - INFO - Extracted review: to be improved in user inerface
+2025-04-26 14:36:45,076 - INFO - Extracted review: The only OTT platform you need
+2025-04-26 14:36:45,385 - INFO - Extracted review: Keeps logging me out after couple of days even after updating the application.
+2025-04-26 14:36:45,723 - INFO - Extracted review: Add playback speed option in fire tv app
+2025-04-26 14:36:45,723 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 14:36:45,925 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_143645.png
+2025-04-26 14:36:45,925 - INFO - Reached maximum page limit (1)
+2025-04-26 14:36:45,925 - INFO - Total reviews extracted: 10
+2025-04-26 14:36:50,948 - INFO - Sentiment analysis: {'positive': 7, 'negative': 2, 'neutral': 1}
+2025-04-26 14:36:50,975 - INFO - Saved 10 reviews to CSV: reviews\amazon_reviews_B06Y18MPK7_20250426_143650.csv
+2025-04-26 14:36:50,980 - INFO - Saved summary to reviews\summary_B06Y18MPK7_20250426_143650.json
+2025-04-26 14:36:50,980 - INFO - Reviews saved to: reviews\amazon_reviews_B06Y18MPK7_20250426_143650.csv
+2025-04-26 14:36:53,266 - INFO - WebDriver closed successfully

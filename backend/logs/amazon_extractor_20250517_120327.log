@@ -1,0 +1,121 @@
+2025-05-17 12:03:28,539 - INFO - Starting Amazon Review Extractor
+2025-05-17 12:03:28,539 - INFO - Setting up WebDriver...
+2025-05-17 12:03:31,193 - INFO - WebDriver setup completed successfully
+2025-05-17 12:03:31,193 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:03:31,193 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:04:56,982 - INFO - On reviews page based on URL, though review elements not found. URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-17 12:04:57,243 - INFO - Saved screenshot to reviews/reviews_page_20250517_120456.png
+2025-05-17 12:04:57,243 - INFO - Starting extraction with max_pages set to: 2
+2025-05-17 12:04:57,247 - INFO - Extracting reviews from page 1
+2025-05-17 12:05:46,338 - ERROR - Error extracting reviews from page: Message: tab crashed
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x0052FC83+61635]
+	GetHandleVerifier [0x0052FCC4+61700]
+	(No symbol) [0x0035044E]
+	(No symbol) [0x00340E60]
+	(No symbol) [0x0033EE80]
+	(No symbol) [0x0033F93D]
+	(No symbol) [0x0034C049]
+	(No symbol) [0x0035D6C5]
+	(No symbol) [0x003630E6]
+	(No symbol) [0x0033FF4D]
+	(No symbol) [0x0035CF44]
+	(No symbol) [0x003DE52A]
+	(No symbol) [0x003BD096]
+	(No symbol) [0x0038C840]
+	(No symbol) [0x0038D6A4]
+	GetHandleVerifier [0x007B45A3+2701795]
+	GetHandleVerifier [0x007AFD26+2683238]
+	GetHandleVerifier [0x007CAA6E+2793134]
+	GetHandleVerifier [0x00546945+155013]
+	GetHandleVerifier [0x0054D02D+181357]
+	GetHandleVerifier [0x005374D8+92440]
+	GetHandleVerifier [0x00537680+92864]
+	GetHandleVerifier [0x00522070+5296]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+
+2025-05-17 12:05:46,338 - INFO - Extracted 0 reviews from page 1. Total reviews: 0
+2025-05-17 12:05:46,338 - ERROR - Unhandled exception in run method: Message: tab crashed
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x0052FC83+61635]
+	GetHandleVerifier [0x0052FCC4+61700]
+	(No symbol) [0x0035044E]
+	(No symbol) [0x00340E60]
+	(No symbol) [0x0033EE80]
+	(No symbol) [0x0033F93D]
+	(No symbol) [0x0034C049]
+	(No symbol) [0x0035D6C5]
+	(No symbol) [0x003630E6]
+	(No symbol) [0x0033FF4D]
+	(No symbol) [0x0035CF44]
+	(No symbol) [0x003DE52A]
+	(No symbol) [0x003BD096]
+	(No symbol) [0x0038C840]
+	(No symbol) [0x0038D6A4]
+	GetHandleVerifier [0x007B45A3+2701795]
+	GetHandleVerifier [0x007AFD26+2683238]
+	GetHandleVerifier [0x007CAA6E+2793134]
+	GetHandleVerifier [0x00546945+155013]
+	GetHandleVerifier [0x0054D02D+181357]
+	GetHandleVerifier [0x005374D8+92440]
+	GetHandleVerifier [0x00537680+92864]
+	GetHandleVerifier [0x00522070+5296]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+Traceback (most recent call last):
+  File "C:\Users\Shashank\Desktop\capstone project\amazon_review_frontend\backend\amazon_review.py", line 846, in run
+    reviews = self.extract_all_reviews(max_pages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\Desktop\capstone project\amazon_review_frontend\backend\amazon_review.py", line 700, in extract_all_reviews
+    self.driver.save_screenshot(screenshot_path)
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 994, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 969, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1003, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1013, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Shashank\anaconda3\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: tab crashed
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x0052FC83+61635]
+	GetHandleVerifier [0x0052FCC4+61700]
+	(No symbol) [0x0035044E]
+	(No symbol) [0x00340E60]
+	(No symbol) [0x0033EE80]
+	(No symbol) [0x0033F93D]
+	(No symbol) [0x0034C049]
+	(No symbol) [0x0035D6C5]
+	(No symbol) [0x003630E6]
+	(No symbol) [0x0033FF4D]
+	(No symbol) [0x0035CF44]
+	(No symbol) [0x003DE52A]
+	(No symbol) [0x003BD096]
+	(No symbol) [0x0038C840]
+	(No symbol) [0x0038D6A4]
+	GetHandleVerifier [0x007B45A3+2701795]
+	GetHandleVerifier [0x007AFD26+2683238]
+	GetHandleVerifier [0x007CAA6E+2793134]
+	GetHandleVerifier [0x00546945+155013]
+	GetHandleVerifier [0x0054D02D+181357]
+	GetHandleVerifier [0x005374D8+92440]
+	GetHandleVerifier [0x00537680+92864]
+	GetHandleVerifier [0x00522070+5296]
+	BaseThreadInitThunk [0x74F47BA9+25]
+	RtlInitializeExceptionChain [0x7732C2EB+107]
+	RtlClearBits [0x7732C26F+191]
+

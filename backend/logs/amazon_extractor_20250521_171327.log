@@ -1,0 +1,15 @@
+2025-05-21 17:13:27,682 - INFO - Setting up WebDriver...
+2025-05-21 17:13:27,689 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 17:13:27,689 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 17:13:30,966 - INFO - WebDriver setup completed successfully
+2025-05-21 17:13:30,966 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGHZWBYB
+2025-05-21 17:13:30,966 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGHZWBYB
+2025-05-21 17:14:18,054 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 17:14:18,057 - INFO - Extracting reviews from page 1
+2025-05-21 17:14:38,273 - WARNING - No reviews found on page 1
+2025-05-21 17:14:38,273 - INFO - Extracting reviews from page 1
+2025-05-21 17:14:58,491 - WARNING - No reviews found on page 1
+2025-05-21 17:14:58,491 - WARNING - Stopping after 2 empty pages
+2025-05-21 17:14:58,491 - INFO - Finished extraction. Total unique reviews: 0
+2025-05-21 17:14:58,491 - WARNING - No reviews extracted
+2025-05-21 17:15:00,687 - INFO - WebDriver closed successfully

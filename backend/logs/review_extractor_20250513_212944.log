@@ -1,0 +1,52 @@
+2025-05-13 21:29:44,910 - INFO - Starting Review Extractor
+2025-05-13 21:29:44,910 - INFO - Detected Flipkart URL
+2025-05-13 21:29:44,910 - INFO - Setting up WebDriver...
+2025-05-13 21:29:47,263 - INFO - WebDriver setup completed successfully
+2025-05-13 21:29:47,263 - INFO - Generated reviews URL: https://www.flipkart.com/apple-iphone-16-black-128-gb/p/itmb07d67f995271?pid=MOBH4DQFG8NKFRDY&lid=LSTMOBH4DQFG8NKFRDYNBDOZI&marketplace=FLIPKART&q=i+phone+16&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&fm=search-autosuggest&iid=e4b239ca-ade8-4912-b7ff-aab9b4b6abb6.MOBH4DQFG8NKFRDY.SEARCH&ppt=sp&ppn=sp&ssid=kh6lrct7b40000001747151647003&qH=c53b3310cf34d225&sortOrder=MOST_HELPFUL
+2025-05-13 21:29:47,263 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.flipkart.com/apple-iphone-16-black-128-gb/p/itmb07d67f995271?pid=MOBH4DQFG8NKFRDY&lid=LSTMOBH4DQFG8NKFRDYNBDOZI&marketplace=FLIPKART&q=i+phone+16&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&fm=search-autosuggest&iid=e4b239ca-ade8-4912-b7ff-aab9b4b6abb6.MOBH4DQFG8NKFRDY.SEARCH&ppt=sp&ppn=sp&ssid=kh6lrct7b40000001747151647003&qH=c53b3310cf34d225&sortOrder=MOST_HELPFUL
+2025-05-13 21:29:52,762 - INFO - Successfully verified reviews page using selector: div.XQDdHH
+2025-05-13 21:29:52,762 - INFO - Starting extraction with max_pages set to: 2
+2025-05-13 21:29:52,762 - INFO - Extracting reviews from page 1
+2025-05-13 21:29:52,811 - INFO - Found 63 reviews using selector: div.cPHDOP.col-12-12 div.row
+2025-05-13 21:29:52,811 - INFO - Found 63 reviews on current page
+2025-05-13 21:29:53,228 - INFO - Extracted review: {'review_id': 'review_69650', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:53.228254'}
+2025-05-13 21:29:53,228 - INFO - Extracted review 1: No Title
+2025-05-13 21:29:53,561 - INFO - Extracted review: {'review_id': 'review_74918', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:53.561848'}
+2025-05-13 21:29:53,561 - INFO - Extracted review 2: No Title
+2025-05-13 21:29:53,894 - INFO - Extracted review: {'review_id': 'review_96843', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:53.894138'}
+2025-05-13 21:29:53,894 - INFO - Extracted review 3: No Title
+2025-05-13 21:29:54,177 - INFO - Extracted review: {'review_id': 'review_70007', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:54.177680'}
+2025-05-13 21:29:54,177 - INFO - Extracted review 4: No Title
+2025-05-13 21:29:54,492 - INFO - Extracted review: {'review_id': 'review_50969', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:54.492919'}
+2025-05-13 21:29:54,492 - INFO - Extracted review 5: No Title
+2025-05-13 21:29:54,726 - INFO - Extracted review: {'review_id': 'review_57571', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:54.726348'}
+2025-05-13 21:29:54,726 - INFO - Extracted review 6: No Title
+2025-05-13 21:29:55,042 - INFO - Extracted review: {'review_id': 'review_80133', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:55.042681'}
+2025-05-13 21:29:55,042 - INFO - Extracted review 7: No Title
+2025-05-13 21:29:55,275 - INFO - Extracted review: {'review_id': 'review_55497', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:55.275668'}
+2025-05-13 21:29:55,275 - INFO - Extracted review 8: No Title
+2025-05-13 21:29:55,508 - INFO - Extracted review: {'review_id': 'review_70833', 'reviewer_name': 'Unknown', 'rating': 5.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:55.508805'}
+2025-05-13 21:29:55,508 - INFO - Extracted review 9: No Title
+2025-05-13 21:29:55,725 - INFO - Extracted review: {'review_id': 'review_24651', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': 'Super and cool photo', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:55.725461'}
+2025-05-13 21:29:55,725 - INFO - Extracted review 10: No Title
+2025-05-13 21:29:56,041 - INFO - Extracted review: {'review_id': 'review_75880', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:56.041865'}
+2025-05-13 21:29:56,041 - INFO - Extracted review 11: No Title
+2025-05-13 21:29:56,393 - INFO - Extracted review: {'review_id': 'review_20644', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:56.393172'}
+2025-05-13 21:29:56,393 - INFO - Extracted review 12: No Title
+2025-05-13 21:29:56,826 - INFO - Extracted review: {'review_id': 'review_16252', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:56.826927'}
+2025-05-13 21:29:56,826 - INFO - Extracted review 13: No Title
+2025-05-13 21:29:57,224 - INFO - Extracted review: {'review_id': 'review_99707', 'reviewer_name': 'Unknown', 'rating': 5.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:57.224980'}
+2025-05-13 21:29:57,224 - INFO - Extracted review 14: No Title
+2025-05-13 21:29:57,557 - INFO - Extracted review: {'review_id': 'review_81722', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': 'Satisfied', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:57.557163'}
+2025-05-13 21:29:57,557 - INFO - Extracted review 15: No Title
+2025-05-13 21:29:57,973 - INFO - Extracted review: {'review_id': 'review_99361', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:57.973908'}
+2025-05-13 21:29:57,973 - INFO - Extracted review 16: No Title
+2025-05-13 21:29:58,366 - INFO - Extracted review: {'review_id': 'review_16026', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:58.366195'}
+2025-05-13 21:29:58,366 - INFO - Extracted review 17: No Title
+2025-05-13 21:29:58,756 - INFO - Extracted review: {'review_id': 'review_36241', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:58.756406'}
+2025-05-13 21:29:58,756 - INFO - Extracted review 18: No Title
+2025-05-13 21:29:59,139 - INFO - Extracted review: {'review_id': 'review_11480', 'reviewer_name': 'Unknown', 'rating': 5.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:59.139808'}
+2025-05-13 21:29:59,139 - INFO - Extracted review 19: No Title
+2025-05-13 21:29:59,452 - INFO - Extracted review 20: No Title
+2025-05-13 21:29:59,876 - INFO - Extracted review: {'review_id': 'review_68368', 'reviewer_name': 'Unknown', 'rating': 0.0, 'title': 'No Title', 'date': '', 'country': 'India', 'verified_purchase': False, 'product_variant': '', 'body': '', 'helpful_votes': 0, 'images': [], 'extracted_at': '2025-05-13T21:29:59.876930'}
+2025-05-13 21:29:59,876 - INFO - Extracted review 21: No Title

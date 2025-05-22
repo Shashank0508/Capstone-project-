@@ -1,0 +1,207 @@
+2025-05-22 19:34:46,270 - INFO - Starting Amazon Review Extractor
+2025-05-22 19:34:46,273 - INFO - Setting up WebDriver...
+2025-05-22 19:34:46,277 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-22 19:34:46,277 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-22 19:34:49,246 - INFO - WebDriver setup completed successfully
+2025-05-22 19:34:49,247 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0CY5HVDS2
+2025-05-22 19:34:49,247 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0CY5HVDS2
+2025-05-22 19:35:35,698 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-22 19:35:35,698 - INFO - Extracting reviews from page 1
+2025-05-22 19:35:35,765 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:35:35,765 - INFO - Found 10 reviews on current page
+2025-05-22 19:35:36,048 - INFO - Extracted review: Great product
+2025-05-22 19:35:36,265 - INFO - Extracted review: Good product
+2025-05-22 19:35:36,513 - INFO - Extracted review: Impressive Upgrade to the Gaming Experience 😍😍😍😍
+2025-05-22 19:35:36,730 - INFO - Extracted review: Excellent PS5 Purchase Experience on Amazon"
+2025-05-22 19:35:36,951 - INFO - Extracted review: bad experience
+2025-05-22 19:35:37,151 - INFO - Extracted review: Worth Every Penny!
+2025-05-22 19:35:37,363 - INFO - Extracted review: Build
+2025-05-22 19:35:37,563 - INFO - Extracted review: Beast
+2025-05-22 19:35:37,779 - INFO - Extracted review: Worth the money
+2025-05-22 19:35:38,012 - INFO - Extracted review: Nothing
+2025-05-22 19:35:38,012 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-22 19:35:38,229 - INFO - Saved screenshot to reviews/reviews_page_1_20250522_193538.png
+2025-05-22 19:35:38,229 - INFO - Reached maximum page limit (1)
+2025-05-22 19:35:38,229 - INFO - Total unique reviews extracted: 10
+2025-05-22 19:35:45,739 - INFO - Sentiment analysis: {'positive': 10, 'negative': 0, 'neutral': 0}
+2025-05-22 19:35:45,772 - INFO - Sentiment analysis: {'positive': 10, 'negative': 0, 'neutral': 0}
+2025-05-22 19:35:45,772 - INFO - Reviews saved to: reviews\amazon_reviews_B0CY5HVDS2_20250522_193545.json with sentiment analysis: {'positive': 10, 'negative': 0, 'neutral': 0}
+2025-05-22 19:35:45,790 - INFO - Updated reviews\amazon_reviews_B0CY5HVDS2_20250522_193545.json with summary
+2025-05-22 19:35:45,790 - INFO - Reviews saved to: reviews\amazon_reviews_B0CY5HVDS2_20250522_193545.json
+2025-05-22 19:35:47,987 - INFO - WebDriver closed successfully
+2025-05-22 19:36:15,909 - INFO - Starting Amazon Review Extractor
+2025-05-22 19:36:15,909 - INFO - Setting up WebDriver...
+2025-05-22 19:36:15,909 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-22 19:36:15,909 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-22 19:36:18,321 - INFO - WebDriver setup completed successfully
+2025-05-22 19:36:18,323 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0CY5HVDS2
+2025-05-22 19:36:18,324 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0CY5HVDS2
+2025-05-22 19:37:04,425 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-22 19:37:04,425 - INFO - Extracting reviews from page 1
+2025-05-22 19:37:04,488 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:37:04,490 - INFO - Found 10 reviews on current page
+2025-05-22 19:37:04,757 - INFO - Extracted review: Great product
+2025-05-22 19:37:04,958 - INFO - Extracted review: Good product
+2025-05-22 19:37:05,174 - INFO - Extracted review: Impressive Upgrade to the Gaming Experience 😍😍😍😍
+2025-05-22 19:37:05,378 - INFO - Extracted review: Excellent PS5 Purchase Experience on Amazon"
+2025-05-22 19:37:05,557 - INFO - Extracted review: bad experience
+2025-05-22 19:37:05,757 - INFO - Extracted review: Worth Every Penny!
+2025-05-22 19:37:05,940 - INFO - Extracted review: Build
+2025-05-22 19:37:06,123 - INFO - Extracted review: Beast
+2025-05-22 19:37:06,273 - INFO - Extracted review: Worth the money
+2025-05-22 19:37:06,472 - INFO - Extracted review: Nothing
+2025-05-22 19:37:06,473 - INFO - Extracted 10 reviews from page 1, 0 duplicates removed. Total unique reviews: 10
+2025-05-22 19:37:06,639 - INFO - Saved screenshot to reviews/reviews_page_1_20250522_193706.png
+2025-05-22 19:37:52,702 - INFO - Successfully navigated to next page
+2025-05-22 19:37:55,482 - INFO - Extracting reviews from page 2
+2025-05-22 19:37:55,533 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:37:55,533 - INFO - Found 10 reviews on current page
+2025-05-22 19:37:55,749 - INFO - Extracted review: Value for Money
+2025-05-22 19:37:56,016 - INFO - Extracted review: Mind Blowing
+2025-05-22 19:37:56,299 - INFO - Extracted review: 💯 genuine product
+2025-05-22 19:37:56,506 - INFO - Extracted review: Best
+2025-05-22 19:37:56,715 - INFO - Extracted review: Seal was not broken. Little bit damaged
+2025-05-22 19:37:56,915 - INFO - Extracted review: 100% Original Product!
+2025-05-22 19:37:57,115 - INFO - Extracted review: Best console ever . Worth the Money
+2025-05-22 19:37:57,331 - INFO - Extracted review: Great console!
+2025-05-22 19:37:57,564 - INFO - Extracted review: The Sony PlayStation 5 is a beast!
+2025-05-22 19:37:57,766 - INFO - Extracted review: Great support from Sony
+2025-05-22 19:37:57,766 - INFO - Extracted 10 reviews from page 2, 0 duplicates removed. Total unique reviews: 20
+2025-05-22 19:37:57,882 - INFO - Saved screenshot to reviews/reviews_page_2_20250522_193757.png
+2025-05-22 19:38:44,110 - INFO - Successfully navigated to next page
+2025-05-22 19:38:48,727 - INFO - Extracting reviews from page 3
+2025-05-22 19:38:48,777 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:38:48,777 - INFO - Found 10 reviews on current page
+2025-05-22 19:38:48,972 - INFO - Extracted review: Next gen gaming console
+2025-05-22 19:38:49,187 - INFO - Extracted review: Very thankful
+2025-05-22 19:38:49,360 - INFO - Extracted review: Good product Considering ps4 console is still expensive!
+2025-05-22 19:38:49,572 - INFO - Extracted review: Delivery on-time
+2025-05-22 19:38:49,758 - INFO - Extracted review: MY FIRST GAMING CONSOLE
+2025-05-22 19:38:49,933 - INFO - Extracted review: Original product
+2025-05-22 19:38:50,109 - INFO - Extracted review: PS5 Review
+2025-05-22 19:38:50,354 - INFO - Extracted review: Dualsense controller is the best part of the product
+2025-05-22 19:38:50,508 - INFO - Extracted review: Words can’t define its power
+2025-05-22 19:38:50,739 - INFO - Extracted review: Best delivery and best console
+2025-05-22 19:38:50,739 - INFO - Extracted 10 reviews from page 3, 0 duplicates removed. Total unique reviews: 30
+2025-05-22 19:38:50,928 - INFO - Saved screenshot to reviews/reviews_page_3_20250522_193850.png
+2025-05-22 19:39:36,656 - INFO - Successfully navigated to next page
+2025-05-22 19:39:38,800 - INFO - Extracting reviews from page 4
+2025-05-22 19:39:38,849 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:39:38,849 - INFO - Found 10 reviews on current page
+2025-05-22 19:39:39,059 - INFO - Extracted review: Very good packaging and product
+2025-05-22 19:39:39,264 - INFO - Extracted review: Just one word - Fantastic.
+2025-05-22 19:39:39,469 - INFO - Extracted review: TODAY, THE BEST GAMING MACHINE IS THE PS5.
+2025-05-22 19:39:39,664 - INFO - Extracted review: Very good
+2025-05-22 19:39:39,880 - INFO - Extracted review: Delivery partner not carrying product
+2025-05-22 19:39:40,069 - INFO - Extracted review: PS5 slim is lit
+2025-05-22 19:39:40,262 - INFO - Extracted review: Game, chill, repeat
+2025-05-22 19:39:40,463 - INFO - Extracted review: Gaming reignited!
+2025-05-22 19:39:40,646 - INFO - Extracted review: Delivery service
+2025-05-22 19:39:40,839 - INFO - Extracted review: Loveee
+2025-05-22 19:39:40,839 - INFO - Extracted 10 reviews from page 4, 0 duplicates removed. Total unique reviews: 40
+2025-05-22 19:39:41,030 - INFO - Saved screenshot to reviews/reviews_page_4_20250522_193940.png
+2025-05-22 19:40:26,043 - INFO - Successfully navigated to next page
+2025-05-22 19:40:30,397 - INFO - Extracting reviews from page 5
+2025-05-22 19:40:30,439 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:40:30,439 - INFO - Found 10 reviews on current page
+2025-05-22 19:40:30,606 - INFO - Extracted review: Good product but box damage
+2025-05-22 19:40:30,755 - INFO - Extracted review: Old product
+2025-05-22 19:40:30,888 - INFO - Extracted review: Finally got my dream come true
+2025-05-22 19:40:31,038 - INFO - Extracted review: Genuine product
+2025-05-22 19:40:31,171 - INFO - Extracted review: Amazing console
+2025-05-22 19:40:31,322 - INFO - Extracted review: Ps5
+2025-05-22 19:40:31,438 - INFO - Extracted review: Excellent value for money
+2025-05-22 19:40:31,572 - INFO - Extracted review: Ps5
+2025-05-22 19:40:31,754 - INFO - Extracted review: PS5(Dream Come True)❤️
+2025-05-22 19:40:31,907 - INFO - Extracted review: Excellent product
+2025-05-22 19:40:31,907 - INFO - Extracted 10 reviews from page 5, 0 duplicates removed. Total unique reviews: 50
+2025-05-22 19:40:32,087 - INFO - Saved screenshot to reviews/reviews_page_5_20250522_194031.png
+2025-05-22 19:41:17,981 - INFO - Successfully navigated to next page
+2025-05-22 19:41:21,919 - INFO - Extracting reviews from page 6
+2025-05-22 19:41:21,963 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:41:21,963 - INFO - Found 10 reviews on current page
+2025-05-22 19:41:22,095 - INFO - Extracted review: Impressive Hardware
+2025-05-22 19:41:22,231 - INFO - Extracted review: CONSOLE IN VERY GOOD CONDITION 👍
+2025-05-22 19:41:22,365 - INFO - Extracted review: Goid
+2025-05-22 19:41:22,520 - INFO - Extracted review: Go for it
+2025-05-22 19:41:22,662 - INFO - Extracted review: Best product.
+2025-05-22 19:41:22,820 - INFO - Extracted review: Best purchase
+2025-05-22 19:41:22,995 - INFO - Extracted review: Best gaming console
+2025-05-22 19:41:23,170 - INFO - Extracted review: Fire 🔥
+2025-05-22 19:41:23,311 - INFO - Extracted review: Best for gaming and chilling
+2025-05-22 19:41:23,471 - INFO - Extracted review: Excellent product
+2025-05-22 19:41:23,471 - INFO - Extracted 10 reviews from page 6, 0 duplicates removed. Total unique reviews: 60
+2025-05-22 19:41:23,671 - INFO - Saved screenshot to reviews/reviews_page_6_20250522_194123.png
+2025-05-22 19:42:10,781 - INFO - Successfully navigated to next page
+2025-05-22 19:42:15,579 - INFO - Extracting reviews from page 7
+2025-05-22 19:42:15,621 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:42:15,621 - INFO - Found 10 reviews on current page
+2025-05-22 19:42:15,791 - INFO - Extracted review: As expected
+2025-05-22 19:42:15,941 - INFO - Extracted review: Good condition
+2025-05-22 19:42:16,090 - INFO - Extracted review: Genuine and Original Product
+2025-05-22 19:42:16,220 - INFO - Extracted review: The best option
+2025-05-22 19:42:16,341 - INFO - Extracted review: Amazeballs
+2025-05-22 19:42:16,470 - INFO - Extracted review: Cool and super awesome 😎
+2025-05-22 19:42:16,601 - INFO - Extracted review: FIRE 🔥🤤
+2025-05-22 19:42:16,761 - INFO - Extracted review: Received with broken seal and without warranty card
+2025-05-22 19:42:16,931 - INFO - Extracted review: Awesome 👌
+2025-05-22 19:42:17,081 - INFO - Extracted review: For all gamers
+2025-05-22 19:42:17,081 - INFO - Extracted 10 reviews from page 7, 0 duplicates removed. Total unique reviews: 70
+2025-05-22 19:42:17,241 - INFO - Saved screenshot to reviews/reviews_page_7_20250522_194217.png
+2025-05-22 19:43:02,468 - INFO - Successfully navigated to next page
+2025-05-22 19:43:07,281 - INFO - Extracting reviews from page 8
+2025-05-22 19:43:07,310 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:43:07,310 - INFO - Found 10 reviews on current page
+2025-05-22 19:43:07,543 - INFO - Extracted review: Worth buying!
+2025-05-22 19:43:07,775 - INFO - Extracted review: CD DRIVE NOT WORKING
+2025-05-22 19:43:08,042 - INFO - Extracted review: The box was damaged.
+2025-05-22 19:43:08,287 - INFO - Extracted review: The manufacturing date is 1 year old. I.e Nov’24
+2025-05-22 19:43:08,442 - INFO - Extracted review: Beast for playing games. Exceed my expectations on all fronts!!!
+2025-05-22 19:43:08,658 - INFO - Extracted review: Best Console
+2025-05-22 19:43:08,859 - INFO - Extracted review: My PlayStation not working properly when the hot system not working automatically off
+2025-05-22 19:43:09,075 - INFO - Extracted review: Product seal broken
+2025-05-22 19:43:09,308 - INFO - Extracted review: Recieved middle east arab country product
+2025-05-22 19:43:09,524 - INFO - Extracted review: Absolutely pathetic service and response
+2025-05-22 19:43:09,524 - INFO - Extracted 10 reviews from page 8, 0 duplicates removed. Total unique reviews: 80
+2025-05-22 19:43:09,757 - INFO - Saved screenshot to reviews/reviews_page_8_20250522_194309.png
+2025-05-22 19:43:55,048 - INFO - Successfully navigated to next page
+2025-05-22 19:43:58,479 - INFO - Extracting reviews from page 9
+2025-05-22 19:43:58,529 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:43:58,530 - INFO - Found 10 reviews on current page
+2025-05-22 19:43:58,768 - INFO - Extracted review: Horrible situation
+2025-05-22 19:43:59,077 - INFO - Extracted review: Faulty ps5 received . Disc driver not accepting disc
+2025-05-22 19:43:59,292 - INFO - Extracted review: You're my dream 🥹
+2025-05-22 19:43:59,606 - INFO - Extracted review: Received Damaged product. CD drive is not accepting disc.
+2025-05-22 19:43:59,903 - INFO - Extracted review: Used item and damaged
+2025-05-22 19:44:00,145 - INFO - Extracted review: There was a dent in the console
+2025-05-22 19:44:00,361 - INFO - Extracted review: Defective product don’t buy it from amazon
+2025-05-22 19:44:00,571 - INFO - Extracted review: Returned item
+2025-05-22 19:44:00,753 - INFO - Extracted review: Disc drive faulty
+2025-05-22 19:44:00,920 - INFO - Extracted review: CD rider not work
+2025-05-22 19:44:00,920 - INFO - Extracted 10 reviews from page 9, 0 duplicates removed. Total unique reviews: 90
+2025-05-22 19:44:01,070 - INFO - Saved screenshot to reviews/reviews_page_9_20250522_194400.png
+2025-05-22 19:44:47,690 - INFO - Successfully navigated to next page
+2025-05-22 19:44:50,213 - INFO - Extracting reviews from page 10
+2025-05-22 19:44:50,262 - INFO - Found 10 reviews using selector: .review
+2025-05-22 19:44:50,262 - INFO - Found 10 reviews on current page
+2025-05-22 19:44:50,483 - INFO - Extracted review: Very bad i order ps5 slim but disc driver not work properly not taking dick insert
+2025-05-22 19:44:50,659 - INFO - Extracted review: Sony Playstation 5
+2025-05-22 19:44:50,838 - INFO - Extracted review: Best product
+2025-05-22 19:44:51,042 - INFO - Extracted review: Perfect gift
+2025-05-22 19:44:51,213 - INFO - Extracted review: Got one
+2025-05-22 19:44:51,388 - INFO - Extracted review: A Dream Coming Truee
+2025-05-22 19:44:51,572 - INFO - Extracted review: Great ps5 in good condision
+2025-05-22 19:44:51,763 - INFO - Extracted review: Great console better than xbox i love it's gameplay i actually don't have slim
+2025-05-22 19:44:51,942 - INFO - Extracted review: Buy the regular one
+2025-05-22 19:44:52,111 - INFO - Extracted review: Good for you and your son
+2025-05-22 19:44:52,111 - INFO - Extracted 10 reviews from page 10, 0 duplicates removed. Total unique reviews: 100
+2025-05-22 19:44:52,280 - INFO - Saved screenshot to reviews/reviews_page_10_20250522_194452.png
+2025-05-22 19:44:52,339 - INFO - Found disabled next button - we're on the last page
+2025-05-22 19:44:52,339 - INFO - No more review pages available
+2025-05-22 19:44:52,340 - INFO - Total unique reviews extracted: 100
+2025-05-22 19:44:56,859 - INFO - Sentiment analysis: {'positive': 73, 'negative': 16, 'neutral': 5}
+2025-05-22 19:44:56,907 - INFO - Sentiment analysis: {'positive': 73, 'negative': 16, 'neutral': 5}
+2025-05-22 19:44:56,916 - INFO - Reviews saved to: reviews\amazon_reviews_B0CY5HVDS2_20250522_194456.json with sentiment analysis: {'positive': 73, 'negative': 16, 'neutral': 5}
+2025-05-22 19:44:56,952 - INFO - Updated reviews\amazon_reviews_B0CY5HVDS2_20250522_194456.json with summary
+2025-05-22 19:44:56,953 - INFO - Reviews saved to: reviews\amazon_reviews_B0CY5HVDS2_20250522_194456.json
+2025-05-22 19:44:59,199 - INFO - WebDriver closed successfully

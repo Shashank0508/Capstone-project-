@@ -1,0 +1,16 @@
+2025-05-21 00:04:38,876 - INFO - Starting Amazon Review Extractor
+2025-05-21 00:04:38,879 - INFO - Setting up WebDriver...
+2025-05-21 00:04:38,879 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 00:04:38,879 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 00:05:02,270 - INFO - WebDriver setup completed successfully
+2025-05-21 00:05:02,278 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJ8JQZD
+2025-05-21 00:05:02,279 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJ8JQZD
+2025-05-21 00:05:50,248 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 00:05:50,248 - INFO - Extracting reviews from page 1
+2025-05-21 00:05:50,348 - INFO - Found 10 reviews using selector: .review
+2025-05-21 00:05:50,356 - INFO - Found 10 reviews on current page
+2025-05-21 00:05:50,915 - INFO - Extracted review: iPhone 16 Plus: A User's Perspective After 90days
+2025-05-21 00:05:51,244 - INFO - Extracted review: Value for Money
+2025-05-21 00:05:51,580 - INFO - Extracted review: Pricey but worth it
+2025-05-21 00:05:51,895 - INFO - Extracted review: The iPhone16 plus is a Game Changer
+2025-05-21 00:05:52,255 - INFO - Extracted review: Best Phone for 82k

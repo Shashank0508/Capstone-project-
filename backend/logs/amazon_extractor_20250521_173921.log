@@ -1,0 +1,92 @@
+2025-05-21 17:39:21,265 - INFO - Setting up WebDriver...
+2025-05-21 17:39:21,265 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 17:39:21,270 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 17:39:24,635 - INFO - WebDriver setup completed successfully
+2025-05-21 17:39:24,635 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 17:39:24,640 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 17:39:31,469 - INFO - Navigated to URL: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3a%2f%2fwww.amazon.in%2fproduct-reviews%2fb0dgjh94km&openid.identity=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&language=en_in&openid.claimed_id=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.ns=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0, Page title: 
+2025-05-21 17:40:12,350 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 17:40:12,350 - INFO - Extracting reviews from page 1
+2025-05-21 17:40:12,413 - INFO - Waiting for reviews to load...
+2025-05-21 17:40:12,429 - INFO - Scrolling page to trigger dynamic content loading...
+2025-05-21 17:41:15,156 - INFO - Found 10 reviews using selector: .review
+2025-05-21 17:41:15,156 - INFO - Found 10 reviews on current page
+2025-05-21 17:41:15,541 - INFO - Extracted review: Excellent
+2025-05-21 17:41:15,805 - INFO - Extracted review: Good product
+2025-05-21 17:41:16,060 - INFO - Extracted review: Everything
+2025-05-21 17:41:16,398 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 17:41:16,657 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 17:41:16,930 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 17:41:17,244 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 17:41:17,548 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 17:41:17,814 - INFO - Extracted review: Amazing
+2025-05-21 17:41:18,105 - INFO - Extracted review: Ncy
+2025-05-21 17:41:18,105 - INFO - Page 1: 10 new reviews, 0 duplicates. Total: 10
+2025-05-21 17:41:18,313 - INFO - Saved screenshot to reviews\reviews_page_1_20250521_174118.png
+2025-05-21 17:41:18,313 - INFO - Reached requested number of reviews (10)
+2025-05-21 17:41:18,313 - INFO - Finished extraction. Total unique reviews: 10
+2025-05-21 17:41:18,327 - INFO - Sentiment analysis: {'positive': 9, 'negative': 1, 'neutral': 0}
+2025-05-21 17:41:22,330 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250521_174122.json with sentiment analysis: {'positive': 9, 'negative': 1, 'neutral': 0}
+2025-05-21 17:41:24,556 - INFO - WebDriver closed successfully
+2025-05-21 17:42:13,248 - INFO - Setting up WebDriver...
+2025-05-21 17:42:13,252 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 17:42:13,252 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 17:42:16,139 - INFO - WebDriver setup completed successfully
+2025-05-21 17:42:16,139 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 17:42:16,147 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-21 17:42:22,982 - INFO - Navigated to URL: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3a%2f%2fwww.amazon.in%2fproduct-reviews%2fb0dgjh94km&openid.identity=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&language=en_in&openid.claimed_id=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.ns=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0, Page title: 
+2025-05-21 17:43:03,678 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 17:43:03,678 - INFO - Extracting reviews from page 1
+2025-05-21 17:43:03,734 - INFO - Waiting for reviews to load...
+2025-05-21 17:43:03,742 - INFO - Scrolling page to trigger dynamic content loading...
+2025-05-21 17:44:06,959 - INFO - Found 10 reviews using selector: .review
+2025-05-21 17:44:06,959 - INFO - Found 10 reviews on current page
+2025-05-21 17:44:07,358 - INFO - Extracted review: Excellent
+2025-05-21 17:44:07,642 - INFO - Extracted review: Good product
+2025-05-21 17:44:07,880 - INFO - Extracted review: Everything
+2025-05-21 17:44:08,174 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 17:44:08,449 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 17:44:08,702 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 17:44:09,014 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 17:44:09,291 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 17:44:09,579 - INFO - Extracted review: Amazing
+2025-05-21 17:44:09,821 - INFO - Extracted review: Ncy
+2025-05-21 17:44:09,821 - INFO - Page 1: 10 new reviews, 0 duplicates. Total: 10
+2025-05-21 17:44:09,969 - INFO - Saved screenshot to reviews\reviews_page_1_20250521_174409.png
+2025-05-21 17:44:10,021 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:44:10,038 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:44:14,712 - INFO - Navigated to URL: https://www.amazon.in/iphone-16-pro-128-gb/product-reviews/b0dgjh94km/ref=cm_cr_arp_d_paging_btm_2?ie=utf8&pagenumber=2, Page title: Amazon.in:Customer reviews: iPhone 16 Pro 128 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Natural Titanium
+2025-05-21 17:44:55,302 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 17:44:55,302 - INFO - Extracting reviews from page 2
+2025-05-21 17:44:55,334 - INFO - Waiting for reviews to load...
+2025-05-21 17:44:55,344 - INFO - Scrolling page to trigger dynamic content loading...
+2025-05-21 17:45:59,270 - INFO - Found 10 reviews using selector: .review
+2025-05-21 17:45:59,270 - INFO - Found 10 reviews on current page
+2025-05-21 17:45:59,529 - INFO - Extracted review: Excellent
+2025-05-21 17:45:59,789 - INFO - Extracted review: Good product
+2025-05-21 17:46:00,049 - INFO - Extracted review: Everything
+2025-05-21 17:46:00,335 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-21 17:46:00,597 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-21 17:46:00,905 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-21 17:46:01,193 - INFO - Extracted review: A Sleek Upgrade Experience
+2025-05-21 17:46:01,456 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-21 17:46:01,713 - INFO - Extracted review: Amazing
+2025-05-21 17:46:01,938 - INFO - Extracted review: Ncy
+2025-05-21 17:46:01,938 - INFO - Page 2: 0 new reviews, 10 duplicates. Total: 10
+2025-05-21 17:46:02,096 - INFO - Saved screenshot to reviews\reviews_page_2_20250521_174601.png
+2025-05-21 17:46:02,126 - INFO - Found next page link using selector 'li.a-last a': https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:46:02,141 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:46:08,161 - INFO - Navigated to URL: https://www.amazon.in/iphone-16-pro-128-gb/product-reviews/b0dgjh94km/ref=cm_cr_arp_d_paging_btm_2?ie=utf8&pagenumber=2, Page title: Amazon.in:Customer reviews: iPhone 16 Pro 128 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Natural Titanium
+2025-05-21 17:46:48,824 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 17:46:48,837 - WARNING - Page navigation attempt 1 failed: URL didn't change after navigation
+2025-05-21 17:46:50,840 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:46:57,543 - INFO - Navigated to URL: https://www.amazon.in/iphone-16-pro-128-gb/product-reviews/b0dgjh94km/ref=cm_cr_arp_d_paging_btm_2?ie=utf8&pagenumber=2, Page title: Amazon.in:Customer reviews: iPhone 16 Pro 128 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Natural Titanium
+2025-05-21 17:47:37,948 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 17:47:37,951 - WARNING - Page navigation attempt 2 failed: URL didn't change after navigation
+2025-05-21 17:47:39,953 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 17:47:45,839 - INFO - Navigated to URL: https://www.amazon.in/iphone-16-pro-128-gb/product-reviews/b0dgjh94km/ref=cm_cr_arp_d_paging_btm_2?ie=utf8&pagenumber=2, Page title: Amazon.in:Customer reviews: iPhone 16 Pro 128 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Natural Titanium
+2025-05-21 17:48:26,219 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 17:48:26,223 - WARNING - Page navigation attempt 3 failed: URL didn't change after navigation
+2025-05-21 17:48:26,223 - ERROR - Failed to navigate to next page after 3 attempts
+2025-05-21 17:48:26,226 - ERROR - Error during extraction: URL didn't change after navigation
+2025-05-21 17:48:28,407 - INFO - WebDriver closed successfully

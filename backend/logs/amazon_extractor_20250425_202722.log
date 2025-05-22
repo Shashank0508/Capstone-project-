@@ -1,0 +1,113 @@
+2025-04-25 20:27:22,229 - INFO - Starting Amazon Review Extractor
+2025-04-25 20:27:22,229 - INFO - Setting up WebDriver...
+2025-04-25 20:27:25,333 - INFO - WebDriver setup completed successfully
+2025-04-25 20:27:25,333 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJC8DG8
+2025-04-25 20:27:25,333 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJC8DG8
+2025-04-25 20:28:11,570 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 20:28:11,570 - INFO - Starting extraction with max_pages set to: 5
+2025-04-25 20:28:11,573 - INFO - Extracting reviews from page 1
+2025-04-25 20:28:11,654 - INFO - Found 10 reviews using selector: .review
+2025-04-25 20:28:11,654 - INFO - Found 10 reviews on current page
+2025-04-25 20:28:12,022 - INFO - Extracted review: Excellent
+2025-04-25 20:28:12,303 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-04-25 20:28:12,627 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-04-25 20:28:12,874 - INFO - Extracted review: Good quality and original product
+2025-04-25 20:28:13,163 - INFO - Extracted review: Best iPhone with pro camera button
+2025-04-25 20:28:13,421 - INFO - Extracted review: Extremely Disappointed – No Return Policy Mentioned Clearly
+2025-04-25 20:28:13,723 - INFO - Extracted review: Best phone
+2025-04-25 20:28:14,035 - INFO - Extracted review: Best till now
+2025-04-25 20:28:14,384 - INFO - Extracted review: Not so impressive as 1st an iPhone.
+2025-04-25 20:28:14,684 - INFO - Extracted review: Delivery bad
+2025-04-25 20:28:14,684 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-25 20:28:15,077 - INFO - Saved screenshot to reviews/reviews_page_1_20250425_202814.png
+2025-04-25 20:28:15,144 - INFO - Next page button found with selector 'li.a-last a' and href: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-25 20:28:15,207 - INFO - Found next button using selector: li.a-last a
+2025-04-25 20:28:15,239 - INFO - Current page number: 1
+2025-04-25 20:28:15,255 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-25 20:28:15,255 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-25 20:29:00,047 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 20:29:02,195 - INFO - Extracting reviews from page 2
+2025-04-25 20:29:02,258 - INFO - Found 10 reviews using selector: .review
+2025-04-25 20:29:02,258 - INFO - Found 10 reviews on current page
+2025-04-25 20:29:02,578 - INFO - Extracted review: Great phone
+2025-04-25 20:29:02,895 - INFO - Extracted review: Good
+2025-04-25 20:29:03,228 - INFO - Extracted review: Overall Good product
+2025-04-25 20:29:03,561 - INFO - Extracted review: Good phone.
+2025-04-25 20:29:03,911 - INFO - Extracted review: Happy to use it
+2025-04-25 20:29:04,660 - INFO - Extracted review: Awesome phone with sturdy packaging
+2025-04-25 20:29:04,976 - INFO - Extracted review: Good
+2025-04-25 20:29:05,293 - INFO - Extracted review: Worth try
+2025-04-25 20:29:05,676 - INFO - Extracted review: Amazing
+2025-04-25 20:29:05,676 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-04-25 20:29:06,059 - INFO - Saved screenshot to reviews/reviews_page_2_20250425_202905.png
+2025-04-25 20:29:06,125 - INFO - Next page button found with selector 'li.a-last a' and href: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_3?ie=UTF8&pageNumber=3
+2025-04-25 20:29:06,175 - INFO - Found next button using selector: li.a-last a
+2025-04-25 20:29:06,202 - INFO - Current page number: 2
+2025-04-25 20:29:06,209 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_3?ie=UTF8&pageNumber=3
+2025-04-25 20:29:06,209 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_3?ie=UTF8&pageNumber=3
+2025-04-25 20:29:53,147 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 20:29:57,425 - INFO - Extracting reviews from page 3
+2025-04-25 20:29:57,491 - INFO - Found 10 reviews using selector: .review
+2025-04-25 20:29:57,491 - INFO - Found 10 reviews on current page
+2025-04-25 20:29:57,850 - INFO - Extracted review: Honest Review
+2025-04-25 20:29:58,225 - INFO - Extracted review: Badhiya
+2025-04-25 20:29:58,616 - INFO - Extracted review: Great
+2025-04-25 20:29:59,042 - INFO - Extracted review: Overall good but battery is not that great
+2025-04-25 20:29:59,398 - INFO - Extracted review: Apple legacy
+2025-04-25 20:29:59,827 - INFO - Extracted review: Perfect
+2025-04-25 20:30:00,182 - INFO - Extracted review: Apple never disappoints
+2025-04-25 20:30:00,539 - INFO - Extracted review: great phone
+2025-04-25 20:30:01,364 - INFO - Extracted review: iPhone 16 pro
+2025-04-25 20:30:01,364 - INFO - Extracted 10 reviews from page 3. Total reviews: 30
+2025-04-25 20:30:01,560 - INFO - Saved screenshot to reviews/reviews_page_3_20250425_203001.png
+2025-04-25 20:30:01,632 - INFO - Next page button found with selector 'li.a-last a' and href: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_4?ie=UTF8&pageNumber=4
+2025-04-25 20:30:01,679 - INFO - Found next button using selector: li.a-last a
+2025-04-25 20:30:01,706 - INFO - Current page number: 3
+2025-04-25 20:30:01,714 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_4?ie=UTF8&pageNumber=4
+2025-04-25 20:30:01,722 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_4?ie=UTF8&pageNumber=4
+2025-04-25 20:30:46,693 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 20:30:51,234 - INFO - Extracting reviews from page 4
+2025-04-25 20:30:51,289 - INFO - Found 10 reviews using selector: .review
+2025-04-25 20:30:51,289 - INFO - Found 10 reviews on current page
+2025-04-25 20:30:51,533 - INFO - Extracted review: Camera
+2025-04-25 20:30:51,742 - INFO - Extracted review: I phone 16 pro
+2025-04-25 20:30:52,056 - INFO - Extracted review: Stunning Design with Noticeable Upgrades.
+2025-04-25 20:30:52,260 - INFO - Extracted review: Battery is bad
+2025-04-25 20:30:52,488 - INFO - Extracted review: Good
+2025-04-25 20:30:52,704 - INFO - Extracted review: Best IPhone Ever
+2025-04-25 20:30:52,955 - INFO - Extracted review: Processor
+2025-04-25 20:30:53,205 - INFO - Extracted review: Battery life is not good
+2025-04-25 20:30:53,414 - INFO - Extracted review: 25K Phone better than this , very long time it take to update even in very fast internet
+2025-04-25 20:30:53,629 - INFO - Extracted review: Worth the cash?
+2025-04-25 20:30:53,629 - INFO - Extracted 10 reviews from page 4. Total reviews: 40
+2025-04-25 20:30:53,962 - INFO - Saved screenshot to reviews/reviews_page_4_20250425_203053.png
+2025-04-25 20:30:54,004 - INFO - Next page button found with selector 'li.a-last a' and href: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_5?ie=UTF8&pageNumber=5
+2025-04-25 20:30:54,039 - INFO - Found next button using selector: li.a-last a
+2025-04-25 20:30:54,054 - INFO - Current page number: 4
+2025-04-25 20:30:54,070 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_5?ie=UTF8&pageNumber=5
+2025-04-25 20:30:54,070 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-256-GB/product-reviews/B0DGJC8DG8/ref=cm_cr_arp_d_paging_btm_5?ie=UTF8&pageNumber=5
+2025-04-25 20:31:40,674 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-25 20:31:45,371 - INFO - Extracting reviews from page 5
+2025-04-25 20:31:45,433 - INFO - Found 10 reviews using selector: .review
+2025-04-25 20:31:45,433 - INFO - Found 10 reviews on current page
+2025-04-25 20:31:45,763 - INFO - Extracted review: Hamesha aapka yaha se lete Bhaiya
+2025-04-25 20:31:46,072 - INFO - Extracted review: Nokia(Connecting Stable Houses).
+2025-04-25 20:31:46,400 - INFO - Extracted review: Faulty Iphone 16 Pro Delivered
+2025-04-25 20:31:46,745 - INFO - Extracted review: Its still iPhone 12-13-14 and 15 except the AI tagline
+2025-04-25 20:31:47,149 - INFO - Extracted review: Lost
+2025-04-25 20:31:47,467 - INFO - Extracted review: Wrost
+2025-04-25 20:31:47,810 - INFO - Extracted review: iphone Unsatisfied Mobile
+2025-04-25 20:31:48,129 - INFO - Extracted review: Bling It On !!
+2025-04-25 20:31:48,457 - INFO - Extracted review: iPhone 16 pro
+2025-04-25 20:31:48,783 - INFO - Extracted review: Superb but costly
+2025-04-25 20:31:48,783 - INFO - Extracted 10 reviews from page 5. Total reviews: 50
+2025-04-25 20:31:49,243 - INFO - Saved screenshot to reviews/reviews_page_5_20250425_203148.png
+2025-04-25 20:31:49,243 - INFO - Reached maximum page limit (5)
+2025-04-25 20:31:49,243 - INFO - Completed extraction. Total pages processed: 5
+2025-04-25 20:31:49,243 - INFO - Total reviews extracted: 50
+2025-04-25 20:31:54,535 - INFO - Sentiment analysis: {'positive': 40, 'negative': 7, 'neutral': 3}
+2025-04-25 20:31:54,535 - INFO - Sentiment analysis: {'positive': 40, 'negative': 7, 'neutral': 3}
+2025-04-25 20:31:54,544 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJC8DG8_20250425_203154.json with sentiment analysis: {'positive': 40, 'negative': 7, 'neutral': 3}
+2025-04-25 20:31:54,585 - INFO - Updated reviews\amazon_reviews_B0DGJC8DG8_20250425_203154.json with summary
+2025-04-25 20:31:54,588 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJC8DG8_20250425_203154.json
+2025-04-25 20:31:56,935 - INFO - WebDriver closed successfully

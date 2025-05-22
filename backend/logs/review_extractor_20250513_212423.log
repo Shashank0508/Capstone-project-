@@ -1,0 +1,86 @@
+2025-05-13 21:24:24,597 - INFO - Starting Review Extractor
+2025-05-13 21:24:24,597 - INFO - Detected Flipkart URL
+2025-05-13 21:24:24,597 - INFO - Setting up WebDriver...
+2025-05-13 21:24:30,985 - INFO - WebDriver setup completed successfully
+2025-05-13 21:24:30,988 - INFO - Generated reviews URL: https://www.flipkart.com/apple-iphone-16-black-128-gb/p/itmb07d67f995271?pid=MOBH4DQFG8NKFRDY&lid=LSTMOBH4DQFG8NKFRDYNBDOZI&marketplace=FLIPKART&q=i+phone+16&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&fm=search-autosuggest&iid=e4b239ca-ade8-4912-b7ff-aab9b4b6abb6.MOBH4DQFG8NKFRDY.SEARCH&ppt=sp&ppn=sp&ssid=kh6lrct7b40000001747151647003&qH=c53b3310cf34d225&sortOrder=MOST_HELPFUL
+2025-05-13 21:24:30,988 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.flipkart.com/apple-iphone-16-black-128-gb/p/itmb07d67f995271?pid=MOBH4DQFG8NKFRDY&lid=LSTMOBH4DQFG8NKFRDYNBDOZI&marketplace=FLIPKART&q=i+phone+16&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_2_0_na_na_na&fm=search-autosuggest&iid=e4b239ca-ade8-4912-b7ff-aab9b4b6abb6.MOBH4DQFG8NKFRDY.SEARCH&ppt=sp&ppn=sp&ssid=kh6lrct7b40000001747151647003&qH=c53b3310cf34d225&sortOrder=MOST_HELPFUL
+2025-05-13 21:24:37,280 - INFO - Successfully verified reviews page using selector: div.XQDdHH
+2025-05-13 21:24:37,280 - INFO - Starting extraction with max_pages set to: 2
+2025-05-13 21:24:37,280 - INFO - Extracting reviews from page 1
+2025-05-13 21:24:37,312 - INFO - Found 63 reviews using selector: div.cPHDOP.col-12-12 div.row
+2025-05-13 21:24:37,312 - INFO - Found 63 reviews on current page
+2025-05-13 21:24:37,453 - INFO - Extracted review: No Title
+2025-05-13 21:24:37,570 - INFO - Extracted review: No Title
+2025-05-13 21:24:37,721 - INFO - Extracted review: No Title
+2025-05-13 21:24:37,870 - INFO - Extracted review: No Title
+2025-05-13 21:24:38,017 - INFO - Extracted review: No Title
+2025-05-13 21:24:38,170 - INFO - Extracted review: No Title
+2025-05-13 21:24:38,359 - INFO - Extracted review: No Title
+2025-05-13 21:24:38,518 - INFO - Extracted review: No Title
+2025-05-13 21:24:38,653 - INFO - Extracted review: No Title
+2025-05-13 21:24:38,799 - INFO - Extracted review: No Title
+2025-05-13 21:24:38,953 - INFO - Extracted review: No Title
+2025-05-13 21:24:39,108 - INFO - Extracted review: No Title
+2025-05-13 21:24:39,257 - INFO - Extracted review: No Title
+2025-05-13 21:24:39,403 - INFO - Extracted review: No Title
+2025-05-13 21:24:39,545 - INFO - Extracted review: No Title
+2025-05-13 21:24:39,686 - INFO - Extracted review: No Title
+2025-05-13 21:24:39,851 - INFO - Extracted review: No Title
+2025-05-13 21:24:40,003 - INFO - Extracted review: No Title
+2025-05-13 21:24:40,197 - INFO - Extracted review: No Title
+2025-05-13 21:24:40,380 - INFO - Extracted review: No Title
+2025-05-13 21:24:40,549 - INFO - Extracted review: No Title
+2025-05-13 21:24:40,718 - INFO - Extracted review: No Title
+2025-05-13 21:24:40,902 - INFO - Extracted review: No Title
+2025-05-13 21:24:41,067 - INFO - Extracted review: No Title
+2025-05-13 21:24:41,215 - INFO - Extracted review: No Title
+2025-05-13 21:24:41,367 - INFO - Extracted review: No Title
+2025-05-13 21:24:41,534 - INFO - Extracted review: No Title
+2025-05-13 21:24:41,679 - INFO - Extracted review: No Title
+2025-05-13 21:24:41,850 - INFO - Extracted review: No Title
+2025-05-13 21:24:42,016 - INFO - Extracted review: No Title
+2025-05-13 21:24:42,166 - INFO - Extracted review: No Title
+2025-05-13 21:24:42,310 - INFO - Extracted review: No Title
+2025-05-13 21:24:42,422 - INFO - Extracted review: No Title
+2025-05-13 21:24:42,600 - INFO - Extracted review: No Title
+2025-05-13 21:24:42,783 - INFO - Extracted review: No Title
+2025-05-13 21:24:42,939 - INFO - Extracted review: No Title
+2025-05-13 21:24:43,096 - INFO - Extracted review: No Title
+2025-05-13 21:24:43,232 - INFO - Extracted review: No Title
+2025-05-13 21:24:43,365 - INFO - Extracted review: No Title
+2025-05-13 21:24:43,482 - INFO - Extracted review: No Title
+2025-05-13 21:24:43,633 - INFO - Extracted review: No Title
+2025-05-13 21:24:43,816 - INFO - Extracted review: No Title
+2025-05-13 21:24:43,980 - INFO - Extracted review: No Title
+2025-05-13 21:24:44,180 - INFO - Extracted review: No Title
+2025-05-13 21:24:44,374 - INFO - Extracted review: No Title
+2025-05-13 21:24:44,542 - INFO - Extracted review: No Title
+2025-05-13 21:24:44,715 - INFO - Extracted review: No Title
+2025-05-13 21:24:44,889 - INFO - Extracted review: No Title
+2025-05-13 21:24:45,032 - INFO - Extracted review: No Title
+2025-05-13 21:24:45,164 - INFO - Extracted review: No Title
+2025-05-13 21:24:45,294 - INFO - Extracted review: No Title
+2025-05-13 21:24:45,431 - INFO - Extracted review: No Title
+2025-05-13 21:24:45,547 - INFO - Extracted review: No Title
+2025-05-13 21:24:45,697 - INFO - Extracted review: No Title
+2025-05-13 21:24:45,839 - INFO - Extracted review: No Title
+2025-05-13 21:24:45,975 - INFO - Extracted review: No Title
+2025-05-13 21:24:46,105 - INFO - Extracted review: No Title
+2025-05-13 21:24:46,237 - INFO - Extracted review: No Title
+2025-05-13 21:24:46,381 - INFO - Extracted review: No Title
+2025-05-13 21:24:46,530 - INFO - Extracted review: No Title
+2025-05-13 21:24:46,681 - INFO - Extracted review: No Title
+2025-05-13 21:24:46,830 - INFO - Extracted review: No Title
+2025-05-13 21:24:46,964 - INFO - Extracted review: No Title
+2025-05-13 21:24:46,964 - INFO - Extracted 63 reviews from page 1. Total reviews: 63
+2025-05-13 21:24:47,151 - INFO - Saved screenshot to reviews/reviews_page_1_20250513_212446.png
+2025-05-13 21:24:47,294 - INFO - No next page button found and no indication of more pages
+2025-05-13 21:24:47,294 - INFO - No more review pages available
+2025-05-13 21:24:47,296 - INFO - Completed extraction. Total pages processed: 1
+2025-05-13 21:24:47,296 - INFO - Total reviews extracted: 63
+2025-05-13 21:24:55,025 - INFO - Sentiment analysis: {'positive': 3, 'negative': 60, 'neutral': 0}
+2025-05-13 21:24:55,025 - INFO - Sentiment analysis: {'positive': 3, 'negative': 60, 'neutral': 0}
+2025-05-13 21:24:55,032 - INFO - Reviews saved to: reviews\flipkart_reviews_MOBH4DQFG8NKFRDY_20250513_212455.json with sentiment analysis: {'positive': 3, 'negative': 60, 'neutral': 0}
+2025-05-13 21:24:55,048 - INFO - Updated reviews\flipkart_reviews_MOBH4DQFG8NKFRDY_20250513_212455.json with summary
+2025-05-13 21:24:55,048 - INFO - Reviews saved to: reviews\flipkart_reviews_MOBH4DQFG8NKFRDY_20250513_212455.json
+2025-05-13 21:24:57,245 - INFO - WebDriver closed successfully

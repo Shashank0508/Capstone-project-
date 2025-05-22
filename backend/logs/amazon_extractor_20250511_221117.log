@@ -1,0 +1,47 @@
+2025-05-11 22:11:17,698 - INFO - Starting Amazon Review Extractor
+2025-05-11 22:11:17,698 - INFO - Setting up WebDriver...
+2025-05-11 22:11:21,193 - INFO - WebDriver setup completed successfully
+2025-05-11 22:11:21,193 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-11 22:11:21,193 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJH94KM
+2025-05-11 22:12:08,122 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-11 22:12:08,122 - INFO - Extracting reviews from page 1
+2025-05-11 22:12:08,207 - INFO - Found 10 reviews using selector: .review
+2025-05-11 22:12:08,207 - INFO - Found 10 reviews on current page
+2025-05-11 22:12:08,606 - INFO - Extracted review: Excellent
+2025-05-11 22:12:08,889 - INFO - Extracted review: Good product
+2025-05-11 22:12:09,206 - INFO - Extracted review: Buy Only if Coming from iPhone 13 or earlier
+2025-05-11 22:12:09,482 - INFO - Extracted review: Everything
+2025-05-11 22:12:09,755 - INFO - Extracted review: Great phone but poor customer service of seller
+2025-05-11 22:12:10,038 - INFO - Extracted review: Smooth purchase, minor hiccups with the trade in.
+2025-05-11 22:12:10,313 - INFO - Extracted review: Best iPhone with pro camera button
+2025-05-11 22:12:10,605 - INFO - Extracted review: Good quality and original product
+2025-05-11 22:12:10,903 - INFO - Extracted review: Awesome
+2025-05-11 22:12:11,156 - INFO - Extracted review: Not so impressive as 1st an iPhone.
+2025-05-11 22:12:11,156 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-05-11 22:12:11,320 - INFO - Saved screenshot to reviews/reviews_page_1_20250511_221211.png
+2025-05-11 22:12:11,372 - INFO - Found next button using selector: li.a-last a
+2025-05-11 22:12:12,439 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-11 22:12:12,439 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Pro-128-GB/product-reviews/B0DGJH94KM/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-11 22:12:58,448 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-11 22:13:01,206 - INFO - Extracting reviews from page 2
+2025-05-11 22:13:01,246 - INFO - Found 10 reviews using selector: .review
+2025-05-11 22:13:01,246 - INFO - Found 10 reviews on current page
+2025-05-11 22:13:01,532 - INFO - Extracted review: JUST GO FOR IT!
+2025-05-11 22:13:01,779 - INFO - Extracted review: Value for money with Genuine product
+2025-05-11 22:13:02,065 - INFO - Extracted review: Best till now
+2025-05-11 22:13:02,312 - INFO - Extracted review: Best phone
+2025-05-11 22:13:02,568 - INFO - Extracted review: Delivery bad
+2025-05-11 22:13:02,878 - INFO - Extracted review: Great phone
+2025-05-11 22:13:03,144 - INFO - Extracted review: Good
+2025-05-11 22:13:03,801 - INFO - Extracted review: Overall Good product
+2025-05-11 22:13:04,056 - INFO - Extracted review: Good phone.
+2025-05-11 22:13:04,056 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-05-11 22:13:04,201 - INFO - Saved screenshot to reviews/reviews_page_2_20250511_221304.png
+2025-05-11 22:13:04,207 - INFO - Reached maximum page limit (2)
+2025-05-11 22:13:04,208 - INFO - Total reviews extracted: 20
+2025-05-11 22:13:09,839 - INFO - Sentiment analysis: {'positive': 19, 'negative': 1, 'neutral': 0}
+2025-05-11 22:13:09,839 - INFO - Sentiment analysis: {'positive': 19, 'negative': 1, 'neutral': 0}
+2025-05-11 22:13:09,849 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250511_221309.json with sentiment analysis: {'positive': 19, 'negative': 1, 'neutral': 0}
+2025-05-11 22:13:09,857 - INFO - Updated reviews\amazon_reviews_B0DGJH94KM_20250511_221309.json with summary
+2025-05-11 22:13:09,857 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJH94KM_20250511_221309.json
+2025-05-11 22:13:12,182 - INFO - WebDriver closed successfully

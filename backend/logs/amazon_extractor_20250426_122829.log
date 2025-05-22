@@ -1,0 +1,45 @@
+2025-04-26 12:28:29,637 - INFO - Starting Amazon Review Extractor
+2025-04-26 12:28:29,637 - INFO - Setting up WebDriver...
+2025-04-26 12:28:32,890 - INFO - WebDriver setup completed successfully
+2025-04-26 12:28:32,891 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DMVHWBLN
+2025-04-26 12:28:32,892 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DMVHWBLN
+2025-04-26 12:29:18,741 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 12:29:18,741 - INFO - Starting extraction with max_pages set to: 3
+2025-04-26 12:29:18,741 - INFO - Extracting reviews from page 1
+2025-04-26 12:29:18,839 - INFO - Found 10 reviews using selector: .review
+2025-04-26 12:29:18,839 - INFO - Found 10 reviews on current page
+2025-04-26 12:29:19,305 - INFO - Extracted review: LG 32GS75Q UltraGear Gaming Monitor
+2025-04-26 12:29:19,654 - INFO - Extracted review: LG UltraGear 32GS75Q-B – A Smooth and Sharp Gaming Monitor with Some Misses!
+2025-04-26 12:29:19,976 - INFO - Extracted review: Best Monitor
+2025-04-26 12:29:20,328 - INFO - Extracted review: Poor quality
+2025-04-26 12:29:20,631 - INFO - Extracted review: Great purchase
+2025-04-26 12:29:21,019 - INFO - Extracted review: LG 32" Ultragear
+2025-04-26 12:29:21,335 - INFO - Extracted review: IPS display
+2025-04-26 12:29:21,615 - INFO - Extracted review: Delivered with dead pixels
+2025-04-26 12:29:21,927 - INFO - Extracted review: LG much better than any other
+2025-04-26 12:29:22,239 - INFO - Extracted review: Nice display
+2025-04-26 12:29:22,239 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-04-26 12:29:22,645 - INFO - Saved screenshot to reviews/reviews_page_1_20250426_122922.png
+2025-04-26 12:29:22,719 - INFO - Next page button found with selector 'li.a-last a' and href: https://www.amazon.in/LG-2560x1440-DisplayHDR-Compatible-DisplayPort/product-reviews/B0DMVHWBLN/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 12:29:22,770 - INFO - Found next button using selector: li.a-last a
+2025-04-26 12:29:22,792 - INFO - Current page number: 1
+2025-04-26 12:29:22,809 - INFO - Navigating to next page URL: https://www.amazon.in/LG-2560x1440-DisplayHDR-Compatible-DisplayPort/product-reviews/B0DMVHWBLN/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 12:29:22,809 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/LG-2560x1440-DisplayHDR-Compatible-DisplayPort/product-reviews/B0DMVHWBLN/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-04-26 12:30:07,997 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-04-26 12:30:12,147 - INFO - Extracting reviews from page 2
+2025-04-26 12:30:12,210 - INFO - Found 2 reviews using selector: .review
+2025-04-26 12:30:12,210 - INFO - Found 2 reviews on current page
+2025-04-26 12:30:12,542 - INFO - Extracted review: Bad product
+2025-04-26 12:30:12,895 - INFO - Extracted review: Great monitor
+2025-04-26 12:30:12,895 - INFO - Extracted 2 reviews from page 2. Total reviews: 12
+2025-04-26 12:30:13,284 - INFO - Saved screenshot to reviews/reviews_page_2_20250426_123012.png
+2025-04-26 12:30:13,489 - WARNING - Next button found with selector 'div[data-hook="pagination-bar"] a:last-child' but no valid href or pageNumber
+2025-04-26 12:30:13,514 - INFO - Found disabled next button - we're on the last page
+2025-04-26 12:30:13,514 - INFO - No more review pages available
+2025-04-26 12:30:13,514 - INFO - Completed extraction. Total pages processed: 2
+2025-04-26 12:30:13,514 - INFO - Total reviews extracted: 12
+2025-04-26 12:30:17,762 - INFO - Sentiment analysis: {'positive': 9, 'negative': 2, 'neutral': 1}
+2025-04-26 12:30:17,829 - INFO - Saved 12 reviews to CSV: reviews\amazon_reviews_B0DMVHWBLN_20250426_123017.csv
+2025-04-26 12:30:17,833 - INFO - Saved summary to reviews\summary_B0DMVHWBLN_20250426_123017.json
+2025-04-26 12:30:17,833 - INFO - Reviews saved to: reviews\amazon_reviews_B0DMVHWBLN_20250426_123017.csv
+2025-04-26 12:30:20,085 - INFO - WebDriver closed successfully

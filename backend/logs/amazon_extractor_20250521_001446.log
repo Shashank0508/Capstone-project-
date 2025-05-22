@@ -1,0 +1,50 @@
+2025-05-21 00:14:46,575 - INFO - Starting Amazon Review Extractor
+2025-05-21 00:14:46,577 - INFO - Setting up WebDriver...
+2025-05-21 00:14:46,577 - INFO - Python architecture: 64bit, System architecture: 64bit
+2025-05-21 00:14:46,577 - INFO - Ensuring 64-bit ChromeDriver for 64-bit system...
+2025-05-21 00:14:50,213 - INFO - WebDriver setup completed successfully
+2025-05-21 00:14:50,213 - INFO - Generated reviews URL: https://www.amazon.in/product-reviews/B0DGJ8JQZD
+2025-05-21 00:14:50,213 - INFO - Attempt 1/5: Navigating to product reviews page URL: https://www.amazon.in/product-reviews/B0DGJ8JQZD
+2025-05-21 00:15:37,265 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 00:15:37,265 - INFO - Extracting reviews from page 1
+2025-05-21 00:15:37,331 - INFO - Found 10 reviews using selector: .review
+2025-05-21 00:15:37,331 - INFO - Found 10 reviews on current page
+2025-05-21 00:15:37,631 - INFO - Extracted review: iPhone 16 Plus: A User's Perspective After 90days
+2025-05-21 00:15:37,799 - INFO - Extracted review: Value for Money
+2025-05-21 00:15:37,947 - INFO - Extracted review: Pricey but worth it
+2025-05-21 00:15:38,130 - INFO - Extracted review: The iPhone16 plus is a Game Changer
+2025-05-21 00:15:38,280 - INFO - Extracted review: Best Phone for 82k
+2025-05-21 00:15:38,463 - INFO - Extracted review: Amazing performance 🤩🤩
+2025-05-21 00:15:38,613 - INFO - Extracted review: Good one
+2025-05-21 00:15:38,745 - INFO - Extracted review: Horrible experience with persistent charging issue
+2025-05-21 00:15:38,896 - INFO - Extracted review: No v
+2025-05-21 00:15:39,012 - INFO - Extracted review: Good one
+2025-05-21 00:15:39,012 - INFO - Extracted 10 reviews from page 1. Total reviews: 10
+2025-05-21 00:15:39,163 - INFO - Saved screenshot to reviews/reviews_page_1_20250521_001539.png
+2025-05-21 00:15:39,199 - INFO - Found next button using selector: li.a-last a
+2025-05-21 00:15:40,228 - INFO - Navigating to next page URL: https://www.amazon.in/iPhone-16-Plus-128-GB/product-reviews/B0DGJ8JQZD/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 00:15:40,228 - INFO - Attempt 1/5: Navigating to next reviews page URL: https://www.amazon.in/iPhone-16-Plus-128-GB/product-reviews/B0DGJ8JQZD/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&pageNumber=2
+2025-05-21 00:16:24,826 - INFO - Successfully verified reviews page using selector: #cm_cr-review_list
+2025-05-21 00:16:27,342 - INFO - Extracting reviews from page 2
+2025-05-21 00:16:27,373 - INFO - Found 10 reviews using selector: .review
+2025-05-21 00:16:27,373 - INFO - Found 10 reviews on current page
+2025-05-21 00:16:27,589 - INFO - Extracted review: iPhone 16 Plus: A User's Perspective After 90days
+2025-05-21 00:16:27,723 - INFO - Extracted review: Value for Money
+2025-05-21 00:16:27,906 - INFO - Extracted review: Pricey but worth it
+2025-05-21 00:16:28,056 - INFO - Extracted review: The iPhone16 plus is a Game Changer
+2025-05-21 00:16:28,222 - INFO - Extracted review: Best Phone for 82k
+2025-05-21 00:16:28,416 - INFO - Extracted review: Amazing performance 🤩🤩
+2025-05-21 00:16:28,538 - INFO - Extracted review: Good one
+2025-05-21 00:16:28,705 - INFO - Extracted review: Horrible experience with persistent charging issue
+2025-05-21 00:16:28,888 - INFO - Extracted review: No v
+2025-05-21 00:16:29,021 - INFO - Extracted review: Good one
+2025-05-21 00:16:29,021 - INFO - Extracted 10 reviews from page 2. Total reviews: 20
+2025-05-21 00:16:29,154 - INFO - Saved screenshot to reviews/reviews_page_2_20250521_001629.png
+2025-05-21 00:16:29,155 - INFO - Reached maximum page limit (2)
+2025-05-21 00:16:29,155 - INFO - Total reviews extracted: 20
+2025-05-21 00:16:35,934 - INFO - Sentiment analysis: {'positive': 18, 'negative': 2, 'neutral': 0}
+2025-05-21 00:16:35,934 - INFO - Sentiment analysis: {'positive': 18, 'negative': 2, 'neutral': 0}
+2025-05-21 00:16:35,950 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJ8JQZD_20250521_001635.json with sentiment analysis: {'positive': 18, 'negative': 2, 'neutral': 0}
+2025-05-21 00:16:35,966 - INFO - Updated reviews\amazon_reviews_B0DGJ8JQZD_20250521_001635.json with summary
+2025-05-21 00:16:35,966 - INFO - Reviews saved to: reviews\amazon_reviews_B0DGJ8JQZD_20250521_001635.json
+2025-05-21 00:16:38,132 - INFO - WebDriver closed successfully
